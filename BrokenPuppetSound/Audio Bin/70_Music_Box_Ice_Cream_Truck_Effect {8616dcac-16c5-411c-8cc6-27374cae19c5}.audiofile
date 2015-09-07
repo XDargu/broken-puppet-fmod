@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{8616dcac-16c5-411c-8cc6-27374cae19c5}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>36.693333333333335</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/70_Music_Box_Ice_Cream_Truck_Effect {268b9aeb-4fe2-44ae-80b4-f527c6c7a545}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{37995701-565a-49b3-872a-d341b5457c07}</destination>
+        </relationship>
+    </object>
+</objects>

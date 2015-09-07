@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerGroup" id="{570bca4d-256e-4f16-9c93-e18ebd809304}">
+        <property name="name">
+            <value>GameSounds</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{f4287d2a-7988-4fe1-99ca-45a545f8e5dc}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{5f03f9c9-00cb-4cd5-84e8-33cbd498c5d5}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{f36c2508-014d-48d0-a734-b0cea601ef5b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{f4287d2a-7988-4fe1-99ca-45a545f8e5dc}">
+        <relationship name="effects">
+            <destination>{26cc4725-be3b-488b-9589-889114f74cbb}</destination>
+            <destination>{9a4dac1a-bdb3-4567-83e1-eedb8f90e977}</destination>
+            <destination>{b72e25cd-aea6-4265-a77d-66b32d58787b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{5f03f9c9-00cb-4cd5-84e8-33cbd498c5d5}"/>
+    <object class="SFXReverbEffect" id="{26cc4725-be3b-488b-9589-889114f74cbb}">
+        <property name="decayTime">
+            <value>100</value>
+        </property>
+    </object>
+    <object class="MixerBusFader" id="{9a4dac1a-bdb3-4567-83e1-eedb8f90e977}"/>
+    <object class="LowpassEffect" id="{b72e25cd-aea6-4265-a77d-66b32d58787b}">
+        <property name="cutoff">
+            <value>22000</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Snapshot" id="{3a398ffe-e238-40d2-906b-fbcb448341ea}">
+        <property name="name">
+            <value>Underwater</value>
+        </property>
+        <property name="runtimeSnapshotHandleID">
+            <value>{387e3bc5-f889-4067-96b8-a9596db6aa6f}</value>
+        </property>
+        <property name="runtimeMasterBusHandleID">
+            <value>{50b2cb17-072a-4aea-9383-96779af198b3}</value>
+        </property>
+        <relationship name="automatableProperties">
+            <destination>{0bb7fe30-c85f-449b-ab64-4660d55c44c4}</destination>
+        </relationship>
+        <relationship name="markerTracks">
+            <destination>{f67b4600-f684-4686-bb86-f4c51f29dd0e}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{f69a062c-fe1d-4ca6-9360-2e07a07120e5}</destination>
+        </relationship>
+        <relationship name="parameters">
+            <destination>{c97a03e4-d920-4e0c-9b77-b0efdebf2dc0}</destination>
+        </relationship>
+        <relationship name="folder">
+            <destination>{3ade54e1-6bc2-486b-a5fb-85b57d0a3f80}</destination>
+        </relationship>
+        <relationship name="snapshotMasterTrack">
+            <destination>{a25baf83-33e3-4713-8396-4713c9c7e4d7}</destination>
+        </relationship>
+        <relationship name="snapshotProperties">
+            <destination>{346bb959-8dda-4ba5-b6a0-33fa7a02cc55}</destination>
+        </relationship>
+        <relationship name="snapshotTracks">
+            <destination>{ee8e5e45-8525-472a-bab2-14732d7ee5eb}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{03611198-9f88-4fc0-972c-c2cea08642f2}</destination>
+        </relationship>
+    </object>
+    <object class="EventAutomatableProperties" id="{0bb7fe30-c85f-449b-ab64-4660d55c44c4}"/>
+    <object class="MarkerTrack" id="{f67b4600-f684-4686-bb86-f4c51f29dd0e}"/>
+    <object class="Timeline" id="{f69a062c-fe1d-4ca6-9360-2e07a07120e5}"/>
+    <object class="GameParameter" id="{c97a03e4-d920-4e0c-9b77-b0efdebf2dc0}">
+        <property name="name">
+            <value>Intensity</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{9002cda8-1c32-4da7-bc3a-68313f1c3d79}</destination>
+        </relationship>
+    </object>
+    <object class="SnapshotMasterTrack" id="{a25baf83-33e3-4713-8396-4713c9c7e4d7}"/>
+    <object class="SnapshotProperty" id="{346bb959-8dda-4ba5-b6a0-33fa7a02cc55}">
+        <property name="propertyName">
+            <value>cutoff</value>
+        </property>
+        <property name="value">
+            <value>340</value>
+        </property>
+        <relationship name="automatableObject">
+            <destination>{b72e25cd-aea6-4265-a77d-66b32d58787b}</destination>
+        </relationship>
+    </object>
+    <object class="SnapshotTrack" id="{ee8e5e45-8525-472a-bab2-14732d7ee5eb}">
+        <relationship name="mixerStrip">
+            <destination>{570bca4d-256e-4f16-9c93-e18ebd809304}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationScale" id="{9002cda8-1c32-4da7-bc3a-68313f1c3d79}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,100.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Intensity</value>
+        </property>
+    </object>
+</objects>

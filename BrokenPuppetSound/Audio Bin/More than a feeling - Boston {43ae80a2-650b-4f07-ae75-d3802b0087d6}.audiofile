@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{43ae80a2-650b-4f07-ae75-d3802b0087d6}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>285.62400000000002</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/More than a feeling - Boston {85b10a6f-9ffd-498e-bf34-b42761f2772a}.mp3</value>
+        </property>
+        <relationship name="container">
+            <destination>{37995701-565a-49b3-872a-d341b5457c07}</destination>
+        </relationship>
+    </object>
+</objects>

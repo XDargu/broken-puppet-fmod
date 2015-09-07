@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{8be987e0-2473-4d29-bb0a-229f65bf7971}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.9069387755102041</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/small_hard_object_strike_large_metal_drum {80710bb2-b4d2-4986-a8fd-5941f1590f40}.mp3</value>
+        </property>
+        <relationship name="container">
+            <destination>{75571d01-6fad-4dfb-9148-7b34d84b4403}</destination>
+        </relationship>
+    </object>
+</objects>

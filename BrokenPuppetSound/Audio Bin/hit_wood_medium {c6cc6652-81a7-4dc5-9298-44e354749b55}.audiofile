@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c6cc6652-81a7-4dc5-9298-44e354749b55}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.3961678004535147</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/hit_wood_medium {7a25544c-ba82-4c09-9880-d7486d48e266}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{d3587b34-75d2-4219-a189-265ad21fc5aa}</destination>
+        </relationship>
+    </object>
+</objects>
