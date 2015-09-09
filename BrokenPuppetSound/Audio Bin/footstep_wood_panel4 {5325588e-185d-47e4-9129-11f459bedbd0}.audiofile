@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{5325588e-185d-47e4-9129-11f459bedbd0}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.59147392290249434</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/footstep_wood_panel4 {d0935b29-2a5f-4cc9-96e7-aae29681d15a}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9aac9556-04cf-467e-bcf3-53b93ae8770a}</destination>
+        </relationship>
+    </object>
+</objects>

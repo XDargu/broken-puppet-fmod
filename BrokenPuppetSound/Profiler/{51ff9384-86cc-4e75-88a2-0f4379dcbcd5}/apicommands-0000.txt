@@ -1,0 +1,2636 @@
+Playback::frame, 0
+Playback::version, 2, 67081
+#
+# FMOD Studio playback recording
+#   FMOD Version = 10609
+#   SoftwareChannelCount = 64
+#   Initialize = { 32,1,65540 }
+#   AdvSettings = { 0,0,0,0,0,0,0,0,180.000000,360.000000,4000.000000,0.000000,400,0,1500.000000,0,8,65536,81920,49152,2,0,0 }
+#   StudioAdvSettings = { 32768,65536 }
+#
+Playback::frame, 0
+# Printing initial instance state
+System::loadBankFile, data/sounds/Master Bank.bank, 0, 2097152
+Playback::loadBankFinished, {eb3e3b15-15f1-40e5-abc9-7162421a3c14}, 2097152, 0
+Bank::getEventListItem, 2097152, 0, {23b26021-d52e-4cfd-97fa-636d5037cb5a}, 2098688
+Bank::getEventListItem, 2097152, 1, {08cde332-79ce-4be9-8ca9-6d0fc20b6d91}, 2097664
+Bank::getEventListItem, 2097152, 2, {e1b91f9e-d44d-4d25-8a5a-a808ba139a50}, 2099968
+System::loadBankFile, data/sounds/Master Bank.strings.bank, 0, 2097408
+Playback::loadBankFinished, {981d20d4-717b-4c42-8649-8afef1f30698}, 2097408, 0
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventDescription::createInstance, 2098688, 2099456
+EventInstance::getParameter, 2099456, running, 2098944
+EventInstance::getParameter, 2099456, surface, 2099200
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+EventInstance::setTimelinePosition, 2099456, 25519
+EventInstance::start, 2099456
+EventDescription::createInstance, 2099968, 3305472
+EventInstance::getParameter, 3305472, material, 3304704
+EventInstance::getParameter, 3305472, force, 3304960
+EventInstance::getParameter, 3305472, mass, 3305216
+ParameterInstance::setValue, 3305216, 858.964
+EventInstance::set3DAttributes, 3305472, {{5.38812,0.014189,-0.445172},{0,0,0},{0,0,0},{0,0,0}}
+EventInstance::setTimelinePosition, 3305472, 917
+EventInstance::start, 3305472
+EventInstance::release, 3305472
+EventDescription::createInstance, 2097664, 2098176
+EventInstance::getParameter, 2098176, deepness, 2097920
+EventInstance::setTimelinePosition, 2098176, 13696
+EventInstance::start, 2098176
+# Finished printing initial instance state
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 3072
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+System::setListenerAttributes, 0, {{-4.46911,2.33219,0.846735},{0,0,0},{-0.920151,-0.364442,0.143195},{-0.360107,0.931226,0.0560405}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,-0.1,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.47359,2.24557,0.835916},{0,0,0},{-0.919516,-0.364442,0.147211},{-0.359859,0.931226,0.0576117}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.47405,2.30228,0.834823},{0,0,0},{-0.919451,-0.364442,0.147617},{-0.359834,0.931226,0.0577707}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.47419,2.31998,0.834482},{0,0,0},{-0.919431,-0.364442,0.147743},{-0.359826,0.931226,0.0578203}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.47425,2.32749,0.834337},{0,0,0},{-0.919423,-0.364442,0.147797},{-0.359822,0.931226,0.0578413}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.47427,2.33046,0.83428},{0,0,0},{-0.919419,-0.364442,0.147818},{-0.359821,0.931226,0.0578496}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.47428,2.33154,0.834259},{0,0,0},{-0.919418,-0.364442,0.147826},{-0.359821,0.931226,0.0578527}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.47658,2.33194,0.828758},{0,0,0},{-0.919086,-0.364442,0.14987},{-0.359691,0.931226,0.0586524}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.48245,2.3321,0.814909},{0,0,0},{-0.918232,-0.364442,0.155022},{-0.359356,0.931226,0.0606688}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.48947,2.33216,0.798591},{0,0,0},{-0.917185,-0.364442,0.161101},{-0.358947,0.931226,0.0630481}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.4977,2.33218,0.779836},{0,0,0},{-0.915928,-0.364442,0.168101},{-0.358455,0.931226,0.0657873}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.50879,2.33219,0.755174},{0,0,0},{-0.914186,-0.364442,0.177327},{-0.357773,0.931226,0.0693982}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.51862,2.33219,0.73382},{0,0,0},{-0.912597,-0.364442,0.185333},{-0.357151,0.931226,0.0725315}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.52777,2.33219,0.714384},{0,0,0},{-0.911084,-0.364442,0.192636},{-0.356559,0.931226,0.0753895}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.53584,2.33219,0.697562},{0,0,0},{-0.909722,-0.364442,0.19897},{-0.356026,0.931226,0.0778683}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.54713,2.33219,0.674541},{0,0,0},{-0.907778,-0.364442,0.207659},{-0.355265,0.931226,0.0812687}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.56522,2.33219,0.638816},{0,0,0},{-0.904575,-0.364442,0.221193},{-0.354012,0.931226,0.0865653}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.59964,2.33219,0.574284},{0,0,0},{-0.898203,-0.364442,0.24579},{-0.351518,0.931226,0.0961915}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.63776,2.33219,0.507347},{0,0,0},{-0.890772,-0.364442,0.271492},{-0.34861,0.931226,0.10625}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.7839,2.33219,0.285098},{0,0,0},{-0.859487,-0.364442,0.358419},{-0.336366,0.931226,0.14027}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-4.87937,2.33219,0.161891},{0,0,0},{-0.837219,-0.364442,0.407734},{-0.327651,0.931226,0.159569}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.01343,2.33219,0.0110848},{0,0,0},{-0.80419,-0.364442,0.469533},{-0.314725,0.931226,0.183755}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.21891,2.33219,-0.181702},{0,0,0},{-0.750468,-0.364442,0.551344},{-0.293701,0.931226,0.215772}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.43119,2.29491,-0.35401},{0,0,0},{-0.694603,-0.348346,0.62943},{-0.258232,0.937366,0.233797}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-6.94976,0,1.8666},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.67142,2.18005,-0.5259},{0,0,0},{-0.631797,-0.298495,0.715355},{-0.197958,0.954411,0.22341}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.12176,0,1.80477},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.18144,2.05178,-0.758758},{0,0,0},{-0.529237,-0.242363,0.813123},{-0.132591,0.970186,0.202878}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.16619,0,1.7888},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.69234,1.95996,-0.908165},{0,0,0},{-0.384271,-0.201895,0.900874},{-0.0794366,0.979407,0.185611}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.21196,0,1.78112},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.11853,1.96,-0.955712},{0,0,0},{-0.254997,-0.201894,0.945629},{-0.0525817,0.979407,0.194927}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.26924,0,1.78157},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.73645,1.96,-0.917703},{0,0,0},{-0.0580141,-0.201894,0.977688},{-0.011959,0.979407,0.20154}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.31837,0,1.7906},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.0186,1.96,-0.857798},{0,0,0},{0.0272624,-0.201894,0.979028},{0.00561985,0.979407,0.201816}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.36801,0,1.80875},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.29363,1.96,-0.76954},{0,0,0},{0.111425,-0.201894,0.973049},{0.022969,0.979407,0.200583}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.41279,0,1.83468},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.49242,1.90657,-0.686411},{0,0,0},{0.170565,-0.178251,0.969089},{0.0308982,0.983985,0.175553}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.45018,0,1.86527},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.61011,1.90657,-0.620324},{0,0,0},{0.202051,-0.178251,0.963017},{0.0366019,0.983985,0.174453}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.48384,0,1.9025},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.73414,1.90657,-0.538449},{0,0,0},{0.236748,-0.178251,0.95508},{0.0428874,0.983985,0.173015}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.5083,0,1.93835},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.79796,1.90657,-0.485029},{0,0,0},{0.253456,-0.178251,0.950782},{0.0459141,0.983985,0.172236}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.52965,0,1.97959},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.85098,1.90657,-0.425958},{0,0,0},{0.265336,-0.178251,0.947535},{0.0480662,0.983985,0.171648}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.54522,0,2.01975},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.86788,1.90657,-0.387459},{0,0,0},{0.266118,-0.178251,0.947316},{0.0482078,0.983985,0.171608}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.55691,0,2.06116},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.88028,1.90657,-0.346489},{0,0,0},{0.266226,-0.178251,0.947286},{0.0482274,0.983985,0.171603}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.56411,0,2.09802},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.8872,1.90657,-0.31382},{0,0,0},{0.266239,-0.178251,0.947282},{0.0482298,0.983985,0.171602}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.56936,0,2.14047},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.89365,1.90657,-0.268249},{0,0,0},{0.266243,-0.178251,0.947281},{0.0482305,0.983985,0.171602}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.5715,0,2.17411},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.89582,1.90657,-0.240371},{0,0,0},{0.266243,-0.178251,0.947281},{0.0482306,0.983985,0.171602}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.57194,0,2.20895},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.89687,1.90657,-0.206702},{0,0,0},{0.266244,-0.178251,0.947281},{0.0482306,0.983985,0.171602}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.57092,0,2.24288},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.89648,1.90657,-0.17373},{0,0,0},{0.266244,-0.178251,0.947281},{0.0482306,0.983985,0.171602}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.56852,0,2.27873},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.8874,1.90657,-0.140727},{0,0,0},{0.263396,-0.178251,0.948077},{0.0477148,0.983985,0.171746}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.56534,0,2.31106},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.85933,1.90657,-0.124133},{0,0,0},{0.253348,-0.178251,0.950811},{0.0458945,0.983985,0.172241}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.56132,0,2.34328},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.81698,1.90657,-0.112881},{0,0,0},{0.238121,-0.178251,0.954738},{0.0431362,0.983985,0.172953}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.55658,0,2.37546},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.76874,1.90657,-0.102924},{0,0,0},{0.220976,-0.178251,0.958852},{0.0400303,0.983985,0.173698}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.55105,0,2.40896},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.72741,1.90657,-0.0858896},{0,0,0},{0.20697,-0.178251,0.961972},{0.037493,0.983985,0.174263}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.54522,0,2.44186},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.71042,1.90657,-0.0584261},{0,0,0},{0.202535,-0.17825,0.962915},{0.0366897,0.983985,0.174434}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.53807,0,2.48044},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.69819,1.90657,-0.0174398},{0,0,0},{0.200807,-0.17825,0.963277},{0.0363765,0.983985,0.174499}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.53195,0,2.5127},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.69197,1.90657,0.0111294},{0,0,0},{0.200496,-0.17825,0.963342},{0.0363201,0.983985,0.174511}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-7.52586,0,2.54426},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.68597,1.90657,0.0410058},{0,0,0},{0.200391,-0.17825,0.963364},{0.0363012,0.983985,0.174515}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.51915,-0.00535775,2.57866},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.67892,1.90282,0.0767734},{0,0,0},{0.200351,-0.17825,0.963372},{0.0362938,0.983985,0.174516}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.51267,0,2.61186},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.67251,1.90536,0.109549},{0,0,0},{0.200339,-0.17825,0.963375},{0.0362917,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.48775,0,2.73829},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.65447,1.90614,0.201112},{0,0,0},{0.200335,-0.17825,0.963376},{0.036291,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.4607,0,2.87437},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.62881,1.90644,0.330575},{0,0,0},{0.200334,-0.17825,0.963376},{0.0362908,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.43628,0,2.99644},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.60655,1.90652,0.442131},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.40858,0,3.13404},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.57764,1.90656,0.586198},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.37881,0,3.2812},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.54607,1.90657,0.742623},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.35191,0,3.41363},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.52081,1.90657,0.867195},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.32249,0,3.55795},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.49021,1.90657,1.01752},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.29494,0,3.6927},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.46374,1.90657,1.14717},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.26679,0,3.83001},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.43558,1.90657,1.28468},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.2439,0,3.94142},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.41573,1.90657,1.38141},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.22103,0,4.05258},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.39421,1.90657,1.48612},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.19905,0,4.1592},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.37331,1.90657,1.58761},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.17485,0,4.27645},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.34835,1.90657,1.70865},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.15382,0,4.37822},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.32873,1.90657,1.8037},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.13306,0,4.47858},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.3088,1.90657,1.90015},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.1103,0,4.58852},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.28537,1.90657,2.0134},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.08945,0,4.6892},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.26525,1.90657,2.11064},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.06708,0,4.79709},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.24244,1.90657,2.22072},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.0399,0,4.92819},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.2118,1.90657,2.36856},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-7.01779,0,5.03478},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.19153,1.90657,2.4663},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.99735,0,5.13324},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.17272,1.90657,2.55695},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.97714,0,5.23059},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.15343,1.90657,2.64991},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.95499,0,5.33728},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.13073,1.90657,2.75927},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.93441,0,5.43636},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.11072,1.90657,2.85564},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.91292,0,5.53979},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.08905,1.90657,2.95997},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.89265,0,5.63736},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.06931,1.90657,3.05502},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.87001,0,5.74634},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.04564,1.90657,3.16893},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.84887,0,5.84805},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.02486,1.90657,3.2689},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.82842,0,5.94643},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-8.00493,1.90657,3.3648},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.80758,0,6.04669},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.98416,1.90657,3.46477},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.78294,0,6.16522},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.95726,1.90657,3.5942},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.7618,0,6.26693},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.93716,1.90657,3.69086},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.7405,0,6.36938},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.91629,1.90657,3.79125},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.71878,0,6.47387},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.89455,1.90657,3.89583},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.6979,0,6.57431},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.87409,1.90657,3.99424},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.65275,0,6.79145},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.80952,1.90657,4.30481},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.63009,0,6.90045},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.79691,1.90657,4.36548},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.60922,0,7.00079},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.78107,1.90657,4.44167},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.5895,0,7.09567},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.76421,1.90657,4.52276},{0,0,0},{0.200333,-0.17825,0.963376},{0.0362907,0.983985,0.174517}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.56681,0,7.20479},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.73707,1.90657,4.62956},{0,0,0},{0.198592,-0.17825,0.963736},{0.0359753,0.983985,0.174582}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.54413,0,7.31384},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.71243,1.90657,4.73755},{0,0,0},{0.197822,-0.17825,0.963895},{0.0358357,0.983985,0.174611}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.52128,0,7.42372},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.68862,1.90657,4.84741},{0,0,0},{0.197478,-0.17825,0.963965},{0.0357734,0.983985,0.174624}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.49894,0,7.53129},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.66611,1.90657,4.95372},{0,0,0},{0.19733,-0.17825,0.963996},{0.0357466,0.983985,0.174629}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.47729,0,7.63577},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.64471,1.90657,5.05597},{0,0,0},{0.197265,-0.17825,0.964009},{0.0357349,0.983985,0.174632}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.4558,0,7.73961},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.62339,1.90657,5.15844},{0,0,0},{0.197235,-0.17825,0.964015},{0.0357294,0.983985,0.174633}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.43526,0,7.83901},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.60338,1.90657,5.25496},{0,0,0},{0.197222,-0.17825,0.964018},{0.035727,0.983985,0.174633}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.41419,0,7.94115},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.58227,1.90657,5.35707},{0,0,0},{0.197215,-0.17825,0.964019},{0.0357258,0.983985,0.174633}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.39287,0,8.04465},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.56077,1.90657,5.46126},{0,0,0},{0.197212,-0.17825,0.96402},{0.0357252,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.37183,0,8.14684},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.53978,1.90657,5.5631},{0,0,0},{0.19721,-0.17825,0.96402},{0.0357249,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.34968,0,8.25456},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.51702,1.90657,5.67367},{0,0,0},{0.197209,-0.17825,0.96402},{0.0357247,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.32842,0,8.35803},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.49595,1.90657,5.77612},{0,0,0},{0.197209,-0.17825,0.96402},{0.0357247,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.30638,0,8.46535},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.47357,1.90657,5.88506},{0,0,0},{0.197209,-0.17825,0.96402},{0.0357247,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.28585,0,8.56538},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.45365,1.90657,5.98204},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.26507,0,8.6667},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.43303,1.90657,6.08251},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.24428,0,8.76812},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.4123,1.90657,6.18357},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.22365,0,8.86874},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.39179,1.90657,6.28362},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.20303,0,8.96939},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.37121,1.90657,6.38399},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.18206,0,9.07173},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.35009,1.90657,6.48708},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.16165,0,9.1714},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.32987,1.90657,6.58574},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.14091,0,9.27264},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.30907,1.90657,6.68728},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.11849,0,9.38218},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.28566,1.90657,6.80163},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.09781,0,9.48317},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.26549,1.90657,6.90015},{0,0,0},{0.197209,-0.17825,0.964021},{0.0357246,0.983985,0.174634}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.07572,0,9.59111},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.23846,1.90657,7.00863},{0,0,0},{0.195506,-0.17825,0.964367},{0.0354162,0.983985,0.174696}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.05478,0,9.69338},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.21604,1.90657,7.10817},{0,0,0},{0.194781,-0.17825,0.964514},{0.0352849,0.983985,0.174723}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.03276,0,9.80101},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.19266,1.90657,7.21736},{0,0,0},{0.194417,-0.17825,0.964587},{0.0352189,0.983985,0.174736}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-6.01097,0,9.90759},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.17037,1.90657,7.32407},{0,0,0},{0.194254,-0.17825,0.96462},{0.0351894,0.983985,0.174742}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.98997,0,10.0105},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.14953,1.90657,7.42516},{0,0,0},{0.194183,-0.17825,0.964635},{0.0351764,0.983985,0.174745}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.96803,0,10.1183},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.12271,1.90657,7.53263},{0,0,0},{0.19245,-0.17825,0.964982},{0.0348625,0.983985,0.174808}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.94731,0,10.2202},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.10053,1.90657,7.63134},{0,0,0},{0.191712,-0.17825,0.965129},{0.0347289,0.983985,0.174834}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.92592,-0.00315037,10.3256},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.07802,1.90488,7.737},{0,0,0},{0.191346,-0.17825,0.965201},{0.0346626,0.983985,0.174847}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.90547,0,10.4263},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.05755,1.90575,7.8355},{0,0,0},{0.191184,-0.17825,0.965233},{0.0346332,0.983985,0.174853}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.90033,0,10.4517},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.04486,1.90617,7.89694},{0,0,0},{0.191105,-0.17825,0.965249},{0.0346189,0.983985,0.174856}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.89521,0,10.4771},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.0361,1.90638,7.93962},{0,0,0},{0.191067,-0.17825,0.965257},{0.0346119,0.983985,0.174857}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.89012,0,10.5023},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.02541,1.90648,7.97139},{0,0,0},{0.189557,-0.17825,0.965554},{0.0343384,0.983985,0.174911}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.88482,0,10.5288},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.01714,1.90653,8.00172},{0,0,0},{0.188791,-0.17825,0.965704},{0.0341997,0.983985,0.174938}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.87963,0,10.5547},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-7.01065,1.90655,8.02916},{0,0,0},{0.188445,-0.17825,0.965772},{0.034137,0.983985,0.174951}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.8737,0,10.5844},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.99822,1.90656,8.05953},{0,0,0},{0.186198,-0.17825,0.966208},{0.03373,0.983985,0.175029}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.86759,0,10.615},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.97792,1.90657,8.08604},{0,0,0},{0.180883,-0.17825,0.967217},{0.032767,0.983985,0.175212}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.862,0,10.6432},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.95809,1.90657,8.10712},{0,0,0},{0.175344,-0.17825,0.968236},{0.0317637,0.983985,0.175397}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.85575,0,10.6748},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.92624,1.90657,8.12984},{0,0,0},{0.165655,-0.17825,0.969941},{0.0300086,0.983985,0.175706}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.84975,0,10.7054},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.90009,1.90657,8.15201},{0,0,0},{0.157933,-0.17825,0.971228},{0.0286098,0.983985,0.175939}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.84413,0,10.7344},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.88223,1.90657,8.17503},{0,0,0},{0.153193,-0.178249,0.971987},{0.027751,0.983985,0.176076}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.83807,0,10.7662},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.86413,1.90657,8.20342},{0,0,0},{0.148703,-0.178249,0.972684},{0.0269376,0.983985,0.176201}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.83214,0,10.7981},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.84764,1.90657,8.23166},{0,0,0},{0.144733,-0.178248,0.973283},{0.0262184,0.983986,0.176309}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.82699,0,10.8264},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.8346,1.90657,8.25486},{0,0,0},{0.141615,-0.178248,0.973742},{0.0256534,0.983986,0.176392}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.82171,0,10.8562},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.82022,1.90656,8.28098},{0,0,0},{0.138167,-0.178247,0.974237},{0.0250288,0.983986,0.176482}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.81644,0,10.8866},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.80541,1.90656,8.30825},{0,0,0},{0.134596,-0.178247,0.974737},{0.0243819,0.983986,0.176572}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.81159,0,10.9153},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.79729,1.90656,8.33469},{0,0,0},{0.133315,-0.178247,0.974913},{0.0241498,0.983986,0.176604}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.80667,0,10.9451},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.79077,1.90656,8.36427},{0,0,0},{0.132757,-0.178247,0.974989},{0.0240487,0.983986,0.176617}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.80273,0,10.9696},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.7867,1.90656,8.386},{0,0,0},{0.132576,-0.178247,0.975014},{0.0240159,0.983986,0.176622}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.79838,0,10.9973},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.77726,1.90656,8.41211},{0,0,0},{0.13069,-0.178247,0.975268},{0.0236743,0.983986,0.176668}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.79424,0,11.0241},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.76659,1.90656,8.43615},{0,0,0},{0.128212,-0.178247,0.975597},{0.0232253,0.983986,0.176727}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.79012,0,11.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.75937,1.90656,8.46231},{0,0,0},{0.127064,-0.178247,0.975747},{0.0230173,0.983986,0.176754}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.7854,0,11.0832},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.75255,1.90656,8.4964},{0,0,0},{0.126463,-0.178247,0.975825},{0.0229084,0.983986,0.176768}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.78095,0,11.1136},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.74749,1.90656,8.5268},{0,0,0},{0.126257,-0.178247,0.975852},{0.0228711,0.983986,0.176773}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.77724,0,11.1394},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.7439,1.90656,8.55019},{0,0,0},{0.12619,-0.178247,0.975861},{0.022859,0.983986,0.176775}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.77329,0,11.1672},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.73983,1.90656,8.57789},{0,0,0},{0.126155,-0.178247,0.975865},{0.0228527,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.76928,0,11.196},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.73566,1.90656,8.60707},{0,0,0},{0.126139,-0.178247,0.975867},{0.0228499,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.76423,0,11.2325},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.72972,1.90656,8.64958},{0,0,0},{0.126131,-0.178247,0.975868},{0.0228483,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.76055,0,11.2594},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.72656,1.90656,8.67244},{0,0,0},{0.126129,-0.178247,0.975869},{0.0228481,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.75718,0,11.2842},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.72355,1.90656,8.69449},{0,0,0},{0.126129,-0.178247,0.975869},{0.0228479,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.75356,0,11.311},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.71996,1.90656,8.7209},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228479,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.7501,0,11.3369},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.71657,1.90656,8.74611},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.74657,0,11.3634},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.71303,1.90656,8.7725},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.74314,0,11.3892},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.70963,1.90656,8.79805},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.7395,0,11.4168},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.70586,1.90656,8.82646},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.73628,0,11.4413},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.70279,1.90656,8.84967},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.73292,0,11.4669},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.69943,1.90656,8.87518},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.72922,0,11.4951},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.69554,1.90656,8.90481},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.72575,0,11.5217},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.69209,1.90656,8.93114},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.7215,0,11.5542},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.68736,1.90656,8.96736},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.71807,0,11.5805},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.68421,1.90656,8.99146},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-5.71441,0,11.6086},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.68056,1.90656,9.01948},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.71092,-0.00318653,11.6354},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.67717,1.90484,9.04553},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.70683,0,11.6669},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.67275,1.90593,9.07952},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.69144,0,11.7853},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.66203,1.90631,9.16198},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.67732,0,11.8941},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.65032,1.90645,9.25215},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.66386,0,11.9979},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.63824,1.90651,9.34524},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.64712,0,12.127},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.62017,1.90654,9.48461},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.63341,0,12.2328},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.6077,1.90655,9.58076},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.6193,0,12.3417},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.59396,1.90656,9.68683},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.60523,0,12.4504},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.58005,1.90656,9.79414},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.59079,0,12.5619},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.5655,1.90656,9.90654},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.57549,0,12.6801},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.54962,1.90656,10.0292},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.56117,0,12.7908},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.53562,1.90656,10.1374},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.54603,0,12.9078},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.52014,1.90656,10.257},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.53171,0,13.0185},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.50616,1.90656,10.3651},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.51845,0,13.121},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.49357,1.90656,10.4623},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.50401,0,13.2326},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.47883,1.90656,10.5763},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.49098,0,13.3334},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.46639,1.90656,10.6725},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.47635,0,13.4466},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.45117,1.90656,10.7902},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.46203,0,13.5573},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.43678,1.90656,10.9015},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.44983,0,13.6516},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.42557,1.90656,10.9882},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.43667,0,13.7535},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.41246,1.90656,11.0896},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.42314,0,13.8581},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.39877,1.90656,11.1955},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.4097,0,13.9621},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.38529,1.90656,11.2998},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.39638,0,14.0651},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.37203,1.90656,11.4024},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.38313,0,14.1676},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.35883,1.90656,11.5044},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.36916,0,14.2757},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.3445,1.90656,11.6153},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.35685,0,14.3709},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.33284,1.90656,11.7055},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.34419,0,14.4689},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.32035,1.90656,11.8021},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.33099,0,14.571},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.30696,1.90656,11.9057},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.31822,0,14.6698},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.29433,1.90656,12.0034},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.30518,0,14.7707},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.28121,1.90656,12.1049},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.29168,0,14.8752},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.26743,1.90656,12.2116},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.27192,0,15.028},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.24265,1.90656,12.4032},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.25796,0,15.136},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.23105,1.90656,12.493},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.24458,0,15.2395},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.21899,1.90656,12.5863},{0,0,0},{0.126128,-0.178247,0.975869},{0.0228478,0.983986,0.176776}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.23253,0,15.3327},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.20483,1.90656,12.6691},{0,0,0},{0.124873,-0.178247,0.97603},{0.0226205,0.983986,0.176806}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.21908,0,15.4368},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.18118,1.90656,12.7695},{0,0,0},{0.121006,-0.178246,0.976517},{0.02192,0.983986,0.176893}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.20564,0,15.5408},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.15463,1.90656,12.8688},{0,0,0},{0.116042,-0.178246,0.977119},{0.0210207,0.983986,0.177002}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.19265,0,15.6415},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.12807,1.90656,12.9628},{0,0,0},{0.110826,-0.178246,0.977725},{0.0200758,0.983986,0.177112}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.17935,0,15.7451},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.10354,1.90656,13.0633},{0,0,0},{0.106626,-0.178246,0.978192},{0.0193149,0.983986,0.177196}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.1659,0,15.8511},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.08438,1.90656,13.1689},{0,0,0},{0.104575,-0.178245,0.978413},{0.0189434,0.983986,0.177236}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.15295,0,15.9549},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.06888,1.90656,13.2713},{0,0,0},{0.10364,-0.178245,0.978513},{0.0187741,0.983986,0.177254}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.14097,0,16.0527},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.05599,1.90656,13.3657},{0,0,0},{0.103219,-0.178245,0.978557},{0.0186978,0.983986,0.177262}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.12877,0,16.1543},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.04298,1.90656,13.4672},{0,0,0},{0.102998,-0.178245,0.978581},{0.0186578,0.983986,0.177266}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.11691,0,16.2548},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.03068,1.90656,13.5672},{0,0,0},{0.102891,-0.178245,0.978592},{0.0186384,0.983986,0.177268}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.10321,0,16.3728},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-6.01541,1.90656,13.6953},{0,0,0},{0.102829,-0.178245,0.978598},{0.0186271,0.983986,0.177269}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.09074,0,16.4818},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.99832,1.90656,13.8014},{0,0,0},{0.101094,-0.178245,0.978779},{0.0183128,0.983986,0.177302}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.07873,0,16.588},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.98007,1.90656,13.9034},{0,0,0},{0.0987043,-0.178245,0.979023},{0.0178799,0.983986,0.177346}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.06666,0,16.6959},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.96044,1.90656,14.0087},{0,0,0},{0.0958951,-0.178245,0.979302},{0.017371,0.983986,0.177396}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.0547,0,16.804},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.94045,1.90656,14.1143},{0,0,0},{0.0929199,-0.178244,0.979589},{0.0168321,0.983986,0.177448}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.0435,0,16.9067},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.92199,1.90656,14.2117},{0,0,0},{0.0901131,-0.178244,0.979851},{0.0163236,0.983986,0.177495}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.03226,0,17.0113},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.90279,1.90656,14.3132},{0,0,0},{0.0871535,-0.178244,0.980119},{0.0157874,0.983986,0.177543}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.02116,0,17.1164},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.88353,1.90656,14.4159},{0,0,0},{0.0841476,-0.178243,0.980382},{0.0152429,0.983986,0.17759}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-5.01081,0,17.2165},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.86584,1.90655,14.511},{0,0,0},{0.081357,-0.178243,0.980617},{0.0147374,0.983986,0.177633}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.99998,0,17.3233},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.84627,1.90655,14.6173},{0,0,0},{0.0782324,-0.178243,0.980872},{0.0141714,0.983986,0.177678}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.98968,0,17.4273},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.8279,1.90655,14.7184},{0,0,0},{0.0752619,-0.178242,0.981104},{0.0136332,0.983987,0.17772}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.97986,0,17.5291},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.80636,1.90655,14.8151},{0,0,0},{0.0708958,-0.178242,0.981429},{0.0128423,0.983987,0.177779}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.97021,0,17.6317},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.78265,1.90655,14.9131},{0,0,0},{0.0657079,-0.178243,0.98179},{0.0119025,0.983987,0.177845}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.96076,0,17.735},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.75795,1.90655,15.0122},{0,0,0},{0.0601,-0.178243,0.982149},{0.0108867,0.983987,0.17791}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.95127,0,17.8422},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.73609,1.90655,15.1179},{0,0,0},{0.0556493,-0.178242,0.982412},{0.0100805,0.983987,0.177956}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.94258,0,17.944},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.72205,1.90655,15.2164},{0,0,0},{0.0536943,-0.178242,0.982521},{0.00972634,0.983987,0.177976}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.93365,0,18.0533},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.70979,1.90655,15.3279},{0,0,0},{0.0526687,-0.178242,0.982576},{0.00954053,0.983987,0.177986}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.92559,0,18.1567},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.69624,1.90655,15.4281},{0,0,0},{0.050691,-0.178241,0.98268},{0.00918229,0.983987,0.178005}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.91719,0,18.2695},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.67948,1.90655,15.5431},{0,0,0},{0.0478249,-0.178241,0.982824},{0.00866311,0.983987,0.17803}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.90992,0,18.3715},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.66517,1.90655,15.6392},{0,0,0},{0.0452062,-0.178241,0.982948},{0.00818875,0.983987,0.178053}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.90251,0,18.4799},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.64917,1.90655,15.7467},{0,0,0},{0.0421566,-0.17824,0.983083},{0.00763632,0.983987,0.178077}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.89509,0,18.5934},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.63232,1.90655,15.8614},{0,0,0},{0.0388467,-0.17824,0.98322},{0.00703675,0.983987,0.178101}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.88887,0,18.6931},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.61901,1.90655,15.9534},{0,0,0},{0.0361701,-0.17824,0.983322},{0.00655189,0.983987,0.178119}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.88227,0,18.8038},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.6032,1.90655,16.0648},{0,0,0},{0.0329207,-0.178239,0.983436},{0.00596327,0.983987,0.17814}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.8767,0,18.9024},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.59417,1.90655,16.1577},{0,0,0},{0.0316312,-0.178239,0.983479},{0.00572968,0.983987,0.178147}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.87106,0,19.0076},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.58634,1.90655,16.2632},{0,0,0},{0.0309357,-0.178239,0.983501},{0.00560369,0.983987,0.178151}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.86597,0,19.1083},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.58022,1.90655,16.3618},{0,0,0},{0.0306205,-0.178239,0.983511},{0.0055466,0.983987,0.178153}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.86127,0,19.2067},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.57494,1.90655,16.4581},{0,0,0},{0.0304678,-0.178239,0.983515},{0.00551893,0.983987,0.178154}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.85688,0,19.3034},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.57018,1.90655,16.5529},{0,0,0},{0.0303916,-0.178239,0.983518},{0.00550513,0.983987,0.178154}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.85251,0,19.4048},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.56539,1.90655,16.6555},{0,0,0},{0.0303504,-0.178239,0.983519},{0.00549767,0.983987,0.178154}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.84822,0,19.5083},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.56076,1.90655,16.7608},{0,0,0},{0.0303297,-0.178239,0.98352},{0.00549392,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.84422,0,19.6088},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.55658,1.90655,16.8606},{0,0,0},{0.03032,-0.178239,0.98352},{0.00549217,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.84026,0,19.7118},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.55241,1.90655,16.9646},{0,0,0},{0.0303151,-0.178239,0.98352},{0.00549127,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.83651,0,19.8123},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.54855,1.90655,17.0643},{0,0,0},{0.0303128,-0.178239,0.98352},{0.00549085,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.83181,0,19.9415},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.54305,1.90655,17.2115},{0,0,0},{0.0303113,-0.178239,0.98352},{0.00549058,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.82785,0,20.0531},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.53917,1.90655,17.3187},{0,0,0},{0.0303108,-0.178239,0.98352},{0.00549049,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.82321,0,20.1865},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.53401,1.90655,17.4645},{0,0,0},{0.0303106,-0.178239,0.98352},{0.00549045,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.81914,0,20.3054},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.53006,1.90655,17.5784},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549044,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.81501,0,20.4281},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.52587,1.90655,17.7012},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.81129,0,20.5397},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.52233,1.90655,17.8068},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.8079,0,20.6427},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.51913,1.90655,17.9029},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.80466,0,20.7421},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.51603,1.90655,17.9971},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 1
+EventInstance::set3DAttributes, 2099456, {{-4.80127,0,20.8471},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.5126,1.90655,18.1025},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 1
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.798,-0.0028281,20.9489},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50936,1.90511,18.2028},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50607,1.90584,18.3048},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50399,1.90631,18.3692},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50336,1.90645,18.3888},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50314,1.9065,18.3958},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50304,1.90653,18.399},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50298,1.90654,18.4007},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50296,1.90654,18.4013},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50295,1.90654,18.4017},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50295,1.90655,18.4018},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50294,1.90655,18.4018},{0,0,0},{0.0303104,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 2048
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50294,1.90655,18.4019},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+EventInstance::getParameter, 2099456, surface, 2099200
+ParameterInstance::setValue, 2099200, 0
+EventInstance::getParameter, 2099456, running, 2098944
+ParameterInstance::setValue, 2098944, 0
+EventInstance::set3DAttributes, 2099456, {{-4.79471,0,21.0514},{0,0,0},{0,0,0},{0,0,0}}
+System::setListenerAttributes, 0, {{-5.50294,1.90655,18.4019},{0,0,0},{0.0303105,-0.178239,0.98352},{0.00549043,0.983987,0.178155}}
+EventInstance::getParameter, 2098176, deepness, 2097920
+ParameterInstance::setValue, 2097920, 0
+Playback::frame, 1024
+Bank::unload, 2097408
+Bank::unload, 2097152
+Playback::frame, 3072
+System::flushCommands
+System::unloadAll
