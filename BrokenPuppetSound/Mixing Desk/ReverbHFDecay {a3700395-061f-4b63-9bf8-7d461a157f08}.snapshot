@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Snapshot" id="{a3700395-061f-4b63-9bf8-7d461a157f08}">
+        <property name="name">
+            <value>ReverbHFDecay</value>
+        </property>
+        <property name="runtimeSnapshotHandleID">
+            <value>{28bc71f2-e79a-454f-a5eb-ce6cf2b05ed2}</value>
+        </property>
+        <property name="runtimeMasterBusHandleID">
+            <value>{b33770d7-4499-4a04-be09-0886993df294}</value>
+        </property>
+        <relationship name="automatableProperties">
+            <destination>{76efae19-17f8-451a-a770-2b3a38697c9e}</destination>
+        </relationship>
+        <relationship name="markerTracks">
+            <destination>{0a20a390-c396-40eb-9383-8e590082847b}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{533de02f-d837-488f-ade8-6876996dcf9a}</destination>
+        </relationship>
+        <relationship name="folder">
+            <destination>{3cbf7b3e-8972-441b-a8f5-4aa533861321}</destination>
+        </relationship>
+        <relationship name="snapshotMasterTrack">
+            <destination>{9172e1df-ea91-4dcb-9286-71a5bb07462b}</destination>
+        </relationship>
+        <relationship name="snapshotProperties">
+            <destination>{a4753181-0698-4139-a010-5c7243f8caba}</destination>
+        </relationship>
+        <relationship name="snapshotTracks">
+            <destination>{2b4286e2-f23b-4457-b88f-886edb5b3e31}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{03611198-9f88-4fc0-972c-c2cea08642f2}</destination>
+        </relationship>
+    </object>
+    <object class="EventAutomatableProperties" id="{76efae19-17f8-451a-a770-2b3a38697c9e}">
+        <property name="snapshotIntensity">
+            <value>50</value>
+        </property>
+    </object>
+    <object class="MarkerTrack" id="{0a20a390-c396-40eb-9383-8e590082847b}"/>
+    <object class="Timeline" id="{533de02f-d837-488f-ade8-6876996dcf9a}"/>
+    <object class="SnapshotMasterTrack" id="{9172e1df-ea91-4dcb-9286-71a5bb07462b}"/>
+    <object class="SnapshotProperty" id="{a4753181-0698-4139-a010-5c7243f8caba}">
+        <property name="propertyName">
+            <value>HFDecayRatio</value>
+        </property>
+        <property name="value">
+            <value>100</value>
+        </property>
+        <relationship name="automatableObject">
+            <destination>{26cc4725-be3b-488b-9589-889114f74cbb}</destination>
+        </relationship>
+    </object>
+    <object class="SnapshotTrack" id="{2b4286e2-f23b-4457-b88f-886edb5b3e31}">
+        <relationship name="mixerStrip">
+            <destination>{570bca4d-256e-4f16-9c93-e18ebd809304}</destination>
+        </relationship>
+    </object>
+</objects>

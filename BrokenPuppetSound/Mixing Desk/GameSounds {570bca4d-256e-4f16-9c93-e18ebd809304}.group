@@ -26,6 +26,9 @@
         <property name="decayTime">
             <value>100</value>
         </property>
+        <property name="earlyLateMix">
+            <value>0</value>
+        </property>
     </object>
     <object class="MixerBusFader" id="{9a4dac1a-bdb3-4567-83e1-eedb8f90e977}"/>
     <object class="LowpassEffect" id="{b72e25cd-aea6-4265-a77d-66b32d58787b}">

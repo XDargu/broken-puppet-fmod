@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Snapshot" id="{3faef1c7-24dc-4668-a5f2-92fd182c5fc6}">
+        <property name="name">
+            <value>ReverbEarlyLate</value>
+        </property>
+        <property name="runtimeSnapshotHandleID">
+            <value>{364b2680-9450-4dd3-99e0-dcd4d29701ef}</value>
+        </property>
+        <property name="runtimeMasterBusHandleID">
+            <value>{b2f065cb-4377-49de-9af4-c84784deda46}</value>
+        </property>
+        <relationship name="automatableProperties">
+            <destination>{de25139f-2bc9-4c03-9f61-c380d257df7d}</destination>
+        </relationship>
+        <relationship name="markerTracks">
+            <destination>{04b531a8-29d2-470c-a171-e6d5350361fe}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{03aa47ef-630f-4bc1-8e2c-478bbed0534d}</destination>
+        </relationship>
+        <relationship name="folder">
+            <destination>{3cbf7b3e-8972-441b-a8f5-4aa533861321}</destination>
+        </relationship>
+        <relationship name="snapshotMasterTrack">
+            <destination>{68eb3e0a-35ab-42f5-ac0c-24574b32b9ae}</destination>
+        </relationship>
+        <relationship name="snapshotProperties">
+            <destination>{8f1a62d1-f483-421a-bbd9-d909b7ce5946}</destination>
+        </relationship>
+        <relationship name="snapshotTracks">
+            <destination>{9030f4c6-038b-40d2-a586-a213ad41ee76}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{03611198-9f88-4fc0-972c-c2cea08642f2}</destination>
+        </relationship>
+    </object>
+    <object class="EventAutomatableProperties" id="{de25139f-2bc9-4c03-9f61-c380d257df7d}">
+        <property name="snapshotIntensity">
+            <value>50</value>
+        </property>
+    </object>
+    <object class="MarkerTrack" id="{04b531a8-29d2-470c-a171-e6d5350361fe}"/>
+    <object class="Timeline" id="{03aa47ef-630f-4bc1-8e2c-478bbed0534d}"/>
+    <object class="SnapshotMasterTrack" id="{68eb3e0a-35ab-42f5-ac0c-24574b32b9ae}"/>
+    <object class="SnapshotProperty" id="{8f1a62d1-f483-421a-bbd9-d909b7ce5946}">
+        <property name="propertyName">
+            <value>earlyLateMix</value>
+        </property>
+        <property name="value">
+            <value>100</value>
+        </property>
+        <relationship name="automatableObject">
+            <destination>{26cc4725-be3b-488b-9589-889114f74cbb}</destination>
+        </relationship>
+    </object>
+    <object class="SnapshotTrack" id="{9030f4c6-038b-40d2-a586-a213ad41ee76}">
+        <relationship name="mixerStrip">
+            <destination>{570bca4d-256e-4f16-9c93-e18ebd809304}</destination>
+        </relationship>
+    </object>
+</objects>
