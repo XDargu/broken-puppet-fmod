@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{da2fe88c-201c-4857-8e9d-d0a404e127e0}">
         <property name="name">
-            <value>reverTime</value>
+            <value>reverbTime</value>
         </property>
         <relationship name="mixer">
             <destination>{35a8a9fc-4622-4759-93c8-a2c093ad8e14}</destination>
