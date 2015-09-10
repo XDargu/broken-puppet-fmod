@@ -79,7 +79,6 @@
         <property name="length">
             <value>1.7647165532879818</value>
         </property>
-        <property name="name"/>
         <relationship name="fadeOutCurve">
             <destination>{39aca021-c7d5-4e44-84cc-07b71eeddd45}</destination>
         </relationship>
@@ -143,7 +142,6 @@
         <relationship name="effects">
             <destination>{617daed9-1dba-4b5d-b263-c55cb56abd3d}</destination>
             <destination>{c2d87148-8cf9-44e9-abc9-392a0cca456a}</destination>
-            <destination>{66530ef5-bf5e-411e-aae6-8c008abbb705}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{8aed558e-e40c-4011-b588-c119b14cf241}"/>
@@ -209,11 +207,6 @@
     <object class="MixerBusPanner" id="{159c58c7-b763-4656-b7fe-2d54de1d9015}"/>
     <object class="MixerBusFader" id="{617daed9-1dba-4b5d-b263-c55cb56abd3d}"/>
     <object class="SpatialiserEffect" id="{c2d87148-8cf9-44e9-abc9-392a0cca456a}"/>
-    <object class="MixerSend" id="{66530ef5-bf5e-411e-aae6-8c008abbb705}">
-        <relationship name="return">
-            <destination>{ca7ba26a-7489-4ce9-86e7-47433e2d7069}</destination>
-        </relationship>
-    </object>
     <object class="AutomationPoint" id="{60fa7171-e3dc-4594-84e7-75c1aee23aa7}">
         <property name="position">
             <value>1.7495062192845854</value>

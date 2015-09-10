@@ -70,12 +70,12 @@
         </relationship>
     </object>
     <object class="AngleParameter" id="{76b3eb3d-0f2d-422c-8409-ab8624d2b50f}">
-        <relationship name="automationScale">
-            <destination>{4f043ab3-0aa0-4913-9306-c5cc7adf7968}</destination>
-        </relationship>
         <relationship name="automationCurves">
             <destination>{d0c51b2a-63a0-4d90-8d4c-7f9e60862644}</destination>
             <destination>{89f65842-b0eb-4b8d-b606-6d4e3898d0c1}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{4f043ab3-0aa0-4913-9306-c5cc7adf7968}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{a8dbea90-c448-4694-b709-cf2693eb29dd}">
@@ -150,17 +150,6 @@
             <destination>{1c54e7e7-6f68-481d-9c7b-0a01fa38f662}</destination>
         </relationship>
     </object>
-    <object class="AutomationScale" id="{4f043ab3-0aa0-4913-9306-c5cc7adf7968}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,180.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>GameParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Event Cone Angle</value>
-        </property>
-    </object>
     <object class="AutomationCurve" id="{d0c51b2a-63a0-4d90-8d4c-7f9e60862644}">
         <relationship name="automationPoints">
             <destination>{ae366254-afa0-4b01-a177-ac74582f1700}</destination>
@@ -174,11 +163,21 @@
             <destination>{48fb11d1-3d43-4c0c-b132-ca848c84207e}</destination>
         </relationship>
     </object>
+    <object class="AutomationScale" id="{4f043ab3-0aa0-4913-9306-c5cc7adf7968}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,180.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Event Cone Angle</value>
+        </property>
+    </object>
     <object class="MixerBusEffectChain" id="{1ccbe251-0bae-4bc4-bbbc-9a4c838c36aa}">
         <relationship name="effects">
             <destination>{1e1e91eb-7c67-40e9-b925-da7f3a6bb4a6}</destination>
             <destination>{78814fb3-9094-41ee-b210-b43254886be7}</destination>
-            <destination>{0d4576dc-0aa1-4a39-8552-bae99cd35e9d}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{0ec7b82b-7165-48b9-adc6-53adf1c598d8}"/>
@@ -234,11 +233,6 @@
     </object>
     <object class="MixerBusFader" id="{1e1e91eb-7c67-40e9-b925-da7f3a6bb4a6}"/>
     <object class="SpatialiserEffect" id="{78814fb3-9094-41ee-b210-b43254886be7}"/>
-    <object class="MixerSend" id="{0d4576dc-0aa1-4a39-8552-bae99cd35e9d}">
-        <relationship name="return">
-            <destination>{ca7ba26a-7489-4ce9-86e7-47433e2d7069}</destination>
-        </relationship>
-    </object>
     <object class="MixerBusFader" id="{8fc3f97f-0846-4f6b-b72a-90aeb240dfdb}"/>
     <object class="LowpassEffect" id="{8b41f14b-a1bf-412d-b13e-6de696f392db}"/>
 </objects>

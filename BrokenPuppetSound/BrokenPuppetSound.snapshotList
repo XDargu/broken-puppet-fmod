@@ -6,9 +6,6 @@
         </relationship>
         <relationship name="items">
             <destination>{3ade54e1-6bc2-486b-a5fb-85b57d0a3f80}</destination>
-            <destination>{cb26d8a4-56cf-441c-a7bc-a502c893b591}</destination>
-            <destination>{a3700395-061f-4b63-9bf8-7d461a157f08}</destination>
-            <destination>{3faef1c7-24dc-4668-a5f2-92fd182c5fc6}</destination>
         </relationship>
     </object>
 </objects>

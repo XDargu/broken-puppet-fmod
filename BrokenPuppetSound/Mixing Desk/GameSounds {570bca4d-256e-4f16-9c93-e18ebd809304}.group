@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.05.00">
     <object class="MixerGroup" id="{570bca4d-256e-4f16-9c93-e18ebd809304}">
+        <property name="volume">
+            <value>10</value>
+        </property>
         <property name="name">
             <value>GameSounds</value>
         </property>
@@ -26,8 +29,41 @@
         <property name="decayTime">
             <value>100</value>
         </property>
+        <property name="earlyDelay">
+            <value>0</value>
+        </property>
+        <property name="lateDelay">
+            <value>0</value>
+        </property>
+        <property name="HFReference">
+            <value>20</value>
+        </property>
+        <property name="HFDecayRatio">
+            <value>10</value>
+        </property>
+        <property name="diffusion">
+            <value>0</value>
+        </property>
+        <property name="density">
+            <value>0</value>
+        </property>
+        <property name="lowShelfFrequency">
+            <value>20</value>
+        </property>
+        <property name="lowShelfGain">
+            <value>-36</value>
+        </property>
+        <property name="highCut">
+            <value>20</value>
+        </property>
         <property name="earlyLateMix">
             <value>0</value>
+        </property>
+        <property name="wetLevel">
+            <value>-80</value>
+        </property>
+        <property name="dryLevel">
+            <value>-80</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{9a4dac1a-bdb3-4567-83e1-eedb8f90e977}"/>

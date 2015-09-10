@@ -79,14 +79,14 @@
         <property name="name">
             <value>type</value>
         </property>
-        <relationship name="automationScale">
-            <destination>{4607b6a5-bed3-4584-a491-b7844053f445}</destination>
-        </relationship>
         <relationship name="modules">
             <destination>{d5f5c1ef-6e3d-4a73-8acc-74d4821282ab}</destination>
             <destination>{9c15bfd1-d6b1-4721-a1ce-b00cd1174db9}</destination>
             <destination>{8e194ba5-1479-440b-a406-7b4d19680c4d}</destination>
             <destination>{e7b4ab52-5658-4a81-9077-ae1612bac953}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{4607b6a5-bed3-4584-a491-b7844053f445}</destination>
         </relationship>
     </object>
     <object class="UserProperty" id="{c0b5ef39-e592-48ee-93ad-d9a717186593}">
@@ -238,7 +238,6 @@
         <relationship name="effects">
             <destination>{1dc76173-b3af-40de-be2a-e902d4e63a67}</destination>
             <destination>{73e58208-7aa2-44c7-9083-ddc052de6937}</destination>
-            <destination>{06f7789f-c7eb-4df1-8575-3daad22f9602}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{bce4d2b4-3ced-428a-9422-2cca87215c24}"/>
@@ -323,11 +322,6 @@
         <property name="panBlend">
             <value>0</value>
         </property>
-    </object>
-    <object class="MixerSend" id="{06f7789f-c7eb-4df1-8575-3daad22f9602}">
-        <relationship name="return">
-            <destination>{ca7ba26a-7489-4ce9-86e7-47433e2d7069}</destination>
-        </relationship>
     </object>
     <object class="MixerBusFader" id="{a30d7bb1-fe40-464c-9cb6-246db0361255}"/>
 </objects>

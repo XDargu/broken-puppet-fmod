@@ -20,7 +20,7 @@
             <destination>{db29599a-0d18-477c-bcca-494ef76e1063}</destination>
         </relationship>
         <relationship name="folder">
-            <destination>{3cbf7b3e-8972-441b-a8f5-4aa533861321}</destination>
+            <destination>{3ade54e1-6bc2-486b-a5fb-85b57d0a3f80}</destination>
         </relationship>
         <relationship name="snapshotMasterTrack">
             <destination>{c48d997f-1f6d-4f0e-a6f7-f0d2147cb2cd}</destination>

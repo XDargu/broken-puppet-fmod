@@ -4,7 +4,6 @@
         <property name="name">
             <value>impact</value>
         </property>
-        <property name="note"/>
         <relationship name="mixer">
             <destination>{82fd300a-46c8-44bf-9877-7258aa5ddbeb}</destination>
         </relationship>
@@ -637,7 +636,6 @@
         <relationship name="effects">
             <destination>{d86b22f8-f52b-4d95-80f0-49aeb3fcf4dc}</destination>
             <destination>{b4776124-fab7-42ce-bb8b-d28e7a75338c}</destination>
-            <destination>{9dc29b0b-1899-4c69-96a5-aa0df9041331}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{50aba14f-f137-4dbd-ad52-40b726b6c331}"/>
@@ -991,11 +989,6 @@
     </object>
     <object class="MixerBusFader" id="{d86b22f8-f52b-4d95-80f0-49aeb3fcf4dc}"/>
     <object class="SpatialiserEffect" id="{b4776124-fab7-42ce-bb8b-d28e7a75338c}"/>
-    <object class="MixerSend" id="{9dc29b0b-1899-4c69-96a5-aa0df9041331}">
-        <relationship name="return">
-            <destination>{ca7ba26a-7489-4ce9-86e7-47433e2d7069}</destination>
-        </relationship>
-    </object>
     <object class="AutomationPoint" id="{f8d84010-deef-4a99-ad95-48787c7a4ba6}">
         <property name="position">
             <value>1500</value>
