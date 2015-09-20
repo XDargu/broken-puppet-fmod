@@ -63,14 +63,14 @@
         <property name="name">
             <value>wetlevel</value>
         </property>
+        <relationship name="automationScale">
+            <destination>{c793e124-6963-4a42-9f16-3768083a1ae3}</destination>
+        </relationship>
         <relationship name="modules">
             <destination>{87fc15bf-ecaa-4759-a38d-9384a8456028}</destination>
         </relationship>
         <relationship name="automationCurves">
             <destination>{ac4d54f2-6d1f-4506-ae40-f90da44f9e6d}</destination>
-        </relationship>
-        <relationship name="automationScale">
-            <destination>{c793e124-6963-4a42-9f16-3768083a1ae3}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{639001c3-4750-4823-9926-0436cccdf953}">
@@ -97,10 +97,10 @@
     </object>
     <object class="SnapshotModule" id="{87fc15bf-ecaa-4759-a38d-9384a8456028}">
         <property name="start">
-            <value>0</value>
+            <value>-78</value>
         </property>
         <property name="length">
-            <value>100</value>
+            <value>88</value>
         </property>
         <relationship name="event">
             <destination>{29d13cf4-4f3f-471a-a784-10c1f7d746b5}</destination>
@@ -120,15 +120,9 @@
             <destination>{639001c3-4750-4823-9926-0436cccdf953}</destination>
         </relationship>
     </object>
-    <object class="AutomationCurve" id="{ac4d54f2-6d1f-4506-ae40-f90da44f9e6d}">
-        <relationship name="automationPoints">
-            <destination>{a3fdf628-b49c-4207-95ed-3963d21dd202}</destination>
-            <destination>{3f60613e-3c15-4cf3-b2e0-88f2ca3bd1bb}</destination>
-        </relationship>
-    </object>
     <object class="AutomationScale" id="{c793e124-6963-4a42-9f16-3768083a1ae3}">
         <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,100.000000)}</value>
+            <value>LinearCurveStrategy{(0.000000,-78.000000)(1.000000,10.000000)}</value>
         </property>
         <property name="associatedClassName">
             <value>GameParameter</value>
@@ -136,6 +130,13 @@
         <property name="associatedPropertyName">
             <value>Parameter 1</value>
         </property>
+    </object>
+    <object class="AutomationCurve" id="{ac4d54f2-6d1f-4506-ae40-f90da44f9e6d}">
+        <relationship name="automationPoints">
+            <destination>{a3fdf628-b49c-4207-95ed-3963d21dd202}</destination>
+            <destination>{3f60613e-3c15-4cf3-b2e0-88f2ca3bd1bb}</destination>
+            <destination>{b8bc09ca-98e2-431d-a350-989748c22d66}</destination>
+        </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{70fa42e4-931e-40b6-b954-20955e41e697}">
         <relationship name="effects">
@@ -152,7 +153,7 @@
     <object class="MixerBusPanner" id="{dfd59a3f-3150-40f1-92e4-99e9905f1ea6}"/>
     <object class="AutomationPoint" id="{a3fdf628-b49c-4207-95ed-3963d21dd202}">
         <property name="position">
-            <value>1.1560693641618498</value>
+            <value>-76.982658959537574</value>
         </property>
         <property name="value">
             <value>0</value>
@@ -160,10 +161,18 @@
     </object>
     <object class="AutomationPoint" id="{3f60613e-3c15-4cf3-b2e0-88f2ca3bd1bb}">
         <property name="position">
-            <value>100</value>
+            <value>10</value>
         </property>
         <property name="value">
             <value>100</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{b8bc09ca-98e2-431d-a350-989748c22d66}">
+        <property name="position">
+            <value>-30</value>
+        </property>
+        <property name="value">
+            <value>34</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{10acc2b0-d60a-493b-b0ba-39fa5457365e}"/>
