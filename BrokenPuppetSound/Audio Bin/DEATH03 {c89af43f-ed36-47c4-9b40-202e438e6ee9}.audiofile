@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c89af43f-ed36-47c4-9b40-202e438e6ee9}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>7.29</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/DEATH03 {dd724380-9c97-433a-900b-408a27db19c5}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{5b838bad-086d-4288-ab32-c3ac3baa92c1}</destination>
+        </relationship>
+    </object>
+</objects>

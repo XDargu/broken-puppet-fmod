@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{100417bb-c1c5-4aff-b052-5ce45ca85844}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.5599999999999996</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/EPILOG03 {bd5ac7e6-b557-4abe-913c-a391c2492196}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{5b838bad-086d-4288-ab32-c3ac3baa92c1}</destination>
+        </relationship>
+    </object>
+</objects>
