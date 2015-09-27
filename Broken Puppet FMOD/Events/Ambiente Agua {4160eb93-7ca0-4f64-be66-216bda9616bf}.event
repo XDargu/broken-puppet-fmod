@@ -83,22 +83,22 @@
         </relationship>
     </object>
     <object class="DistanceParameter" id="{6e17f722-9e08-4ae1-9e6e-36f88d490fed}">
-        <relationship name="automationCurves">
-            <destination>{848d3f7a-e1fe-41f9-8f0e-ef7384d29e42}</destination>
-        </relationship>
         <relationship name="automationScale">
             <destination>{7fbfe27c-497d-4ae8-8e2f-e1e58bea969e}</destination>
+        </relationship>
+        <relationship name="automationCurves">
+            <destination>{848d3f7a-e1fe-41f9-8f0e-ef7384d29e42}</destination>
         </relationship>
     </object>
     <object class="GameParameter" id="{9d2c5d94-01bd-4fea-a796-91bb38a8e68e}">
         <property name="name">
             <value>Parameter 1</value>
         </property>
-        <relationship name="modules">
-            <destination>{4d5b1c5f-b562-4334-8ca9-395818a829af}</destination>
-        </relationship>
         <relationship name="automationScale">
             <destination>{405a4c3a-55e5-4b10-a417-e88c62aad06a}</destination>
+        </relationship>
+        <relationship name="modules">
+            <destination>{4d5b1c5f-b562-4334-8ca9-395818a829af}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{724a3480-ebee-4845-8d7c-5d6774dafffb}">
@@ -246,14 +246,6 @@
             <destination>{724a3480-ebee-4845-8d7c-5d6774dafffb}</destination>
         </relationship>
     </object>
-    <object class="AutomationCurve" id="{848d3f7a-e1fe-41f9-8f0e-ef7384d29e42}">
-        <relationship name="automationPoints">
-            <destination>{0c446fad-056f-4a98-9b8a-6457a76ccb8d}</destination>
-            <destination>{c2395cdc-fc24-453a-ab5b-fab505bdd399}</destination>
-            <destination>{c0845c13-d722-4ecb-b579-39a8dfac781e}</destination>
-            <destination>{d4f26300-8d9a-4632-997d-f0266d6ecf98}</destination>
-        </relationship>
-    </object>
     <object class="AutomationScale" id="{7fbfe27c-497d-4ae8-8e2f-e1e58bea969e}">
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,20.000000)}</value>
@@ -264,6 +256,14 @@
         <property name="associatedPropertyName">
             <value>Distance</value>
         </property>
+    </object>
+    <object class="AutomationCurve" id="{848d3f7a-e1fe-41f9-8f0e-ef7384d29e42}">
+        <relationship name="automationPoints">
+            <destination>{0c446fad-056f-4a98-9b8a-6457a76ccb8d}</destination>
+            <destination>{c2395cdc-fc24-453a-ab5b-fab505bdd399}</destination>
+            <destination>{c0845c13-d722-4ecb-b579-39a8dfac781e}</destination>
+            <destination>{d4f26300-8d9a-4632-997d-f0266d6ecf98}</destination>
+        </relationship>
     </object>
     <object class="AutomationScale" id="{405a4c3a-55e5-4b10-a417-e88c62aad06a}">
         <property name="curve">
@@ -597,7 +597,7 @@
             <value>false</value>
         </property>
         <property name="level">
-            <value>-45</value>
+            <value>-19</value>
         </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>

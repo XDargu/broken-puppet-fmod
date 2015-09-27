@@ -5,7 +5,14 @@
             <destination>{33082173-6094-481b-828a-ea8686e95cf7}</destination>
         </relationship>
         <relationship name="items">
+            <destination>{1d9f2c71-ce48-4fe7-9202-f92e4538747d}</destination>
             <destination>{4db8dd0b-993c-484e-a3cb-49d57340aa80}</destination>
+            <destination>{49171c83-5691-4902-b787-a89e996dfbe1}</destination>
+            <destination>{25fdfc3b-e0c5-4280-8f4d-117333bf0269}</destination>
+            <destination>{5fb6c7b9-3fb7-47d1-8f9e-db8b150ccb38}</destination>
+            <destination>{403c36a8-5253-4286-a2b7-5d40b85cbb10}</destination>
+            <destination>{3949024a-7c43-43ff-9ecd-6ef62c7b06f4}</destination>
+            <destination>{734514f9-7b60-4f8f-aa9a-dc85c4e731d8}</destination>
         </relationship>
     </object>
 </objects>

@@ -16,182 +16,20 @@
     </object>
     <object class="MixerBusEffectChain" id="{fff8df44-56e3-4e89-87ed-b36ba6258595}">
         <relationship name="effects">
-            <destination>{adea5185-4386-49df-a859-878437c8d191}</destination>
+            <destination>{863693c7-974b-44c9-b3e5-01b540c15313}</destination>
             <destination>{4359acd9-bf73-4091-a75c-1253eb436964}</destination>
             <destination>{431ca9c5-1a68-403c-acbf-5c67be061de3}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{d0c1e530-100a-4cb5-adf8-79d24cff309f}"/>
-    <object class="PluginEffect" id="{adea5185-4386-49df-a859-878437c8d191}">
-        <relationship name="plugin">
-            <destination>{20de92c8-9a83-4e2e-9c44-4ca21dee2414}</destination>
-        </relationship>
+    <object class="LimiterEffect" id="{863693c7-974b-44c9-b3e5-01b540c15313}">
+        <property name="ceiling">
+            <value>-0.099999994</value>
+        </property>
+        <property name="release">
+            <value>1</value>
+        </property>
     </object>
     <object class="MixerBusFader" id="{4359acd9-bf73-4091-a75c-1253eb436964}"/>
     <object class="LoudnessMeter" id="{431ca9c5-1a68-403c-acbf-5c67be061de3}"/>
-    <object class="Plugin" id="{20de92c8-9a83-4e2e-9c44-4ca21dee2414}">
-        <property name="identifier">
-            <value>McDSP ML1 Limiter</value>
-        </property>
-        <property name="uiName">
-            <value>ML1 Limiter</value>
-        </property>
-        <relationship name="pluginParameters">
-            <destination>{cb764ffb-296f-45fb-bb70-20d6d3c8181d}</destination>
-            <destination>{623b17e7-ea59-4b1d-88c4-a8cfbf9c2bd0}</destination>
-            <destination>{8174704f-ebfe-475a-a1ab-52c536722b3c}</destination>
-            <destination>{ce023f97-c1e1-4f97-9cb4-876c501c682c}</destination>
-            <destination>{a32c39c1-787c-4c2d-93f3-838e24f69309}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{cb764ffb-296f-45fb-bb70-20d6d3c8181d}">
-        <property name="name">
-            <value>Ceiling</value>
-        </property>
-        <property name="units">
-            <value>dB</value>
-        </property>
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,-36.000000)(1.000000,0.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>-10</value>
-        </property>
-        <property name="value">
-            <value>-10</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{a58cc26b-1543-4182-8917-da4451efb2c7}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{623b17e7-ea59-4b1d-88c4-a8cfbf9c2bd0}">
-        <property name="name">
-            <value>Threshold</value>
-        </property>
-        <property name="units">
-            <value>dB</value>
-        </property>
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,-36.000000)(1.000000,0.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>-10</value>
-        </property>
-        <property name="value">
-            <value>-10</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{571637a6-f2fe-4ed6-9f25-9427a966fea6}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{8174704f-ebfe-475a-a1ab-52c536722b3c}">
-        <property name="name">
-            <value>Knee</value>
-        </property>
-        <property name="units">
-            <value>%</value>
-        </property>
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,100.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>10</value>
-        </property>
-        <property name="value">
-            <value>10</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{d7cece47-f768-4404-8d8c-519d3b1d4f72}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{ce023f97-c1e1-4f97-9cb4-876c501c682c}">
-        <property name="name">
-            <value>Release</value>
-        </property>
-        <property name="units">
-            <value>ms</value>
-        </property>
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(5.000000,50.000000)(6.000000,100.000000)(7.000000,200.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(11.000000,5000.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>50</value>
-        </property>
-        <property name="value">
-            <value>50</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{0cde2413-3524-45cc-822b-7d25b0dfa159}</destination>
-        </relationship>
-    </object>
-    <object class="IntPluginParameter" id="{a32c39c1-787c-4c2d-93f3-838e24f69309}">
-        <property name="name">
-            <value>Character</value>
-        </property>
-        <property name="units"/>
-        <property name="minimumValue">
-            <value>0</value>
-        </property>
-        <property name="maximumValue">
-            <value>5</value>
-        </property>
-        <property name="defaultValue">
-            <value>0</value>
-        </property>
-        <property name="value">
-            <value>0</value>
-        </property>
-        <property name="valueNames">
-            <value>Clean</value>
-            <value>Soft</value>
-            <value>Smart</value>
-            <value>Dynamic</value>
-            <value>Loud</value>
-            <value>Crush</value>
-        </property>
-    </object>
-    <object class="AutomationScale" id="{a58cc26b-1543-4182-8917-da4451efb2c7}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,-36.000000)(1.000000,0.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Ceiling</value>
-        </property>
-    </object>
-    <object class="AutomationScale" id="{571637a6-f2fe-4ed6-9f25-9427a966fea6}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,-36.000000)(1.000000,0.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Threshold</value>
-        </property>
-    </object>
-    <object class="AutomationScale" id="{d7cece47-f768-4404-8d8c-519d3b1d4f72}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,100.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Knee</value>
-        </property>
-    </object>
-    <object class="AutomationScale" id="{0cde2413-3524-45cc-822b-7d25b0dfa159}">
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(5.000000,50.000000)(6.000000,100.000000)(7.000000,200.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(11.000000,5000.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Release</value>
-        </property>
-    </object>
 </objects>
