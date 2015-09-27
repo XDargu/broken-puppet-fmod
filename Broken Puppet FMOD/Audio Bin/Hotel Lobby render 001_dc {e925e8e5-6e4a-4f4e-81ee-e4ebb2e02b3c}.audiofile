@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{e925e8e5-6e4a-4f4e-81ee-e4ebb2e02b3c}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>21.960104166666667</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Hotel Lobby render 001_dc {f98464b7-7c82-4c13-9792-ef0e7e10a543}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f212b19e-dacf-4a20-bb93-6aa212c2ab7b}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{f23dc62f-660c-4339-8af2-bc1c179d3a79}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.7361249999999999</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/QRS-XL, Bathroom 2_dc {b686a81b-a51e-433d-a4da-2e8a48c5693b}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f212b19e-dacf-4a20-bb93-6aa212c2ab7b}</destination>
+        </relationship>
+    </object>
+</objects>

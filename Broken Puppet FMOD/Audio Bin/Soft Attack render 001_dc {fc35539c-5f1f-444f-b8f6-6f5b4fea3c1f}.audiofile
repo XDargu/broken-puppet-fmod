@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{fc35539c-5f1f-444f-b8f6-6f5b4fea3c1f}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.4374374999999999</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Soft Attack render 001_dc {8016ee38-7d6a-468b-9209-501a53a93bac}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f212b19e-dacf-4a20-bb93-6aa212c2ab7b}</destination>
+        </relationship>
+    </object>
+</objects>

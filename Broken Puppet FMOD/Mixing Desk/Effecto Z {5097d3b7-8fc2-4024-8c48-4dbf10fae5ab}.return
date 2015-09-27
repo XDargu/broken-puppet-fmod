@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerReturn" id="{5097d3b7-8fc2-4024-8c48-4dbf10fae5ab}">
+        <property name="name">
+            <value>Effecto Z</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{1e43f282-e268-4ac9-aa60-20580e16d4f8}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{8cf830fb-e334-401d-8ad6-0a28c6ffb3dd}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{9984e76b-5ee9-48ee-ba5f-dda7d099b183}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{1e43f282-e268-4ac9-aa60-20580e16d4f8}">
+        <relationship name="effects">
+            <destination>{0545269f-43eb-41a0-9ba6-8d43f0313d5b}</destination>
+            <destination>{3c096fce-6e15-47b2-ac28-b079cccdb368}</destination>
+            <destination>{a9700808-634e-4129-bb52-b0345662ca78}</destination>
+            <destination>{81a2b571-e896-4ec9-8a2a-21e8e87db603}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{8cf830fb-e334-401d-8ad6-0a28c6ffb3dd}"/>
+    <object class="PluginEffect" id="{0545269f-43eb-41a0-9ba6-8d43f0313d5b}">
+        <relationship name="plugin">
+            <destination>{db04df2e-8c9a-44cc-9aec-e3da6ca2faa1}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusFader" id="{3c096fce-6e15-47b2-ac28-b079cccdb368}"/>
+    <object class="PluginEffect" id="{a9700808-634e-4129-bb52-b0345662ca78}">
+        <property name="bypass">
+            <value>true</value>
+        </property>
+        <relationship name="plugin">
+            <destination>{e1ecab8c-30af-4d71-aef7-3d9161f6fdee}</destination>
+        </relationship>
+    </object>
+    <object class="PluginEffect" id="{81a2b571-e896-4ec9-8a2a-21e8e87db603}">
+        <relationship name="plugin">
+            <destination>{408375dc-8fa6-4ff3-8429-39756b423f69}</destination>
+        </relationship>
+    </object>
+    <object class="Plugin" id="{db04df2e-8c9a-44cc-9aec-e3da6ca2faa1}">
+        <property name="identifier">
+            <value>FMOD Tremolo</value>
+        </property>
+        <property name="uiName">
+            <value>Tremolo</value>
+        </property>
+        <relationship name="pluginParameters">
+            <destination>{a13002b1-f0db-47d7-bc6f-fc9a8756f3f9}</destination>
+            <destination>{1c2dde1b-7c7c-4d2a-8f56-94fad87a12f9}</destination>
+            <destination>{7a0578e9-212b-477f-94af-facc57d56fda}</destination>
+            <destination>{513e4a38-4de9-4349-826d-674282abee61}</destination>
+            <destination>{f7fddde3-e47c-47e8-badc-45048734c961}</destination>
+            <destination>{91efbd29-ecd9-4b64-9170-e3cbdd91481a}</destination>
+            <destination>{d3f004c3-f60e-460d-b436-bf1efabeb08b}</destination>
+            <destination>{3d633535-9ac8-4456-ae6a-b34fadd67fae}</destination>
+        </relationship>
+    </object>
+    <object class="Plugin" id="{e1ecab8c-30af-4d71-aef7-3d9161f6fdee}">
+        <property name="identifier">
+            <value>FMOD Pitch Shifter</value>
+        </property>
+        <property name="uiName">
+            <value>Pitch Shifter</value>
+        </property>
+        <relationship name="pluginParameters">
+            <destination>{7c5e2d4e-0ebc-4174-be8d-2675377b945d}</destination>
+            <destination>{67ed1704-db31-41f6-9fb6-44a1e06ab28f}</destination>
+            <destination>{47f60454-202b-446b-883e-0c2713ec84ae}</destination>
+            <destination>{b84dd976-2bc1-4109-acd2-97ca5c560d9c}</destination>
+        </relationship>
+    </object>
+    <object class="Plugin" id="{408375dc-8fa6-4ff3-8429-39756b423f69}">
+        <property name="identifier">
+            <value>FMOD Distortion</value>
+        </property>
+        <property name="uiName">
+            <value>Distortion</value>
+        </property>
+        <relationship name="pluginParameters">
+            <destination>{556e4018-b610-4f0f-aff2-2f6a641576f2}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{a13002b1-f0db-47d7-bc6f-fc9a8756f3f9}">
+        <property name="name">
+            <value>Frequency</value>
+        </property>
+        <property name="units">
+            <value>Hz</value>
+        </property>
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(-6.000000,0.010000)(-5.000000,0.020000)(-4.000000,0.050000)(-3.000000,0.100000)(-2.000000,0.200000)(-1.000000,0.500000)(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>5</value>
+        </property>
+        <property name="value">
+            <value>5</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{74f2d7ca-8681-407b-ac49-72a656ce823e}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{1c2dde1b-7c7c-4d2a-8f56-94fad87a12f9}">
+        <property name="name">
+            <value>Depth</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>1</value>
+        </property>
+        <property name="value">
+            <value>1</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{813c7d2c-d14c-40d1-96b2-8ed8ed4c2b17}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{7a0578e9-212b-477f-94af-facc57d56fda}">
+        <property name="name">
+            <value>Shape</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{250d9961-089d-4c39-8d50-a6c3ba326059}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{513e4a38-4de9-4349-826d-674282abee61}">
+        <property name="name">
+            <value>Skew</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{c5427b1c-e0f8-4ec3-b8ad-5ef9400398bb}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{f7fddde3-e47c-47e8-badc-45048734c961}">
+        <property name="name">
+            <value>Duty</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0.5</value>
+        </property>
+        <property name="value">
+            <value>0.5</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{e5802bcb-811c-4605-9a4a-4082a36dc76c}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{91efbd29-ecd9-4b64-9170-e3cbdd91481a}">
+        <property name="name">
+            <value>Square</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{e6561d6b-7b96-4da3-bf38-ed25753fbddc}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{d3f004c3-f60e-460d-b436-bf1efabeb08b}">
+        <property name="name">
+            <value>Phase</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{af6b79a3-901d-449d-8620-3657d8d20b58}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{3d633535-9ac8-4456-ae6a-b34fadd67fae}">
+        <property name="name">
+            <value>Spread</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{6477dee4-a795-4279-9aac-b413e062b745}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{7c5e2d4e-0ebc-4174-be8d-2675377b945d}">
+        <property name="name">
+            <value>Pitch</value>
+        </property>
+        <property name="units">
+            <value>x</value>
+        </property>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.500000)(1.000000,2.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>1</value>
+        </property>
+        <property name="value">
+            <value>1</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{adaa0f42-d1ca-426b-875c-0032bfe01a06}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{67ed1704-db31-41f6-9fb6-44a1e06ab28f}">
+        <property name="name">
+            <value>FFT size</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(7.186666,256.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(10.698667,4096.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>1024</value>
+        </property>
+        <property name="value">
+            <value>1024</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{ac5a71ca-c926-4237-b6ff-c35724d1c576}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{47f60454-202b-446b-883e-0c2713ec84ae}">
+        <property name="name">
+            <value>Overlap</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(4.400000,32.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>4</value>
+        </property>
+        <property name="value">
+            <value>4</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{340e635a-58ad-4e96-a6eb-7908009cd623}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{b84dd976-2bc1-4109-acd2-97ca5c560d9c}">
+        <property name="name">
+            <value>Max channels</value>
+        </property>
+        <property name="units">
+            <value>channels</value>
+        </property>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,16.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{6ed76359-78c8-45c8-834c-c2aaea8f489d}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{556e4018-b610-4f0f-aff2-2f6a641576f2}">
+        <property name="name">
+            <value>Level</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>0.5</value>
+        </property>
+        <property name="value">
+            <value>0.5</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{23daa44b-8fd7-4bd1-bae3-07fdbeb56213}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationScale" id="{74f2d7ca-8681-407b-ac49-72a656ce823e}">
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(-6.000000,0.010000)(-5.000000,0.020000)(-4.000000,0.050000)(-3.000000,0.100000)(-2.000000,0.200000)(-1.000000,0.500000)(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Frequency</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{813c7d2c-d14c-40d1-96b2-8ed8ed4c2b17}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Depth</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{250d9961-089d-4c39-8d50-a6c3ba326059}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Shape</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{c5427b1c-e0f8-4ec3-b8ad-5ef9400398bb}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Skew</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{e5802bcb-811c-4605-9a4a-4082a36dc76c}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Duty</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{e6561d6b-7b96-4da3-bf38-ed25753fbddc}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Square</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{af6b79a3-901d-449d-8620-3657d8d20b58}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Phase</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{6477dee4-a795-4279-9aac-b413e062b745}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Spread</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{adaa0f42-d1ca-426b-875c-0032bfe01a06}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.500000)(1.000000,2.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Pitch</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{ac5a71ca-c926-4237-b6ff-c35724d1c576}">
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(7.186666,256.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(10.698667,4096.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>FFT size</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{340e635a-58ad-4e96-a6eb-7908009cd623}">
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(4.400000,32.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Overlap</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{6ed76359-78c8-45c8-834c-c2aaea8f489d}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,16.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Max channels</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{23daa44b-8fd7-4bd1-bae3-07fdbeb56213}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Level</value>
+        </property>
+    </object>
+</objects>

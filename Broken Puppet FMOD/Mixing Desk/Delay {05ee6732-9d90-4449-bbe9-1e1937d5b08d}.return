@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerReturn" id="{05ee6732-9d90-4449-bbe9-1e1937d5b08d}">
+        <property name="name">
+            <value>Delay</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{3ecc2be0-e9ec-43f4-9cbb-1439a74b5f3c}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{b0210543-f339-49cd-8950-db85dd218ab1}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{9984e76b-5ee9-48ee-ba5f-dda7d099b183}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{3ecc2be0-e9ec-43f4-9cbb-1439a74b5f3c}">
+        <relationship name="effects">
+            <destination>{8fb87465-c72f-468d-8353-8ec08dc1dd02}</destination>
+            <destination>{fedccdce-c595-4752-b8ff-0def4a67f7c3}</destination>
+            <destination>{1a55c7aa-47a2-4eee-8424-5f5987f6ea79}</destination>
+            <destination>{0149fc82-1d51-4cc7-bf8b-ba718a17edb6}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{b0210543-f339-49cd-8950-db85dd218ab1}"/>
+    <object class="ThreeEQEffect" id="{8fb87465-c72f-468d-8353-8ec08dc1dd02}"/>
+    <object class="DelayEffect" id="{fedccdce-c595-4752-b8ff-0def4a67f7c3}"/>
+    <object class="MixerBusFader" id="{1a55c7aa-47a2-4eee-8424-5f5987f6ea79}"/>
+    <object class="MixerSend" id="{0149fc82-1d51-4cc7-bf8b-ba718a17edb6}">
+        <relationship name="return">
+            <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
+        </relationship>
+    </object>
+</objects>

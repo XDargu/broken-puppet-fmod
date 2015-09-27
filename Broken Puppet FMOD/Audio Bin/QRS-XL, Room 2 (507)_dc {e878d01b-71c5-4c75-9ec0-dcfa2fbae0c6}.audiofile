@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{e878d01b-71c5-4c75-9ec0-dcfa2fbae0c6}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.448125</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/QRS-XL, Room 2 (507)_dc {6335e5e7-794a-4254-acc7-4b1d90372d62}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f212b19e-dacf-4a20-bb93-6aa212c2ab7b}</destination>
+        </relationship>
+    </object>
+</objects>

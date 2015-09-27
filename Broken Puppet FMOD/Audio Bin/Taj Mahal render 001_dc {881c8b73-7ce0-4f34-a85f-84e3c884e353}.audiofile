@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{881c8b73-7ce0-4f34-a85f-84e3c884e353}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>66.94145833333333</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Taj Mahal render 001_dc {c73d792a-c08a-4309-a721-1dfb0f256dd6}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f212b19e-dacf-4a20-bb93-6aa212c2ab7b}</destination>
+        </relationship>
+    </object>
+</objects>

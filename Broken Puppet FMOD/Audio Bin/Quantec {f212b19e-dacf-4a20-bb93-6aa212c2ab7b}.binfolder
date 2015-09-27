@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioBinFolder" id="{f212b19e-dacf-4a20-bb93-6aa212c2ab7b}">
+        <property name="name">
+            <value>Quantec</value>
+        </property>
+        <relationship name="container">
+            <destination>{939fc852-363c-4b4a-905e-16d7afbe4b2c}</destination>
+        </relationship>
+    </object>
+</objects>

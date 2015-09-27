@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerGroup" id="{d63ea642-e823-4aa9-aec5-535e7b10fcf2}">
+        <property name="color">
+            <value>Blue</value>
+        </property>
+        <property name="name">
+            <value>Dialogue</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{0250d05b-4a4d-43b1-be77-76f216b109dd}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{5bf69b17-87f6-4fa3-9197-1192db8e7bfc}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{9984e76b-5ee9-48ee-ba5f-dda7d099b183}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{0250d05b-4a4d-43b1-be77-76f216b109dd}">
+        <relationship name="effects">
+            <destination>{85eeddad-a55e-49f0-afcc-0b78029fde09}</destination>
+            <destination>{8b7ff5d1-70ca-4bb1-9ad5-28edfde9474b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{5bf69b17-87f6-4fa3-9197-1192db8e7bfc}"/>
+    <object class="MixerBusFader" id="{85eeddad-a55e-49f0-afcc-0b78029fde09}"/>
+    <object class="Sidechain" id="{8b7ff5d1-70ca-4bb1-9ad5-28edfde9474b}">
+        <relationship name="targets">
+            <destination>{f8ef7f40-676f-4223-8b7e-f9ce237b59eb}</destination>
+        </relationship>
+    </object>
+</objects>
