@@ -25,6 +25,9 @@
         <relationship name="timeline">
             <destination>{a051939e-e238-470b-84f3-5f1910d23dca}</destination>
         </relationship>
+        <relationship name="parameters">
+            <destination>{70bcda33-a2a0-4a86-ac24-df8618b21541}</destination>
+        </relationship>
         <relationship name="banks">
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
         </relationship>
@@ -55,6 +58,14 @@
     <object class="Timeline" id="{a051939e-e238-470b-84f3-5f1910d23dca}">
         <relationship name="modules">
             <destination>{09e3b6bd-44d9-4c0b-b3c8-265cdeab38d6}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{70bcda33-a2a0-4a86-ac24-df8618b21541}">
+        <property name="name">
+            <value>TargetDist</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{3e8c89f5-9994-45c1-9a44-345bccf5ea58}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{f1bd304d-41e8-43fe-bcf8-682ec230944d}">
@@ -96,6 +107,17 @@
         <relationship name="output">
             <destination>{f1bd304d-41e8-43fe-bcf8-682ec230944d}</destination>
         </relationship>
+    </object>
+    <object class="AutomationScale" id="{3e8c89f5-9994-45c1-9a44-345bccf5ea58}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,60.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Parameter 1</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{19dde85a-9dfe-4786-a5ed-49e7bd97f387}">
         <relationship name="effects">
