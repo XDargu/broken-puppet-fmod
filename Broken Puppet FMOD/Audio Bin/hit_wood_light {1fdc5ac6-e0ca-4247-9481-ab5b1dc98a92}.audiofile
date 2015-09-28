@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{1fdc5ac6-e0ca-4247-9481-ab5b1dc98a92}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.66453514739229025</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/hit_wood_light {5b1d00a0-bcde-4871-a094-f615f4f2801e}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{e9fce765-b25c-4074-bb3a-0075c9b2bd22}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -28,6 +28,9 @@
         <relationship name="parameters">
             <destination>{0ea38d5f-1fc7-4569-bb4e-a2138060caf6}</destination>
         </relationship>
+        <relationship name="banks">
+            <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
+        </relationship>
         <relationship name="folder">
             <destination>{1a4acc61-02b2-4a15-9457-21e3af76f946}</destination>
         </relationship>
@@ -58,12 +61,12 @@
         <property name="name">
             <value>Esfuerzo</value>
         </property>
+        <relationship name="automationScale">
+            <destination>{c6056f2a-3dc4-4c80-9872-437253f30d23}</destination>
+        </relationship>
         <relationship name="modules">
             <destination>{6e7ad102-354d-4b76-922e-f3ceb9d6daec}</destination>
             <destination>{e7572686-3fa1-49a3-ba24-2b140669d491}</destination>
-        </relationship>
-        <relationship name="automationScale">
-            <destination>{c6056f2a-3dc4-4c80-9872-437253f30d23}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{14f8158c-5a3c-4e3e-81d1-287d41f92729}">

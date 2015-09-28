@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{9afec8ac-f26e-4c18-90dd-1fb3a5c5693b}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.7763265306122449</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/impact_metal_tin_lid_on_tin_001 {eb1e2dd8-92bd-4b23-8085-e5dc89ca7672}.mp3</value>
+        </property>
+        <relationship name="container">
+            <destination>{e9fce765-b25c-4074-bb3a-0075c9b2bd22}</destination>
+        </relationship>
+    </object>
+</objects>

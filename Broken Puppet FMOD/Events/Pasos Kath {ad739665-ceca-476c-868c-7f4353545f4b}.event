@@ -4,7 +4,6 @@
         <property name="name">
             <value>Pasos Kath</value>
         </property>
-        <property name="note"/>
         <relationship name="mixer">
             <destination>{3d488df7-fddd-43ee-a4b1-36ee6d228b4c}</destination>
         </relationship>
@@ -48,6 +47,9 @@
             <destination>{3d48359a-2ff3-421b-af9a-04b369086ca5}</destination>
             <destination>{1ea5a412-cc45-4d09-aeb3-c6a9b5dc8931}</destination>
             <destination>{8e3882d2-2c23-4763-9315-daf114b1090c}</destination>
+        </relationship>
+        <relationship name="banks">
+            <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
         </relationship>
         <relationship name="folder">
             <destination>{9cbbb7cf-943a-42e5-9d25-efc058c66dd0}</destination>
@@ -294,6 +296,16 @@
         <property name="length">
             <value>1.0000000149011612</value>
         </property>
+        <property name="pitch">
+            <value>1.60000002</value>
+        </property>
+        <relationship name="modulators">
+            <destination>{c42fe616-b7b4-4214-80ee-1a1d5692b68e}</destination>
+            <destination>{f84540c9-bf23-45d5-9666-15f5167752ba}</destination>
+        </relationship>
+        <relationship name="sounds">
+            <destination>{1aaf45cd-2f58-4a67-9360-07764d077c43}</destination>
+        </relationship>
     </object>
     <object class="MultiSound" id="{0d3c36ad-3edd-482a-a9c6-a43bac718d92}">
         <property name="start">
@@ -537,6 +549,27 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{4a278bf2-63b7-498a-b37f-2d6d51d6c911}"/>
+    <object class="RandomizerModulator" id="{c42fe616-b7b4-4214-80ee-1a1d5692b68e}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>volume</value>
+        </property>
+        <property name="amount">
+            <value>4</value>
+        </property>
+    </object>
+    <object class="RandomizerModulator" id="{f84540c9-bf23-45d5-9666-15f5167752ba}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>pitch</value>
+        </property>
+        <property name="amount">
+            <value>4.16666651</value>
+        </property>
+    </object>
+    <object class="SingleSound" id="{1aaf45cd-2f58-4a67-9360-07764d077c43}">
+        <relationship name="audioFile">
+            <destination>{9459be6b-97ed-4831-a0c1-f123a58c9101}</destination>
+        </relationship>
+    </object>
     <object class="MixerBusEffectChain" id="{89c1e6c7-c882-43a6-b49a-ab4cf742137c}">
         <relationship name="effects">
             <destination>{18e9754d-a724-4f6d-b001-d85d79e6d1ef}</destination>
