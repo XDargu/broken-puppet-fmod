@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{5d9593d5-dba5-45ed-9eb8-4153eb690c39}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.3807936507936508</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_ Salto02 {de24761b-c298-4cb2-a9ba-8ea422db5bb2}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e3d06fff-c224-463a-aaff-063d47602d79}</destination>
+        </relationship>
+    </object>
+</objects>

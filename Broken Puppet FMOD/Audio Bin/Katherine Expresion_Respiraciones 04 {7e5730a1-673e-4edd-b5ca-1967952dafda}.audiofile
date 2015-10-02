@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{7e5730a1-673e-4edd-b5ca-1967952dafda}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>4.1777324263038551</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_Respiraciones 04 {28bc7dfd-04b5-4c6e-88dc-e5452f931770}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{48522c10-8803-476d-8c14-79800fb3295f}</destination>
+        </relationship>
+    </object>
+</objects>

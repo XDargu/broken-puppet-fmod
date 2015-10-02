@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{9bf42940-2c65-4c0c-8984-3b71b4a159a8}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.93460317460317466</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_Atacada Cortahilos 01 {6152e3a5-7dd8-4552-b4ae-28985f8dd129}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d0678be7-18cd-4f9b-b562-ac7d860ad84a}</destination>
+        </relationship>
+    </object>
+</objects>

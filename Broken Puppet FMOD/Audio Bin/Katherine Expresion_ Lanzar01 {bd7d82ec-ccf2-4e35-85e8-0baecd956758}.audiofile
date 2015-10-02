@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{bd7d82ec-ccf2-4e35-85e8-0baecd956758}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.61532879818594099</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_ Lanzar01 {bf1bcf47-8f0f-4a0e-80d4-c6191ae9f4a6}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{4ff65f4b-ae68-4f0d-a90e-39e622f04a25}</destination>
+        </relationship>
+    </object>
+</objects>

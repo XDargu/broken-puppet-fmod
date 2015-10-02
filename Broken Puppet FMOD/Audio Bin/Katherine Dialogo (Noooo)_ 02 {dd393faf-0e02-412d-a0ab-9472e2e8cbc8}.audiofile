@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{dd393faf-0e02-412d-a0ab-9472e2e8cbc8}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.2088888888888889</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Dialogo (Noooo)_ 02 {037fd0dd-c7dc-4a82-ae05-53ad0eecc65f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9ba571d4-884d-4192-b53f-dce5aed667a2}</destination>
+        </relationship>
+    </object>
+</objects>

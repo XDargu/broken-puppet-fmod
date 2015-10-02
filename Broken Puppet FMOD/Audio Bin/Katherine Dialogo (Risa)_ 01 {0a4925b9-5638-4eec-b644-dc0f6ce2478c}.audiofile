@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{0a4925b9-5638-4eec-b644-dc0f6ce2478c}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>3.2319274376417235</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Dialogo (Risa)_ 01 {da1a9687-b7b9-4cb0-be49-4416b3c772cf}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9ba571d4-884d-4192-b53f-dce5aed667a2}</destination>
+        </relationship>
+    </object>
+</objects>

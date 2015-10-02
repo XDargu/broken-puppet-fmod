@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c6805e4a-b67b-4a27-8379-158516fdbbf1}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>2.2951473922902492</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Sustituta Expresion_Alzamiento 01 {038ebb2f-ccb5-4ee4-a4fa-33e7f91756b6}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{cf95e8db-e22d-4c81-b996-f7efaa28cc76}</destination>
+        </relationship>
+    </object>
+</objects>

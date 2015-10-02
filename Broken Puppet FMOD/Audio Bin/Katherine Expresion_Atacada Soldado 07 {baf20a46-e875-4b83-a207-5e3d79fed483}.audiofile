@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{baf20a46-e875-4b83-a207-5e3d79fed483}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.91718820861678008</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_Atacada Soldado 07 {9104285d-abcc-4fd1-8df4-b530c35c398b}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d0678be7-18cd-4f9b-b562-ac7d860ad84a}</destination>
+        </relationship>
+    </object>
+</objects>

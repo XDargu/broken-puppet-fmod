@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a0d17423-c50d-4842-9619-ecdce489fa79}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>3.6310204081632653</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Sustituta Dialogos_20 Youre already dead {e0d181ae-1a93-40f4-8638-8e08d7f68bbf}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f2815fc6-83fc-46b3-9b25-f328adc90695}</destination>
+        </relationship>
+    </object>
+</objects>

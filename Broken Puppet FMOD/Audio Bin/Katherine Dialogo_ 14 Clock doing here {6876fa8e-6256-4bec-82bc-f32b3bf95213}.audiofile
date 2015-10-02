@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{6876fa8e-6256-4bec-82bc-f32b3bf95213}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>4.4246485260770978</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Dialogo_ 14 Clock doing here {fad4e187-b5cc-45ee-bfde-8ddce2da669c}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9ba571d4-884d-4192-b53f-dce5aed667a2}</destination>
+        </relationship>
+    </object>
+</objects>

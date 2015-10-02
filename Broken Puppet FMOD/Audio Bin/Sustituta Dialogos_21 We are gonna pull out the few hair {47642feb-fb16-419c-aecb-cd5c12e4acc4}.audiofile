@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{47642feb-fb16-419c-aecb-cd5c12e4acc4}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>2.7791383219954651</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Sustituta Dialogos_21 We are gonna pull out the few hair {92a28017-a2b9-43fa-b480-448f7089b85c}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f2815fc6-83fc-46b3-9b25-f328adc90695}</destination>
+        </relationship>
+    </object>
+</objects>

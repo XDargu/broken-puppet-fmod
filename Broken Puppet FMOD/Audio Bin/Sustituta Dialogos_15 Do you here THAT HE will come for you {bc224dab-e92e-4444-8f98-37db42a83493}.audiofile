@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{bc224dab-e92e-4444-8f98-37db42a83493}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>5.1446258503401356</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Sustituta Dialogos_15 Do you here THAT HE will come for you {600286e5-11ae-4806-9a21-b5fa15d5ac83}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f2815fc6-83fc-46b3-9b25-f328adc90695}</destination>
+        </relationship>
+    </object>
+</objects>

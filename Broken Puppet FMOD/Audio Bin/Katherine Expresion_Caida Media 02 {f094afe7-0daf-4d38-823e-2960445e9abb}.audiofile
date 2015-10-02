@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{f094afe7-0daf-4d38-823e-2960445e9abb}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.4802721088435373</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_Caida Media 02 {e8823eed-2344-415e-b796-ad5512dea009}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{a095d9e2-1ff4-4056-99a8-7d7d4acc1b8e}</destination>
+        </relationship>
+    </object>
+</objects>

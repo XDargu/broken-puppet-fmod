@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{44ba929b-96d6-4c8f-b8f3-19bd51a05e98}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>6.992108843537415</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Dialogo_ 02 Who is that with such irritating voice {445ac0c8-bb27-4814-8c26-cc745b713095}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{9ba571d4-884d-4192-b53f-dce5aed667a2}</destination>
+        </relationship>
+    </object>
+</objects>

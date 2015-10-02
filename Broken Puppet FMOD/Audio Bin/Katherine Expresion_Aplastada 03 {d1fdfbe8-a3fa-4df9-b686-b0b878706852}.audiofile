@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{d1fdfbe8-a3fa-4df9-b686-b0b878706852}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>2.3640816326530611</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_Aplastada 03 {2b6bf54f-fb06-42c3-933b-8df13c50c06e}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d0678be7-18cd-4f9b-b562-ac7d860ad84a}</destination>
+        </relationship>
+    </object>
+</objects>

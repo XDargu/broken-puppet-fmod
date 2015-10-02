@@ -4,6 +4,9 @@
         <property name="name">
             <value>Colisiones</value>
         </property>
+        <property name="note">
+            <value>Diria que este evento no vale por como lo queria hacer Dani</value>
+        </property>
         <relationship name="mixer">
             <destination>{f0f0b305-aa7d-41bf-80b9-1e1f940f91fb}</destination>
         </relationship>
@@ -71,6 +74,9 @@
         <property name="name">
             <value>Material</value>
         </property>
+        <relationship name="automationScale">
+            <destination>{ea18a76d-8837-4b9d-9395-60cc1fce8989}</destination>
+        </relationship>
         <relationship name="modules">
             <destination>{d4306045-663c-427a-b967-276a940b6d6b}</destination>
             <destination>{61b7a743-2af1-4780-a787-7080f97e82db}</destination>
@@ -87,9 +93,6 @@
             <destination>{21431a75-bf60-46b4-91ed-21c9e9e5d90a}</destination>
             <destination>{21475fd4-5f7a-44d6-b462-45a396982582}</destination>
             <destination>{c5e44d81-cbe2-4bed-b7ae-f841731899c8}</destination>
-        </relationship>
-        <relationship name="automationScale">
-            <destination>{ea18a76d-8837-4b9d-9395-60cc1fce8989}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{8f6c991c-8865-49e5-990d-57ddaa4b924a}">

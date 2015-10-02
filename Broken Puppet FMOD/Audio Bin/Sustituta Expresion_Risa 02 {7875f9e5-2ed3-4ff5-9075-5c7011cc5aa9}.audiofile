@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{7875f9e5-2ed3-4ff5-9075-5c7011cc5aa9}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.0274829931972789</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Sustituta Expresion_Risa 02 {6b33e2f8-35a5-40ac-ba92-148d55263e59}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{cf95e8db-e22d-4c81-b996-f7efaa28cc76}</destination>
+        </relationship>
+    </object>
+</objects>

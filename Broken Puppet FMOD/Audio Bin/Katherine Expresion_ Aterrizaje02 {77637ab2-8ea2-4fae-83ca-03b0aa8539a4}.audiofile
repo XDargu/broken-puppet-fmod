@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{77637ab2-8ea2-4fae-83ca-03b0aa8539a4}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.42376417233560093</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_ Aterrizaje02 {45973215-ed40-4f5f-a91d-b5e71b860bb1}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e3d06fff-c224-463a-aaff-063d47602d79}</destination>
+        </relationship>
+    </object>
+</objects>
