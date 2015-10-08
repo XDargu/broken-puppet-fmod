@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/impact_metal_stick_light {4af34d04-3487-4522-9ba4-a4a63bc40851}.mp3</value>
         </property>
         <relationship name="container">
-            <destination>{e9fce765-b25c-4074-bb3a-0075c9b2bd22}</destination>
+            <destination>{11c3f3d6-ca1c-4eb0-a89d-d16200e2437a}</destination>
         </relationship>
     </object>
 </objects>

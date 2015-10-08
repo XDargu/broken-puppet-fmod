@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{baba10c1-5eae-496d-a743-4d75430e6258}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.85020408163265304</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Aguja Rebota_4 {a3babf74-0673-4a56-ad66-d7f10704c959}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{5022b383-4839-4681-b25c-31af715f4cb9}</destination>
+        </relationship>
+    </object>
+</objects>

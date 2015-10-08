@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a9bafa09-c3ab-44d9-97f2-8219d0357e12}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>6.7263265306122451</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Narrador+FX_ Muerte Kath 06 {8eb42411-5da5-4a8e-a7df-c2162329c85f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0cd64f5d-b06e-4e28-a648-3ff45e66610d}</destination>
+        </relationship>
+    </object>
+</objects>

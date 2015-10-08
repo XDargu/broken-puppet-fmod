@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a2c18294-33df-4e28-9bb9-a75861344184}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.3723356009070295</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Madera_14 (Izq) {1d7e69f5-440f-4101-81fc-ea0d526c7ab5}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{b4693874-59b6-4f7c-97e5-158330a517ca}</destination>
+        </relationship>
+    </object>
+</objects>

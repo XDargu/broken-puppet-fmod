@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{b99a855a-06f2-4bac-870c-bd060a93d701}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>4.2463492063492065</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Caida Agua_4 (Fuerte) {0e4e45ae-0048-4348-ab36-b33c6f477c91}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{c08a5e06-72eb-49d1-885f-b717db5351e5}</destination>
+        </relationship>
+    </object>
+</objects>

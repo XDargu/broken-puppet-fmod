@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{29c4488a-f64b-459c-a533-13e9b3f809d5}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.43149659863945578</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Madera Cruje_8 (Izq) {60068ed0-800c-4e96-b1ab-44ceaa04f8e1}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{21948308-549e-4d0c-8bf9-d270f186eeef}</destination>
+        </relationship>
+    </object>
+</objects>

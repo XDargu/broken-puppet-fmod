@@ -51,6 +51,9 @@
             <destination>{30dbb783-778a-4a16-bd4b-de1c0582e2ba}</destination>
             <destination>{146c3cc9-07b4-4df3-af4e-3ba8ba071d0a}</destination>
         </relationship>
+        <relationship name="banks">
+            <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
+        </relationship>
         <relationship name="folder">
             <destination>{9cbbb7cf-943a-42e5-9d25-efc058c66dd0}</destination>
         </relationship>

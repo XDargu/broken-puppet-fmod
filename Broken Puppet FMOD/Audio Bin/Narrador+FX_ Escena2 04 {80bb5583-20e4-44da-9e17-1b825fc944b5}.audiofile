@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{80bb5583-20e4-44da-9e17-1b825fc944b5}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.258843537414966</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Narrador+FX_ Escena2 04 {ee9cb657-fa9d-44bc-a46d-425e10800e8f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0cd64f5d-b06e-4e28-a648-3ff45e66610d}</destination>
+        </relationship>
+    </object>
+</objects>
