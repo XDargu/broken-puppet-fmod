@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{fdcb4c2a-0f44-4c59-ae42-c69a378c1135}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>8.3925623582766438</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/elevator {1f342668-666c-49de-a598-b6dc25f01b4a}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{241c0c1c-12e9-4bfa-9bc7-7ef58023dea1}</destination>
+        </relationship>
+    </object>
+</objects>

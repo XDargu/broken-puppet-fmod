@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Folder" id="{f5db9444-2ee3-4d2b-813b-109d1c94b683}">
+        <property name="name">
+            <value>Interruptores</value>
+        </property>
+        <relationship name="folder">
+            <destination>{52c9a67c-8dc6-4299-910a-b4affec21711}</destination>
+        </relationship>
+    </object>
+</objects>

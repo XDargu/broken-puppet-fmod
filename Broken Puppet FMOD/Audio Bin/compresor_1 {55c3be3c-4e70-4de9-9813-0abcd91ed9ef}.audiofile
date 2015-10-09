@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{55c3be3c-4e70-4de9-9813-0abcd91ed9ef}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.5897278911564625</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/compresor_1 {0b0c3876-b5a2-440b-a216-f0681c58c75b}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{241c0c1c-12e9-4bfa-9bc7-7ef58023dea1}</destination>
+        </relationship>
+    </object>
+</objects>

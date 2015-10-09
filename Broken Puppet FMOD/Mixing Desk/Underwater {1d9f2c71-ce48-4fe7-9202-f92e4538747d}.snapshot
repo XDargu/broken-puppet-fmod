@@ -158,15 +158,15 @@
             <value>20</value>
         </property>
         <property name="value">
-            <value>231.506851</value>
+            <value>771.739014</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{810a5f1c-04bd-4ef8-a9f5-980bd5b86db5}">
         <property name="position">
-            <value>0.099999997764825821</value>
+            <value>0.60000000894069672</value>
         </property>
         <property name="value">
-            <value>272.602722</value>
+            <value>1266.3042</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{88048fdc-c340-44e6-a0b3-c746e44f6931}">

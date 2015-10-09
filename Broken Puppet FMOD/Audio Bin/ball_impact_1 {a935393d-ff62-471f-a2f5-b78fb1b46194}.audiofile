@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a935393d-ff62-471f-a2f5-b78fb1b46194}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.80374999999999996</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/ball_impact_1 {41c08d53-eb9f-401b-90d8-8062e044c0cb}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e9fce765-b25c-4074-bb3a-0075c9b2bd22}</destination>
+        </relationship>
+    </object>
+</objects>

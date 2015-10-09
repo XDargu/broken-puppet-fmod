@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{fa1e93bf-4e97-459e-816c-9f9d547b5ae2}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.5790416666666667</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/sword_swing {2289688f-1f9b-4bea-b0bf-74fdb4da2e1c}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d3756a73-cb1d-4b1a-afed-ccd8a6b524f5}</destination>
+        </relationship>
+    </object>
+</objects>

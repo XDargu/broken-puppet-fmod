@@ -276,6 +276,9 @@
     <object class="MixerBusFader" id="{4cd5f6d6-0929-4249-8bc7-cd8bccbeadec}"/>
     <object class="SpatialiserEffect" id="{72dfa056-6122-4fe4-92c9-9f8fae587f3c}"/>
     <object class="MixerSend" id="{6478cf4d-5572-46f6-91fd-a76ff5fc2f0a}">
+        <property name="level">
+            <value>-21</value>
+        </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
         </relationship>

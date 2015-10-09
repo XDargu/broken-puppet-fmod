@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{0c7a2fb1-dc03-47eb-bf52-3841a57b8311}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.52387755102040812</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/footstep_glass3 {831bd4a0-76b0-41c0-9877-bda6372a6e38}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{60cae724-4613-402e-9735-d2ef6ed11e3f}</destination>
+        </relationship>
+    </object>
+</objects>
