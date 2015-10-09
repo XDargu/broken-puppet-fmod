@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/hit_wood_medium {909a6cd2-0804-42f5-8973-63921fbad626}.ogg</value>
         </property>
         <relationship name="container">
-            <destination>{e9fce765-b25c-4074-bb3a-0075c9b2bd22}</destination>
+            <destination>{06ca1836-5f82-4ed5-b987-99ea5d044d65}</destination>
         </relationship>
     </object>
 </objects>

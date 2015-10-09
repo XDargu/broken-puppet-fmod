@@ -98,7 +98,7 @@
     </object>
     <object class="SingleSound" id="{68118fa2-f3a8-451c-8cf4-b5b9827ca76f}">
         <property name="start">
-            <value>0</value>
+            <value>0.00076104266591429188</value>
         </property>
         <property name="length">
             <value>0.43081632653061225</value>
@@ -109,7 +109,7 @@
     </object>
     <object class="EventMixerGroup" id="{0d0502ba-f1f3-49a2-8d17-8b462b5f6627}">
         <property name="name">
-            <value>Audio 1</value>
+            <value>Clavar</value>
         </property>
         <relationship name="effectChain">
             <destination>{f88e7dfc-b015-4a22-9c80-060e1450eaaf}</destination>
@@ -183,10 +183,10 @@
     </object>
     <object class="AutomationPoint" id="{6e524253-d760-46f1-b36d-771cef0ca31c}">
         <property name="position">
-            <value>53.000000789761543</value>
+            <value>52</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>-6.33411646</value>
         </property>
     </object>
     <object class="MixerSend" id="{6fd6f8b6-d960-49cf-935f-844c0f98661d}">
@@ -200,7 +200,7 @@
             <value>1.60000002</value>
         </property>
         <property name="maximumDistance">
-            <value>65</value>
+            <value>200</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{e9d5369c-88b4-4035-8e24-177d4232ffb1}"/>

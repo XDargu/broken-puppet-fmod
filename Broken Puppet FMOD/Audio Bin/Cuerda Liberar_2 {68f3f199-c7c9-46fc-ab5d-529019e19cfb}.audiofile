@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{68f3f199-c7c9-46fc-ab5d-529019e19cfb}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.69999999999999996</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Cuerda Liberar_2 {b3bb7908-5ae3-4b25-bdae-674a48276b3b}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{d51d38f2-b83a-4c78-b3bb-aa9a798e361f}</destination>
+        </relationship>
+    </object>
+</objects>

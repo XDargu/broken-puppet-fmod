@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c778278f-1b46-452e-a6d1-4a3cb3b9f32f}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.26965986394557823</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Aguja Clavar_6 (Cerca) {2f23c9a2-8ab6-4a1e-af00-6ecc61ea2c28}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{5022b383-4839-4681-b25c-31af715f4cb9}</destination>
+        </relationship>
+    </object>
+</objects>

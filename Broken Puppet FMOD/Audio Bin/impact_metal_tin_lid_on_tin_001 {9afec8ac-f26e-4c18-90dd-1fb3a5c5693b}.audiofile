@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/impact_metal_tin_lid_on_tin_001 {eb1e2dd8-92bd-4b23-8085-e5dc89ca7672}.mp3</value>
         </property>
         <relationship name="container">
-            <destination>{e9fce765-b25c-4074-bb3a-0075c9b2bd22}</destination>
+            <destination>{11c3f3d6-ca1c-4eb0-a89d-d16200e2437a}</destination>
         </relationship>
     </object>
 </objects>

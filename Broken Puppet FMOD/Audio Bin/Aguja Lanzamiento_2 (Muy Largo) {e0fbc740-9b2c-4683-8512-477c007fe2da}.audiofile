@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{e0fbc740-9b2c-4683-8512-477c007fe2da}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.72333333333333338</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Aguja Lanzamiento_2 (Muy Largo) {4ddd1c8b-1f92-4544-8ab7-2094959280d1}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{5022b383-4839-4681-b25c-31af715f4cb9}</destination>
+        </relationship>
+    </object>
+</objects>

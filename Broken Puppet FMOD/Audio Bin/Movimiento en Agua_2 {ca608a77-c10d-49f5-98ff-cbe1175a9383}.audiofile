@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{ca608a77-c10d-49f5-98ff-cbe1175a9383}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>2.7074603174603173</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Movimiento en Agua_2 {7299b552-9066-40af-b76f-5d79174673de}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{c08a5e06-72eb-49d1-885f-b717db5351e5}</destination>
+        </relationship>
+    </object>
+</objects>
