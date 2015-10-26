@@ -132,7 +132,7 @@
     </object>
     <object class="MixerSend" id="{26789122-a73f-43f5-a3fc-60b18b5bf653}">
         <property name="level">
-            <value>-22.5</value>
+            <value>-15</value>
         </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>

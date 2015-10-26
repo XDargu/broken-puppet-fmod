@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerGroup" id="{7444a193-1a13-4662-b43b-83b01b6a85f3}">
+        <property name="name">
+            <value>DialNarrador</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{897fdc12-be1e-4406-a863-feaee554d39f}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{b54ec06a-e366-4d4c-920b-5737631a3540}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d63ea642-e823-4aa9-aec5-535e7b10fcf2}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{897fdc12-be1e-4406-a863-feaee554d39f}">
+        <relationship name="effects">
+            <destination>{efce347e-380e-424f-bf9b-ece55d748972}</destination>
+            <destination>{733d1c29-75c3-4d87-99d7-17ff1b01701c}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{b54ec06a-e366-4d4c-920b-5737631a3540}"/>
+    <object class="MixerBusFader" id="{efce347e-380e-424f-bf9b-ece55d748972}"/>
+    <object class="LimiterEffect" id="{733d1c29-75c3-4d87-99d7-17ff1b01701c}">
+        <property name="ceiling">
+            <value>-0.099999994</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerGroup" id="{dc1738fa-7c85-4d3d-a743-da10317bcbdd}">
+        <property name="name">
+            <value>DialSusti</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{f07e3e26-9473-4a11-9285-0e3ee4c05da3}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{92482cec-cbd3-47e1-9db5-c8909a425996}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{d63ea642-e823-4aa9-aec5-535e7b10fcf2}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{f07e3e26-9473-4a11-9285-0e3ee4c05da3}">
+        <relationship name="effects">
+            <destination>{b541d620-71e7-4f3b-9715-92459f18196b}</destination>
+            <destination>{8f98b0cb-2cb7-4a73-b641-c57edcdf0525}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{92482cec-cbd3-47e1-9db5-c8909a425996}"/>
+    <object class="MixerBusFader" id="{b541d620-71e7-4f3b-9715-92459f18196b}"/>
+    <object class="MixerSend" id="{8f98b0cb-2cb7-4a73-b641-c57edcdf0525}">
+        <property name="level">
+            <value>-40</value>
+        </property>
+        <relationship name="return">
+            <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
+        </relationship>
+    </object>
+</objects>

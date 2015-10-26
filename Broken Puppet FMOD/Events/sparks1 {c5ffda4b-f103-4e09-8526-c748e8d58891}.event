@@ -76,7 +76,7 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>18.680541666666667</value>
+            <value>15.146734130184331</value>
         </property>
         <property name="volume">
             <value>8.5</value>
@@ -86,6 +86,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{71e98ef7-3116-4222-8517-a6458a2a6f00}">
+        <property name="volume">
+            <value>-7</value>
+        </property>
         <property name="name">
             <value>Audio 1</value>
         </property>
@@ -101,10 +104,10 @@
     </object>
     <object class="LoopRegion" id="{015caeec-a2b2-42b4-b39a-0dad448e297a}">
         <property name="position">
-            <value>0</value>
+            <value>9.1408395513312843</value>
         </property>
         <property name="length">
-            <value>18.170836928386539</value>
+            <value>4.4549218029953934</value>
         </property>
         <relationship name="timeline">
             <destination>{5b71719a-9935-4bdd-9f9e-ce3c9b473f04}</destination>
@@ -115,6 +118,9 @@
     </object>
     <object class="MixerBusEffectChain" id="{0f53715b-8ecf-47bd-9276-80614db1ff16}">
         <relationship name="effects">
+            <destination>{7d0c059b-0c0b-4d44-9351-595972d5e0b4}</destination>
+            <destination>{62e90ea6-8885-41a0-b080-e1e78d3b9335}</destination>
+            <destination>{89e1eb41-4efa-4970-8e2e-0c4221eb4141}</destination>
             <destination>{5f841ad8-4558-4a4c-9c23-eb1afe5fcf82}</destination>
             <destination>{cf0c5724-b93a-41e7-8d90-8241a1604c82}</destination>
             <destination>{04e6dd4e-13fd-4629-ad15-90e9d82f1f3d}</destination>
@@ -127,6 +133,39 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{6ad4ef27-e419-45a1-8f15-980003f1541d}"/>
+    <object class="LowpassEffect" id="{7d0c059b-0c0b-4d44-9351-595972d5e0b4}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="cutoff">
+            <value>5500</value>
+        </property>
+    </object>
+    <object class="HighpassEffect" id="{62e90ea6-8885-41a0-b080-e1e78d3b9335}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="cutoff">
+            <value>6500</value>
+        </property>
+        <property name="resonance">
+            <value>2.49999976</value>
+        </property>
+    </object>
+    <object class="CompressorEffect" id="{89e1eb41-4efa-4970-8e2e-0c4221eb4141}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="threshold">
+            <value>-23</value>
+        </property>
+        <property name="attackTime">
+            <value>0.100000001</value>
+        </property>
+        <property name="releaseTime">
+            <value>10</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{5f841ad8-4558-4a4c-9c23-eb1afe5fcf82}"/>
     <object class="SpatialiserEffect" id="{cf0c5724-b93a-41e7-8d90-8241a1604c82}">
         <property name="maximumDistance">
@@ -135,7 +174,7 @@
     </object>
     <object class="MixerSend" id="{04e6dd4e-13fd-4629-ad15-90e9d82f1f3d}">
         <property name="level">
-            <value>-22.5</value>
+            <value>-10.5</value>
         </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
