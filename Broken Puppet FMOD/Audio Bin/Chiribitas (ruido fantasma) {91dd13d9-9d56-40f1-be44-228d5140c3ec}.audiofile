@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{91dd13d9-9d56-40f1-be44-228d5140c3ec}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>7.3153287981859414</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Chiribitas (ruido fantasma) {0d065cdf-faba-4c7f-8a22-c168a4b12e78}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{73a5a03c-2d2a-47d2-8993-854d1c14d37d}</destination>
+        </relationship>
+    </object>
+</objects>

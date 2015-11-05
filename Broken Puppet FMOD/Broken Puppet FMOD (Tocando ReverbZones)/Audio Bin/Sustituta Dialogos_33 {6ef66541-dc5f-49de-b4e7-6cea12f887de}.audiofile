@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{6ef66541-dc5f-49de-b4e7-6cea12f887de}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>3.0185941043083901</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Sustituta Dialogos_33 {de96f43e-f440-4d30-b952-65a62111bfb4}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{312e859f-b7ca-46b6-8d2b-879a0660c69d}</destination>
+        </relationship>
+    </object>
+</objects>

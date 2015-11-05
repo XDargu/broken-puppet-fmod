@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{13e26663-3614-42cd-80e8-731adb8a1ec2}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>11.85235827664399</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Enter the Boss_2 (no chiribitas) {a1ed74a5-a481-4d2b-9501-4024adea2b86}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{73a5a03c-2d2a-47d2-8993-854d1c14d37d}</destination>
+        </relationship>
+    </object>
+</objects>

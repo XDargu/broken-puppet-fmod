@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/mecanismos_1 {9bfa7d5e-3c88-4833-ab35-6e47419f6d58}.flac</value>
         </property>
         <relationship name="container">
-            <destination>{241c0c1c-12e9-4bfa-9bc7-7ef58023dea1}</destination>
+            <destination>{c767b7e0-a9ec-4206-a80a-d1191f04f3fc}</destination>
         </relationship>
     </object>
 </objects>

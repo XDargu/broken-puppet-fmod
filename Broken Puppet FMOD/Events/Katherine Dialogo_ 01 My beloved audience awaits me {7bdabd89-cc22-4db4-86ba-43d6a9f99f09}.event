@@ -4,6 +4,10 @@
         <property name="name">
             <value>Katherine Dialogo_ 01 My beloved audience awaits me</value>
         </property>
+        <property name="note">
+            <value>He eliminado un loop que no se que hacia ahi...
+</value>
+        </property>
         <relationship name="mixer">
             <destination>{00621b3a-73ae-4278-b659-b5cbc4103689}</destination>
         </relationship>
@@ -46,7 +50,7 @@
     <object class="MarkerTrack" id="{31a1176e-ebc5-4c78-9d47-072df1b8f7a3}"/>
     <object class="GroupTrack" id="{6bf25c3e-0049-4e92-b2c6-e487b0bdff78}">
         <relationship name="modules">
-            <destination>{a81d96aa-62d4-4f35-8137-a9e82a3146a2}</destination>
+            <destination>{42080008-6a72-434d-8228-95a67cfd9158}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{ee5015a7-c1a9-45d9-920e-43db4c194236}</destination>
@@ -54,7 +58,7 @@
     </object>
     <object class="Timeline" id="{6187293f-8295-4a1c-8c02-87cc19428af1}">
         <relationship name="modules">
-            <destination>{a81d96aa-62d4-4f35-8137-a9e82a3146a2}</destination>
+            <destination>{42080008-6a72-434d-8228-95a67cfd9158}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{451f6186-51d6-4cd5-bc1c-03abfd7d9076}">
@@ -68,7 +72,7 @@
             <destination>{00621b3a-73ae-4278-b659-b5cbc4103689}</destination>
         </relationship>
     </object>
-    <object class="SingleSound" id="{a81d96aa-62d4-4f35-8137-a9e82a3146a2}">
+    <object class="SingleSound" id="{42080008-6a72-434d-8228-95a67cfd9158}">
         <property name="start">
             <value>0</value>
         </property>
@@ -76,7 +80,7 @@
             <value>3.8080725623582765</value>
         </property>
         <relationship name="audioFile">
-            <destination>{b3ce6ab1-d942-43c7-bcb3-3a8508e798a4}</destination>
+            <destination>{620a7431-83eb-4268-8784-5d2547a1d1b7}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{ee5015a7-c1a9-45d9-920e-43db4c194236}">

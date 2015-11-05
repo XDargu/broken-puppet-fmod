@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{830f0bc3-ab79-4194-af52-cbf1f06e28e3}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>4.5608390022675733</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Composite Bebe (norev) {5e670363-a847-48f8-a008-eba83c9575c1}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{73a5a03c-2d2a-47d2-8993-854d1c14d37d}</destination>
+        </relationship>
+    </object>
+</objects>

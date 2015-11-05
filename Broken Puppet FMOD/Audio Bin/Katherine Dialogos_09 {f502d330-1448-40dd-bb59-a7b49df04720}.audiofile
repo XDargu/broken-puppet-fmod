@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{f502d330-1448-40dd-bb59-a7b49df04720}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>3.2532426303854876</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Dialogos_09 {21fceef9-a368-4f86-8ec7-513da808f99f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ca18451d-0b33-4c0d-bdd4-cb6024a3aed0}</destination>
+        </relationship>
+    </object>
+</objects>

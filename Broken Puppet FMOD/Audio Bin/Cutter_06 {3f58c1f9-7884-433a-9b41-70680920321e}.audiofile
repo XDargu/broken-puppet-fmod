@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{3f58c1f9-7884-433a-9b41-70680920321e}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.94040816326530607</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Cutter_06 {b8366240-d82d-4a70-bf5e-ca8146ec7c16}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{c767b7e0-a9ec-4206-a80a-d1191f04f3fc}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Boss_wave {a472df27-0362-409a-9bc3-6ac60b1ab759}.flac</value>
         </property>
         <relationship name="container">
-            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+            <destination>{609194d1-9fe4-42e4-b28b-46c519162946}</destination>
         </relationship>
     </object>
 </objects>

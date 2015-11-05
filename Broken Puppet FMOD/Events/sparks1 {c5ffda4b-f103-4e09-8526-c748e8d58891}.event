@@ -25,6 +25,12 @@
         <relationship name="timeline">
             <destination>{5b71719a-9935-4bdd-9f9e-ce3c9b473f04}</destination>
         </relationship>
+        <relationship name="parameters">
+            <destination>{fcb365bd-c2f3-4deb-ba26-42c5a073f541}</destination>
+        </relationship>
+        <relationship name="tags">
+            <destination>{98e135a6-aea7-4091-9025-dd566825b3de}</destination>
+        </relationship>
         <relationship name="banks">
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
         </relationship>
@@ -60,7 +66,15 @@
             <destination>{015caeec-a2b2-42b4-b39a-0dad448e297a}</destination>
         </relationship>
     </object>
+    <object class="DistanceParameter" id="{fcb365bd-c2f3-4deb-ba26-42c5a073f541}">
+        <relationship name="automationScale">
+            <destination>{c8cb6c36-9eeb-4a45-840b-4960171363ef}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerMaster" id="{b7daf579-fc0a-4db1-8bc4-1d60f8e4fded}">
+        <property name="volume">
+            <value>10</value>
+        </property>
         <relationship name="effectChain">
             <destination>{0f53715b-8ecf-47bd-9276-80614db1ff16}</destination>
         </relationship>
@@ -87,7 +101,7 @@
     </object>
     <object class="EventMixerGroup" id="{71e98ef7-3116-4222-8517-a6458a2a6f00}">
         <property name="volume">
-            <value>-7</value>
+            <value>-9</value>
         </property>
         <property name="name">
             <value>Audio 1</value>
@@ -104,10 +118,10 @@
     </object>
     <object class="LoopRegion" id="{015caeec-a2b2-42b4-b39a-0dad448e297a}">
         <property name="position">
-            <value>9.1408395513312843</value>
+            <value>5.7259773724091616</value>
         </property>
         <property name="length">
-            <value>4.4549218029953934</value>
+            <value>3.3446129511735734</value>
         </property>
         <relationship name="timeline">
             <destination>{5b71719a-9935-4bdd-9f9e-ce3c9b473f04}</destination>
@@ -116,10 +130,23 @@
             <destination>{b0b35743-79bf-443a-a257-5c00152efc20}</destination>
         </relationship>
     </object>
+    <object class="AutomationScale" id="{c8cb6c36-9eeb-4a45-840b-4960171363ef}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,30.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Distance</value>
+        </property>
+    </object>
     <object class="MixerBusEffectChain" id="{0f53715b-8ecf-47bd-9276-80614db1ff16}">
         <relationship name="effects">
-            <destination>{7d0c059b-0c0b-4d44-9351-595972d5e0b4}</destination>
             <destination>{62e90ea6-8885-41a0-b080-e1e78d3b9335}</destination>
+            <destination>{7d0c059b-0c0b-4d44-9351-595972d5e0b4}</destination>
+            <destination>{7419fd27-953e-419c-8212-725de14e7f2a}</destination>
+            <destination>{7e3856b3-c6e6-46c5-9875-6503b2e5e8e2}</destination>
             <destination>{89e1eb41-4efa-4970-8e2e-0c4221eb4141}</destination>
             <destination>{5f841ad8-4558-4a4c-9c23-eb1afe5fcf82}</destination>
             <destination>{cf0c5724-b93a-41e7-8d90-8241a1604c82}</destination>
@@ -133,23 +160,54 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{6ad4ef27-e419-45a1-8f15-980003f1541d}"/>
-    <object class="LowpassEffect" id="{7d0c059b-0c0b-4d44-9351-595972d5e0b4}">
+    <object class="HighpassEffect" id="{62e90ea6-8885-41a0-b080-e1e78d3b9335}">
         <property name="bypass">
             <value>false</value>
         </property>
         <property name="cutoff">
             <value>5500</value>
         </property>
+        <property name="resonance">
+            <value>2.49999976</value>
+        </property>
     </object>
-    <object class="HighpassEffect" id="{62e90ea6-8885-41a0-b080-e1e78d3b9335}">
+    <object class="LowpassEffect" id="{7d0c059b-0c0b-4d44-9351-595972d5e0b4}">
         <property name="bypass">
             <value>false</value>
         </property>
         <property name="cutoff">
-            <value>6500</value>
+            <value>8000</value>
         </property>
         <property name="resonance">
-            <value>2.49999976</value>
+            <value>1.62</value>
+        </property>
+    </object>
+    <object class="ParamEqEffect" id="{7419fd27-953e-419c-8212-725de14e7f2a}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="centreFrequency">
+            <value>6000</value>
+        </property>
+        <property name="gain">
+            <value>-27.5</value>
+        </property>
+        <property name="bandwidth">
+            <value>0.200000003</value>
+        </property>
+    </object>
+    <object class="ParamEqEffect" id="{7e3856b3-c6e6-46c5-9875-6503b2e5e8e2}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="centreFrequency">
+            <value>6500</value>
+        </property>
+        <property name="gain">
+            <value>-26</value>
+        </property>
+        <property name="bandwidth">
+            <value>0.200000003</value>
         </property>
     </object>
     <object class="CompressorEffect" id="{89e1eb41-4efa-4970-8e2e-0c4221eb4141}">
@@ -157,12 +215,18 @@
             <value>false</value>
         </property>
         <property name="threshold">
-            <value>-23</value>
+            <value>-52.5</value>
+        </property>
+        <property name="ratio">
+            <value>2</value>
         </property>
         <property name="attackTime">
             <value>0.100000001</value>
         </property>
         <property name="releaseTime">
+            <value>14</value>
+        </property>
+        <property name="gain">
             <value>10</value>
         </property>
     </object>

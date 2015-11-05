@@ -45,7 +45,14 @@
             <destination>{a1e8e042-51d0-4f6f-831c-2f5b3caccd47}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{33ad74e3-11fb-426d-b74a-1341126c7dfc}"/>
+    <object class="EventAutomatableProperties" id="{33ad74e3-11fb-426d-b74a-1341126c7dfc}">
+        <property name="maxVoices">
+            <value>1</value>
+        </property>
+        <property name="voiceStealing">
+            <value>1</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{12bb2c10-ed8e-4018-b9df-4e04fb0692b7}"/>
     <object class="GroupTrack" id="{2817fd5b-601a-4ef4-9d08-ae637c1b6aa6}">
         <relationship name="modules">
@@ -64,15 +71,15 @@
         <property name="name">
             <value>phrase</value>
         </property>
+        <relationship name="automationScale">
+            <destination>{8e51e2cc-ea34-4882-be83-0acffa6abe3f}</destination>
+        </relationship>
         <relationship name="modules">
             <destination>{26b59ec3-e865-41ac-8fdc-4071ba1ff153}</destination>
             <destination>{981fa57b-3f5c-423b-beae-4af69c7b521b}</destination>
             <destination>{a577609a-d615-449a-933c-b77d039dfe9b}</destination>
             <destination>{d27634e2-3345-4fe3-a03d-5e21f82f4a8f}</destination>
             <destination>{762f5d93-578b-4cd1-b9b3-f3f2773e8694}</destination>
-        </relationship>
-        <relationship name="automationScale">
-            <destination>{8e51e2cc-ea34-4882-be83-0acffa6abe3f}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{a1e8e042-51d0-4f6f-831c-2f5b3caccd47}">

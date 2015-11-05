@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerGroup" id="{554ee949-5199-456f-82eb-eb229f628008}">
+        <property name="name">
+            <value>Aguja</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{e0670916-e959-4916-a218-081e7c199d68}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{7f4243d1-0714-475b-ae65-b85f22d20c85}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{df54cc47-528f-4c28-974f-3cce9f394990}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{e0670916-e959-4916-a218-081e7c199d68}">
+        <relationship name="effects">
+            <destination>{98a8f522-6780-4cb2-bc76-bdc23fc7065c}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{7f4243d1-0714-475b-ae65-b85f22d20c85}"/>
+    <object class="MixerBusFader" id="{98a8f522-6780-4cb2-bc76-bdc23fc7065c}"/>
+</objects>

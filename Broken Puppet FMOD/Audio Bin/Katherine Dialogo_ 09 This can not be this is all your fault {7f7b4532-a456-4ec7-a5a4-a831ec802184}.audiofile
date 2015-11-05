@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Katherine Dialogo_ 09 This can not be this is all your fault {0e97f832-c637-4a16-8dfd-b687fab5a321}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{9ba571d4-884d-4192-b53f-dce5aed667a2}</destination>
+            <destination>{5f69f615-cc1d-4cb2-9b77-52fc65b9a27d}</destination>
         </relationship>
     </object>
 </objects>

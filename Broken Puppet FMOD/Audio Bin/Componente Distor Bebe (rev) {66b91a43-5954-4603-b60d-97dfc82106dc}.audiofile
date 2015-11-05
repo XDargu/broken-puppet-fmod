@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{66b91a43-5954-4603-b60d-97dfc82106dc}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>6.6506349206349205</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Componente Distor Bebe (rev) {9adad515-4c40-4f03-889e-114b1cd526eb}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{73a5a03c-2d2a-47d2-8993-854d1c14d37d}</destination>
+        </relationship>
+    </object>
+</objects>

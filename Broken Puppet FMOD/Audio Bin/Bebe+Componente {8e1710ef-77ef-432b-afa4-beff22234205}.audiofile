@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{8e1710ef-77ef-432b-afa4-beff22234205}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.2452154195011338</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Bebe+Componente {97ca5efb-0fbb-4998-8400-02f3f02df7f8}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{73a5a03c-2d2a-47d2-8993-854d1c14d37d}</destination>
+        </relationship>
+    </object>
+</objects>

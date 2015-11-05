@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Rugidos (Sub)_04 {6d62f153-0a00-44d7-b13b-c4f3d6d37b7a}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+            <destination>{609194d1-9fe4-42e4-b28b-46c519162946}</destination>
         </relationship>
     </object>
 </objects>

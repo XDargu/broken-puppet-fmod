@@ -4,6 +4,10 @@
         <property name="name">
             <value>Pasos Sustituta</value>
         </property>
+        <property name="note">
+            <value>Quizas tacon-punta
+</value>
+        </property>
         <relationship name="mixer">
             <destination>{ef979ba1-8307-41d8-a857-1c408fc694a8}</destination>
         </relationship>

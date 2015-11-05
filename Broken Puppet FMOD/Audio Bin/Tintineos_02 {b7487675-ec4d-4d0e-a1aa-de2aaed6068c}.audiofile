@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{b7487675-ec4d-4d0e-a1aa-de2aaed6068c}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>9.1687074829931969</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Tintineos_02 {becd3211-c1c6-4c4b-b0ae-cc6cbdbf3c3b}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{241c0c1c-12e9-4bfa-9bc7-7ef58023dea1}</destination>
+        </relationship>
+    </object>
+</objects>

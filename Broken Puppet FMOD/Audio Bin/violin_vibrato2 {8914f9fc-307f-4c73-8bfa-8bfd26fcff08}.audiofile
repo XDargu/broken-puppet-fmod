@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/violin_vibrato2 {0ad83c69-0208-4428-97f2-4e015137dbf4}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{241c0c1c-12e9-4bfa-9bc7-7ef58023dea1}</destination>
+            <destination>{fb9f9d17-3610-4388-a6e8-914a3d1c9394}</destination>
         </relationship>
     </object>
 </objects>

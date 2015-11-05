@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{29684181-068f-46e1-bbe8-70190adc3b85}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.70965986394557823</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_ Indefinida 04 (Levantarse) {c7fe82a5-9318-443e-b9d3-858ff25f4f7b}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{03110c34-9024-4aaf-b67c-8c5647b4dbd3}</destination>
+        </relationship>
+    </object>
+</objects>

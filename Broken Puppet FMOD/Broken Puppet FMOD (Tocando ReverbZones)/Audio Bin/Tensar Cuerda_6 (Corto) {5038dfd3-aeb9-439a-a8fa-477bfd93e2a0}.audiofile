@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{5038dfd3-aeb9-439a-a8fa-477bfd93e2a0}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.9120181405895692</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Tensar Cuerda_6 (Corto) {bdb53923-96c8-438a-a6d2-4e1ccdefbd9b}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{d51d38f2-b83a-4c78-b3bb-aa9a798e361f}</destination>
+        </relationship>
+    </object>
+</objects>

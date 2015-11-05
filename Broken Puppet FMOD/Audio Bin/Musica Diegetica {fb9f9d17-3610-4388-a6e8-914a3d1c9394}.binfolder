@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioBinFolder" id="{fb9f9d17-3610-4388-a6e8-914a3d1c9394}">
+        <property name="name">
+            <value>Musica Diegetica</value>
+        </property>
+        <relationship name="container">
+            <destination>{5bf6ba19-49d4-4676-ae33-ff6a7fbe4b1e}</destination>
+        </relationship>
+    </object>
+</objects>

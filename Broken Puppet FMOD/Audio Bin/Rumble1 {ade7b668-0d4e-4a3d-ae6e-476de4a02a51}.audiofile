@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Rumble1 {ce1183e3-9bc5-4022-ac14-415da0ceebb1}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+            <destination>{609194d1-9fe4-42e4-b28b-46c519162946}</destination>
         </relationship>
     </object>
 </objects>

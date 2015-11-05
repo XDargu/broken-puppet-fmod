@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{51491a55-0a91-4177-8cb4-8b0d76e3eaea}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.12027210884353741</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Pasos Generico_10 (Der) {d3db858e-cb40-49a9-9581-1e50ba150205}.ogg</value>
+        </property>
+        <relationship name="container">
+            <destination>{454ba5fa-940c-4b10-8215-5e1d0e7e3f38}</destination>
+        </relationship>
+    </object>
+</objects>

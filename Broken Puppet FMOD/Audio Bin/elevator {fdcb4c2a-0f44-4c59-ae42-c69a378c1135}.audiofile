@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/elevator {1f342668-666c-49de-a598-b6dc25f01b4a}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{241c0c1c-12e9-4bfa-9bc7-7ef58023dea1}</destination>
+            <destination>{36924c43-d4f0-4615-860f-53763dc69c30}</destination>
         </relationship>
     </object>
 </objects>

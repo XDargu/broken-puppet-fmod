@@ -25,6 +25,9 @@
         <relationship name="timeline">
             <destination>{bbb47c4e-df1e-44bf-8081-b2c076db92f2}</destination>
         </relationship>
+        <relationship name="tags">
+            <destination>{98e135a6-aea7-4091-9025-dd566825b3de}</destination>
+        </relationship>
         <relationship name="banks">
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
         </relationship>
@@ -176,6 +179,9 @@
     </object>
     <object class="MixerBusFader" id="{187c35ac-96e9-4550-b14d-14185e1a0d63}"/>
     <object class="ParamEqEffect" id="{5c80b894-1a33-4730-9032-129c9bbd9745}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <property name="centreFrequency">
             <value>3300</value>
         </property>

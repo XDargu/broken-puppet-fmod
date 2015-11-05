@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{cd86cc96-ae46-41bb-a90d-794cd26b9d77}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.48290249433106575</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Expresion_ Indefinida 07 {a25d37ed-7371-439b-b7a0-919b13c564c1}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{03110c34-9024-4aaf-b67c-8c5647b4dbd3}</destination>
+        </relationship>
+    </object>
+</objects>

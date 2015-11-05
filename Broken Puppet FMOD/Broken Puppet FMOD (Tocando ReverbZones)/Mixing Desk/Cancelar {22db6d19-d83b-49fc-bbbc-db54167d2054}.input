@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerInput" id="{22db6d19-d83b-49fc-bbbc-db54167d2054}">
+        <relationship name="effectChain">
+            <destination>{fc053779-2c36-4fed-8f81-8e1359051ebe}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{f9f1ad7d-6ff1-499b-aebf-0765137a8be6}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{a52a5424-6d97-4b91-bd8d-65a68b81bf2a}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{fc053779-2c36-4fed-8f81-8e1359051ebe}">
+        <relationship name="effects">
+            <destination>{ba362fff-ec1e-4acc-a1a1-acfacd06c6af}</destination>
+            <destination>{eb1db2e5-4c98-4c19-a3f3-7ae53ba2ac34}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{f9f1ad7d-6ff1-499b-aebf-0765137a8be6}"/>
+    <object class="CompressorEffect" id="{ba362fff-ec1e-4acc-a1a1-acfacd06c6af}">
+        <property name="threshold">
+            <value>-18</value>
+        </property>
+        <property name="attackTime">
+            <value>4</value>
+        </property>
+        <property name="gain">
+            <value>4</value>
+        </property>
+    </object>
+    <object class="MixerBusFader" id="{eb1db2e5-4c98-4c19-a3f3-7ae53ba2ac34}"/>
+</objects>

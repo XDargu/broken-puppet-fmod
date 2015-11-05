@@ -4,6 +4,9 @@
         <property name="name">
             <value>Recibir Dano</value>
         </property>
+        <property name="note">
+            <value>Proponerle a Chechu la clasificacion y creacion del parametro enemigo para identificar agresores</value>
+        </property>
         <relationship name="mixer">
             <destination>{ccfe38e9-b9c3-4ce4-b243-1648a6befd94}</destination>
         </relationship>
@@ -24,6 +27,17 @@
         </relationship>
         <relationship name="timeline">
             <destination>{afc58c5f-f159-4e20-9db0-fe50d99702a9}</destination>
+        </relationship>
+        <relationship name="parameters">
+            <destination>{9e30ff99-0c9d-449d-8ed3-35119a54d6c8}</destination>
+        </relationship>
+        <relationship name="tags">
+            <destination>{98e135a6-aea7-4091-9025-dd566825b3de}</destination>
+        </relationship>
+        <relationship name="userProperties">
+            <destination>{d409ce2a-09c4-4433-9331-86427f3c4973}</destination>
+            <destination>{4c26ae35-da4a-4113-a8a4-a14c7cf47e79}</destination>
+            <destination>{ae7b65de-4b8c-471f-b862-203e580f9302}</destination>
         </relationship>
         <relationship name="banks">
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
@@ -47,6 +61,9 @@
     <object class="GroupTrack" id="{9e393454-53c0-4021-9a08-d846ae3ca7d6}">
         <relationship name="modules">
             <destination>{b47f082e-d411-4a55-833b-9474cc5ce10a}</destination>
+            <destination>{515c9888-9c47-463c-813c-c89ae36f1bf7}</destination>
+            <destination>{19cadd81-b9f2-4b4b-8cf6-bf8b1f0d26ac}</destination>
+            <destination>{8a6e089f-6b99-44fe-af2c-30b4ea9aed34}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{942a4b40-6355-4348-bf34-d6d2b40af429}</destination>
@@ -56,6 +73,43 @@
         <relationship name="modules">
             <destination>{b47f082e-d411-4a55-833b-9474cc5ce10a}</destination>
         </relationship>
+    </object>
+    <object class="GameParameter" id="{9e30ff99-0c9d-449d-8ed3-35119a54d6c8}">
+        <property name="name">
+            <value>Enemigo</value>
+        </property>
+        <relationship name="modules">
+            <destination>{515c9888-9c47-463c-813c-c89ae36f1bf7}</destination>
+            <destination>{19cadd81-b9f2-4b4b-8cf6-bf8b1f0d26ac}</destination>
+            <destination>{8a6e089f-6b99-44fe-af2c-30b4ea9aed34}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{cbe435b2-9765-40db-84f0-a248242be00e}</destination>
+        </relationship>
+    </object>
+    <object class="UserProperty" id="{d409ce2a-09c4-4433-9331-86427f3c4973}">
+        <property name="key">
+            <value>Soldado</value>
+        </property>
+        <property name="value">
+            <value>1</value>
+        </property>
+    </object>
+    <object class="UserProperty" id="{4c26ae35-da4a-4113-a8a4-a14c7cf47e79}">
+        <property name="key">
+            <value>Abuela</value>
+        </property>
+        <property name="value">
+            <value>3</value>
+        </property>
+    </object>
+    <object class="UserProperty" id="{ae7b65de-4b8c-471f-b862-203e580f9302}">
+        <property name="key">
+            <value>Boss</value>
+        </property>
+        <property name="value">
+            <value>5</value>
+        </property>
     </object>
     <object class="EventMixerMaster" id="{db90f6a2-400d-4474-9e68-588dd2b12f1a}">
         <relationship name="effectChain">
@@ -88,9 +142,42 @@
             <destination>{3fc39c08-bbdf-46ae-b2d2-634a69b59376}</destination>
         </relationship>
     </object>
+    <object class="MultiSound" id="{515c9888-9c47-463c-813c-c89ae36f1bf7}">
+        <property name="start">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.8999999351799488</value>
+        </property>
+        <property name="name">
+            <value>Soldado</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{19cadd81-b9f2-4b4b-8cf6-bf8b1f0d26ac}">
+        <property name="start">
+            <value>2.8999999351799488</value>
+        </property>
+        <property name="length">
+            <value>1.9999999552965164</value>
+        </property>
+        <property name="name">
+            <value>Abuela</value>
+        </property>
+    </object>
+    <object class="MultiSound" id="{8a6e089f-6b99-44fe-af2c-30b4ea9aed34}">
+        <property name="start">
+            <value>4.8999998904764652</value>
+        </property>
+        <property name="length">
+            <value>2.0999999530613414</value>
+        </property>
+        <property name="name">
+            <value>Boss</value>
+        </property>
+    </object>
     <object class="EventMixerGroup" id="{942a4b40-6355-4348-bf34-d6d2b40af429}">
         <property name="name">
-            <value>Audio 1</value>
+            <value>Agresor</value>
         </property>
         <relationship name="effectChain">
             <destination>{cebe5ecb-33d0-492a-8d36-8d8ddd673412}</destination>
@@ -101,6 +188,17 @@
         <relationship name="output">
             <destination>{db90f6a2-400d-4474-9e68-588dd2b12f1a}</destination>
         </relationship>
+    </object>
+    <object class="AutomationScale" id="{cbe435b2-9765-40db-84f0-a248242be00e}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,1.000000)(1.000000,7.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Parameter 1</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{04307368-f077-4fe4-9f86-49983aa83385}">
         <relationship name="effects">

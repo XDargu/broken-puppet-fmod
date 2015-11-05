@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Katherine Dialogo_ 08 One more for my collection {c23fae33-9aac-45ea-a23f-8932862869d0}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{9ba571d4-884d-4192-b53f-dce5aed667a2}</destination>
+            <destination>{5f69f615-cc1d-4cb2-9b77-52fc65b9a27d}</destination>
         </relationship>
     </object>
 </objects>
