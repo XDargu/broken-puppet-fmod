@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a2ed9850-7891-48d9-b940-dbd76b822196}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>5.792607709750567</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Guitarra_05-02 {82669bf7-33b9-4dd2-8f62-e6adeca2b2c5}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{954a46f9-d09d-4c69-9446-3634217281d6}</destination>
+        </relationship>
+    </object>
+</objects>

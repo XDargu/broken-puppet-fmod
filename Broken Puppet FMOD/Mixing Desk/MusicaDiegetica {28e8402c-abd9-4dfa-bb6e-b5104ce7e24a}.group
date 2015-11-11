@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="MixerGroup" id="{28e8402c-abd9-4dfa-bb6e-b5104ce7e24a}">
+        <property name="name">
+            <value>MusicaDiegetica</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{124eda6a-ff27-4944-9d74-9bad3862f756}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{10e84056-d192-47f8-9e0e-c322dcedaebf}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{1374b341-41eb-40da-8d94-2b43e2e596ba}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{124eda6a-ff27-4944-9d74-9bad3862f756}">
+        <relationship name="effects">
+            <destination>{1168be65-a91f-4960-8bf4-a22661c67663}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{10e84056-d192-47f8-9e0e-c322dcedaebf}"/>
+    <object class="MixerBusFader" id="{1168be65-a91f-4960-8bf4-a22661c67663}"/>
+</objects>

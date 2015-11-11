@@ -484,7 +484,7 @@
             <value>density</value>
         </property>
         <property name="value">
-            <value>100</value>
+            <value>80</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>

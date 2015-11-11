@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{46043600-117d-48b6-962d-1c8519320178}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>30.838639455782314</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/0002 Guit Post-07 {f11fb47d-99ad-43ff-8961-537e3bf34f44}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{954a46f9-d09d-4c69-9446-3634217281d6}</destination>
+        </relationship>
+    </object>
+</objects>

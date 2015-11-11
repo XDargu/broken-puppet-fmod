@@ -33,7 +33,7 @@
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
         </relationship>
         <relationship name="folder">
-            <destination>{08ec6314-c25f-455e-93b9-0d1cc0ea5519}</destination>
+            <destination>{c08392e3-1323-472e-a956-4e67b72b4461}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{c0d3c3db-d265-48e9-a880-fcdfbfda7916}">
@@ -229,7 +229,7 @@
             <value>-38.5</value>
         </property>
         <property name="ratio">
-            <value>3.99999976</value>
+            <value>2.69999981</value>
         </property>
         <property name="attackTime">
             <value>9</value>
@@ -249,7 +249,7 @@
     </object>
     <object class="MixerSend" id="{9f4c0fa4-f456-4d45-8d96-c9d10ab5d1e4}">
         <property name="level">
-            <value>-12</value>
+            <value>10</value>
         </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
@@ -289,7 +289,7 @@
             <value>3.99999976</value>
         </property>
         <property name="attackTime">
-            <value>0.149999991</value>
+            <value>0.100000001</value>
         </property>
         <property name="releaseTime">
             <value>64</value>
@@ -328,20 +328,12 @@
         <property name="value">
             <value>0.160000011</value>
         </property>
-        <relationship name="modulators">
-            <destination>{ac229153-8319-4d5f-8742-516860645107}</destination>
-        </relationship>
         <relationship name="automationScale">
             <destination>{b7374bc3-9fff-4bc7-a75d-29a212788f28}</destination>
         </relationship>
-    </object>
-    <object class="RandomizerModulator" id="{ac229153-8319-4d5f-8742-516860645107}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>value</value>
-        </property>
-        <property name="amount">
-            <value>54</value>
-        </property>
+        <relationship name="modulators">
+            <destination>{ac229153-8319-4d5f-8742-516860645107}</destination>
+        </relationship>
     </object>
     <object class="AutomationScale" id="{b7374bc3-9fff-4bc7-a75d-29a212788f28}">
         <property name="curve">
@@ -352,6 +344,14 @@
         </property>
         <property name="associatedPropertyName">
             <value>Level</value>
+        </property>
+    </object>
+    <object class="RandomizerModulator" id="{ac229153-8319-4d5f-8742-516860645107}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>value</value>
+        </property>
+        <property name="amount">
+            <value>54</value>
         </property>
     </object>
 </objects>

@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Cuerda Liberar-MRBN_01 {ec96560f-834e-45b9-aae3-00de7a8eb15d}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+            <destination>{d51d38f2-b83a-4c78-b3bb-aa9a798e361f}</destination>
         </relationship>
     </object>
 </objects>

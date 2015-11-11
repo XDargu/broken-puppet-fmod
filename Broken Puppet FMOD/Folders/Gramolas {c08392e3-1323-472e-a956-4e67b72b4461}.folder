@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Folder" id="{c08392e3-1323-472e-a956-4e67b72b4461}">
+        <property name="name">
+            <value>Gramolas</value>
+        </property>
+        <relationship name="folder">
+            <destination>{08ec6314-c25f-455e-93b9-0d1cc0ea5519}</destination>
+        </relationship>
+    </object>
+</objects>

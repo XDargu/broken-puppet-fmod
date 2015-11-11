@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Snapshot" id="{832872fd-9ebd-4e01-b822-127d08dbcf5f}">
+        <property name="name">
+            <value>Filtro Dialogos</value>
+        </property>
+        <property name="runtimeSnapshotHandleID">
+            <value>{76aea504-9fe7-4395-86d1-bf3662bf7af9}</value>
+        </property>
+        <property name="runtimeMasterBusHandleID">
+            <value>{0fa4cb8a-6a28-4d77-82dc-86813cb10b4c}</value>
+        </property>
+        <relationship name="automatableProperties">
+            <destination>{dc70a5ae-1257-4727-930d-89cd074d29a4}</destination>
+        </relationship>
+        <relationship name="markerTracks">
+            <destination>{40e260f5-5009-4a2b-8c22-def616ac1ff1}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{e32d1da1-a143-41e8-8eff-7ef3d66ff510}</destination>
+        </relationship>
+        <relationship name="folder">
+            <destination>{0a841d04-4dae-4c3a-9f28-80df382ff6c0}</destination>
+        </relationship>
+        <relationship name="snapshotMasterTrack">
+            <destination>{9ea035fb-ef4c-4d33-815a-472437b90548}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{33082173-6094-481b-828a-ea8686e95cf7}</destination>
+        </relationship>
+    </object>
+    <object class="EventAutomatableProperties" id="{dc70a5ae-1257-4727-930d-89cd074d29a4}"/>
+    <object class="MarkerTrack" id="{40e260f5-5009-4a2b-8c22-def616ac1ff1}"/>
+    <object class="Timeline" id="{e32d1da1-a143-41e8-8eff-7ef3d66ff510}"/>
+    <object class="SnapshotMasterTrack" id="{9ea035fb-ef4c-4d33-815a-472437b90548}"/>
+</objects>

@@ -29,7 +29,7 @@
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
         </relationship>
         <relationship name="folder">
-            <destination>{a0f92206-fba0-4381-9a36-fee21b2ecd7f}</destination>
+            <destination>{53b12145-fcd2-46c1-a25a-66a8503fb0ea}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{d9d684ca-3dd7-4d55-9452-0b7a0b677c0d}">
@@ -175,7 +175,6 @@
         <property name="name">
             <value>FFT size</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(7.186666,256.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(10.698667,4096.000000)}</value>
         </property>
@@ -193,7 +192,6 @@
         <property name="name">
             <value>Overlap</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(4.400000,32.000000)}</value>
         </property>

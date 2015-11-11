@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioBinFolder" id="{90366715-3e58-44a8-948f-ec979aae2b1c}">
+        <property name="name">
+            <value>Piezas Gramola</value>
+        </property>
+        <relationship name="container">
+            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+        </relationship>
+    </object>
+</objects>
