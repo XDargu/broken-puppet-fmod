@@ -82,6 +82,9 @@
         <property name="length">
             <value>1.3395168248490077</value>
         </property>
+        <property name="maxVoices">
+            <value>1</value>
+        </property>
         <relationship name="sounds">
             <destination>{a91338a3-b5c1-4ecb-b907-8baa2124de7a}</destination>
             <destination>{dca08251-7458-48f7-85b3-a74912e00724}</destination>

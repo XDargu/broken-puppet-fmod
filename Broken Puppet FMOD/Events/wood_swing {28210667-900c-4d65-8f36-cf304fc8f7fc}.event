@@ -115,14 +115,14 @@
         <property name="position">
             <value>0</value>
         </property>
-        <relationship name="destination">
-            <destination>{a44319a3-5f6e-4c02-a475-f59e09f57558}</destination>
-        </relationship>
         <relationship name="timeline">
             <destination>{82538785-2606-4d96-86e7-a2d363a3c528}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{0d561d13-96ac-4c48-9c47-67727b8d4ffd}</destination>
+        </relationship>
+        <relationship name="destination">
+            <destination>{a44319a3-5f6e-4c02-a475-f59e09f57558}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{060b6794-3173-405c-8e27-085be3479cb0}">
@@ -142,6 +142,9 @@
     <object class="MixerBusFader" id="{bc556c0d-232c-49d9-9432-c4ea883cabd5}"/>
     <object class="SpatialiserEffect" id="{b4e30bb4-acd0-417d-80b9-fdc290eb5c0b}"/>
     <object class="MixerSend" id="{434e3075-504f-4b7f-b852-4d5c548e5eb1}">
+        <property name="level">
+            <value>-30</value>
+        </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
         </relationship>

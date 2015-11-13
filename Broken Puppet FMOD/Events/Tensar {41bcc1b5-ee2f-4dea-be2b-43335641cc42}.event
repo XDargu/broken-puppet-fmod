@@ -68,9 +68,6 @@
         </relationship>
     </object>
     <object class="GroupTrack" id="{7bfaf478-bc2d-4594-9be9-f6ef40d2ef91}">
-        <relationship name="modules">
-            <destination>{2e25335e-cfee-4024-a1c6-9c14edc1cc0f}</destination>
-        </relationship>
         <relationship name="mixerGroup">
             <destination>{d50789fc-51ae-4eab-adb8-ed057d8b3ae7}</destination>
         </relationship>
@@ -78,7 +75,6 @@
     <object class="Timeline" id="{b6a7d4da-06f3-425f-bf12-d5fa49eb6c37}">
         <relationship name="modules">
             <destination>{f611799c-1054-4d5b-b941-775c51b029ee}</destination>
-            <destination>{2e25335e-cfee-4024-a1c6-9c14edc1cc0f}</destination>
         </relationship>
     </object>
     <object class="GameParameter" id="{4723a7eb-4736-4775-acfa-4d6ccbd167fb}">
@@ -132,17 +128,6 @@
         </relationship>
         <relationship name="output">
             <destination>{2cf1b1b6-6be9-4f82-9c88-5bfd340e127b}</destination>
-        </relationship>
-    </object>
-    <object class="SingleSound" id="{2e25335e-cfee-4024-a1c6-9c14edc1cc0f}">
-        <property name="start">
-            <value>0</value>
-        </property>
-        <property name="length">
-            <value>147.86625512032768</value>
-        </property>
-        <relationship name="audioFile">
-            <destination>{21e3f762-5548-4904-bcf2-97532c9e3958}</destination>
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{d50789fc-51ae-4eab-adb8-ed057d8b3ae7}">

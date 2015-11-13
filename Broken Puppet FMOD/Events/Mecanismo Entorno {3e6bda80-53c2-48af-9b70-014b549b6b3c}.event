@@ -89,6 +89,9 @@
     <object class="MixerBusFader" id="{c4e80899-b0e5-40a3-ab08-8e7dc194d566}"/>
     <object class="SpatialiserEffect" id="{7e65da49-bb9c-4bd4-85c2-fcc278c4f4f9}"/>
     <object class="MixerSend" id="{8fb2fecb-ad4b-4113-be30-e7419fc38988}">
+        <property name="level">
+            <value>-33</value>
+        </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
         </relationship>
