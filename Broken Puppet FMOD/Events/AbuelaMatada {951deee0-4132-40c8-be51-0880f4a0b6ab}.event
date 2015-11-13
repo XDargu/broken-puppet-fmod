@@ -55,9 +55,6 @@
         <property name="maxVoices">
             <value>1</value>
         </property>
-        <property name="voiceStealing">
-            <value>2</value>
-        </property>
     </object>
     <object class="MarkerTrack" id="{9f42a47e-dfa1-41b8-b5f1-2e8aad4b41c6}"/>
     <object class="GroupTrack" id="{6837ef08-959d-4e88-8d83-32f9654ea5c6}">
@@ -75,13 +72,13 @@
         <property name="name">
             <value>frase</value>
         </property>
+        <relationship name="automationScale">
+            <destination>{39b5f469-9c85-4fc3-918b-7ca9255f3645}</destination>
+        </relationship>
         <relationship name="modules">
             <destination>{049e9506-a012-492f-b465-9111841ab2a6}</destination>
             <destination>{b8c3304c-7fbc-42c1-9932-595308b028c3}</destination>
             <destination>{a2c9f00e-2aff-40c8-adba-30ac8d9352bc}</destination>
-        </relationship>
-        <relationship name="automationScale">
-            <destination>{39b5f469-9c85-4fc3-918b-7ca9255f3645}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{5dd473a5-d6c7-41f2-9ef0-88ace34d6655}">
@@ -102,9 +99,6 @@
         <property name="length">
             <value>0.79999998211860657</value>
         </property>
-        <property name="maxVoices">
-            <value>1</value>
-        </property>
         <relationship name="audioFile">
             <destination>{a2e7bba1-a016-4f2e-b6bc-4f90261909ae}</destination>
         </relationship>
@@ -116,9 +110,6 @@
         <property name="length">
             <value>0.99999997764825821</value>
         </property>
-        <property name="maxVoices">
-            <value>1</value>
-        </property>
         <relationship name="audioFile">
             <destination>{56c40f3d-c2f5-494c-841d-365775bf86f0}</destination>
         </relationship>
@@ -129,9 +120,6 @@
         </property>
         <property name="length">
             <value>1.1999999731779099</value>
-        </property>
-        <property name="maxVoices">
-            <value>1</value>
         </property>
         <relationship name="audioFile">
             <destination>{c0799c36-40d7-4436-b584-d7b48c024415}</destination>

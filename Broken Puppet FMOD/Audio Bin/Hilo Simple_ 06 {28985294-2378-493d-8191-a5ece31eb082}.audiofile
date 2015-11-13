@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{28985294-2378-493d-8191-a5ece31eb082}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>13.366666666666667</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Hilo Simple_ 06 {51ac472e-7aea-4988-bf9a-058076a7ea25}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{65246891-aec2-4c62-b898-044bfe5402a1}</destination>
+        </relationship>
+    </object>
+</objects>

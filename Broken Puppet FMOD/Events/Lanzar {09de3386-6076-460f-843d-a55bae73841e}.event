@@ -196,9 +196,6 @@
         <property name="startOffset">
             <value>66</value>
         </property>
-        <property name="maxVoices">
-            <value>1</value>
-        </property>
         <relationship name="modulators">
             <destination>{f87e21ef-1e97-4dfe-b4a5-04ccaec58a0c}</destination>
             <destination>{1640951c-2fa3-4823-9051-5e22fe902b46}</destination>
@@ -211,7 +208,7 @@
     </object>
     <object class="EventMixerGroup" id="{688d5d10-bacb-44e0-bd88-6d855f142d74}">
         <property name="volume">
-            <value>-4</value>
+            <value>-80</value>
         </property>
         <property name="name">
             <value>Audio 1</value>

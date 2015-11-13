@@ -59,11 +59,7 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
             <destination>{4e4350a4-bdb6-47d6-b350-b04bdce18b67}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{d38852f1-9f63-42ce-b0b8-c1281e93d2c4}">
-        <property name="maxVoices">
-            <value>1</value>
-        </property>
-    </object>
+    <object class="EventAutomatableProperties" id="{d38852f1-9f63-42ce-b0b8-c1281e93d2c4}"/>
     <object class="MarkerTrack" id="{fe00b061-a6ae-4ee0-a8e0-b8dff5dabe30}"/>
     <object class="MarkerTrack" id="{001aaa94-90bd-4e00-a661-8acdac051e9d}"/>
     <object class="GroupTrack" id="{bc72cf56-3294-46e8-ba95-e52572256914}">
@@ -312,14 +308,14 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <relationship name="destination">
             <destination>{513202f1-f713-4d31-9a07-1d869df9ab69}</destination>
         </relationship>
+        <relationship name="triggerCondition">
+            <destination>{30f26f3c-13a7-4252-92b6-8436267a292a}</destination>
+        </relationship>
         <relationship name="timeline">
             <destination>{56e8bbc4-43c7-4df7-8d63-9af9a39d3437}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{001aaa94-90bd-4e00-a661-8acdac051e9d}</destination>
-        </relationship>
-        <relationship name="triggerCondition">
-            <destination>{30f26f3c-13a7-4252-92b6-8436267a292a}</destination>
         </relationship>
     </object>
     <object class="LoopRegion" id="{5ef6a3de-0079-4566-9f86-8700ab6e7d39}">

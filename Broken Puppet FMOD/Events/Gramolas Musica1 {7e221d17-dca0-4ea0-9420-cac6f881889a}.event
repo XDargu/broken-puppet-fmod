@@ -35,8 +35,11 @@
         <relationship name="tags">
             <destination>{98e135a6-aea7-4091-9025-dd566825b3de}</destination>
         </relationship>
+        <relationship name="banks">
+            <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
+        </relationship>
         <relationship name="folder">
-            <destination>{10628f14-c9e2-4c82-9660-521cc1d07dfb}</destination>
+            <destination>{c08392e3-1323-472e-a956-4e67b72b4461}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{fc3c91d2-550a-4354-8b56-96858202de04}">
@@ -53,11 +56,7 @@
             <destination>{79ffe2b7-b6c8-4493-8ff7-3748003220df}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{dba0eaac-ff03-425b-a398-fb203c4570ac}">
-        <property name="maxVoices">
-            <value>10</value>
-        </property>
-    </object>
+    <object class="EventAutomatableProperties" id="{dba0eaac-ff03-425b-a398-fb203c4570ac}"/>
     <object class="MarkerTrack" id="{f2207f82-c585-4513-9c8e-934e9a30104e}"/>
     <object class="MarkerTrack" id="{9f5f5649-7161-4ff4-a909-a8cd4b8b9a1b}"/>
     <object class="GroupTrack" id="{84ee9804-0a71-4943-99a0-1f9341db5e99}">
@@ -233,6 +232,9 @@
         </property>
         <property name="volume">
             <value>-8.5</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{8f39008a-bff4-4ebc-8caa-ddb9bcbf6b94}</destination>

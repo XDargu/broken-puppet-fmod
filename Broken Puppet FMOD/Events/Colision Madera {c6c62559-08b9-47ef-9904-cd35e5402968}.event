@@ -46,7 +46,11 @@
             <destination>{c601d5ff-89e6-4914-a422-869ab834c53e}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{56dbdcf8-a6c6-4fa0-b747-566b5b245052}"/>
+    <object class="EventAutomatableProperties" id="{56dbdcf8-a6c6-4fa0-b747-566b5b245052}">
+        <property name="maxVoices">
+            <value>10</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{83527c14-89d3-402d-b83e-8de521cd1bbd}"/>
     <object class="GroupTrack" id="{ac13d82a-2b6e-4746-815d-70dac5461914}">
         <relationship name="modules">
@@ -197,6 +201,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{2f5707c8-0fb5-49ac-8dec-4ffb548ded13}">
         <relationship name="effects">
+            <destination>{6e2b88d8-bdd3-41ff-8b2d-0cf6c0f1810e}</destination>
             <destination>{4cd5f6d6-0929-4249-8bc7-cd8bccbeadec}</destination>
             <destination>{72dfa056-6122-4fe4-92c9-9f8fae587f3c}</destination>
             <destination>{6478cf4d-5572-46f6-91fd-a76ff5fc2f0a}</destination>
@@ -273,8 +278,29 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{c0c564db-fea5-4cef-8d1c-c6b31e80fd7d}"/>
+    <object class="CompressorEffect" id="{6e2b88d8-bdd3-41ff-8b2d-0cf6c0f1810e}">
+        <property name="threshold">
+            <value>-20</value>
+        </property>
+        <property name="ratio">
+            <value>3</value>
+        </property>
+        <property name="attackTime">
+            <value>32</value>
+        </property>
+        <property name="releaseTime">
+            <value>300</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{4cd5f6d6-0929-4249-8bc7-cd8bccbeadec}"/>
-    <object class="SpatialiserEffect" id="{72dfa056-6122-4fe4-92c9-9f8fae587f3c}"/>
+    <object class="SpatialiserEffect" id="{72dfa056-6122-4fe4-92c9-9f8fae587f3c}">
+        <property name="minimumDistance">
+            <value>5</value>
+        </property>
+        <property name="maximumDistance">
+            <value>80</value>
+        </property>
+    </object>
     <object class="MixerSend" id="{6478cf4d-5572-46f6-91fd-a76ff5fc2f0a}">
         <property name="level">
             <value>-21</value>

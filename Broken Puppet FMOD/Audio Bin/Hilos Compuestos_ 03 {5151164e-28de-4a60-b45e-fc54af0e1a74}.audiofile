@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{5151164e-28de-4a60-b45e-fc54af0e1a74}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>8.9499999999999993</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Hilos Compuestos_ 03 {7c9e9a64-d2ad-42ac-b977-695010b1ccc9}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{65246891-aec2-4c62-b898-044bfe5402a1}</destination>
+        </relationship>
+    </object>
+</objects>

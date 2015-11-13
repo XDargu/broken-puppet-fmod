@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.01.05.00">
     <object class="Event" id="{3368772b-2b91-48f2-9ed3-5e1f673933f3}">
         <property name="name">
-            <value>Rev_FueraRelojDentro</value>
+            <value>Rev_RelojDentro</value>
         </property>
         <relationship name="mixer">
             <destination>{5e47c6d9-7615-461a-ae96-3b967bd30082}</destination>

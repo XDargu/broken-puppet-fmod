@@ -275,8 +275,11 @@
     </object>
     <object class="MixerBusFader" id="{7f6720e4-cc60-4fec-8478-8c01faae4ed2}"/>
     <object class="SpatialiserEffect" id="{70a56e3e-d5a8-4b28-aa80-5ebc9ef66058}">
+        <property name="minimumDistance">
+            <value>10</value>
+        </property>
         <property name="maximumDistance">
-            <value>199.999969</value>
+            <value>200</value>
         </property>
     </object>
     <object class="MixerSend" id="{c27502c8-0944-4ee2-8d1d-47622ed0a954}">
@@ -355,7 +358,6 @@
         <property name="name">
             <value>Depth</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -373,7 +375,6 @@
         <property name="name">
             <value>Shape</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -391,7 +392,6 @@
         <property name="name">
             <value>Skew</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
         </property>
@@ -409,7 +409,6 @@
         <property name="name">
             <value>Duty</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -427,7 +426,6 @@
         <property name="name">
             <value>Square</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -445,7 +443,6 @@
         <property name="name">
             <value>Phase</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -463,7 +460,6 @@
         <property name="name">
             <value>Spread</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
         </property>

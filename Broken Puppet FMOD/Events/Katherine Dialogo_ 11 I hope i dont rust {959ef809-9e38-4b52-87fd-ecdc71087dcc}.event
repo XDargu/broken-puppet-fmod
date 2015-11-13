@@ -152,6 +152,9 @@
     <object class="MixerBusPanner" id="{9a32e8c1-90c7-4bff-8dbb-62b0718b0be5}"/>
     <object class="MixerBusFader" id="{a1d0729b-72dd-4564-83f4-0663c5a0ea9f}"/>
     <object class="MixerSend" id="{80be9a30-5c69-49e3-bfe0-a99cb09cff55}">
+        <property name="level">
+            <value>-22.5</value>
+        </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
         </relationship>

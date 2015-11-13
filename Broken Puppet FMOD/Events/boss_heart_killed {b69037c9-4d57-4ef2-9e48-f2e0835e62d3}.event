@@ -403,8 +403,11 @@
     </object>
     <object class="MixerBusFader" id="{4678bc22-313c-46ca-a21c-0704a087849e}"/>
     <object class="SpatialiserEffect" id="{f36d79e7-734c-4041-8dac-c2e031d887c8}">
+        <property name="minimumDistance">
+            <value>10</value>
+        </property>
         <property name="maximumDistance">
-            <value>199.999969</value>
+            <value>500</value>
         </property>
         <property name="panBlend">
             <value>0</value>

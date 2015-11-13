@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Folder" id="{c93e0481-3e12-496b-9d61-795fb37d388d}">
+        <property name="name">
+            <value>Circunstanciales</value>
+        </property>
+        <relationship name="folder">
+            <destination>{a0f92206-fba0-4381-9a36-fee21b2ecd7f}</destination>
+        </relationship>
+    </object>
+</objects>

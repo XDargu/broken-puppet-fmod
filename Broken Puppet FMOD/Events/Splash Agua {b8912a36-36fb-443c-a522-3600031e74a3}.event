@@ -56,7 +56,7 @@
     </object>
     <object class="EventAutomatableProperties" id="{e477b82f-49c8-463e-8d55-d3f2d3774674}">
         <property name="maxVoices">
-            <value>3</value>
+            <value>5</value>
         </property>
     </object>
     <object class="MarkerTrack" id="{0573236b-c268-404c-bb55-3e9f7227b802}"/>
@@ -173,7 +173,7 @@
     </object>
     <object class="AutomationScale" id="{dc791929-6cd4-4b78-a230-2bf106b0d3b8}">
         <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,35.000000)}</value>
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,50.000000)}</value>
         </property>
         <property name="associatedClassName">
             <value>GameParameter</value>
@@ -249,7 +249,7 @@
     <object class="MixerBusPanner" id="{1509b42d-c2c8-4e07-9942-4a05a3ff9393}"/>
     <object class="AutomationPoint" id="{bfa360cc-a34b-4813-bf88-0972c16e6598}">
         <property name="position">
-            <value>5.1192145862552589</value>
+            <value>7.3131636946503695</value>
         </property>
         <property name="value">
             <value>-23.1838493</value>
@@ -271,7 +271,7 @@
     </object>
     <object class="AutomationPoint" id="{92752bbf-77cc-4f17-915e-9e97b2f0df9e}">
         <property name="position">
-            <value>35</value>
+            <value>50</value>
         </property>
         <property name="value">
             <value>6.15528202</value>
@@ -279,7 +279,7 @@
     </object>
     <object class="AutomationPoint" id="{948b1ba4-9d8e-4f60-a91c-3d2a1bf0eb1e}">
         <property name="position">
-            <value>9.9002849002849</value>
+            <value>14.143264143264142</value>
         </property>
         <property name="value">
             <value>0</value>
@@ -293,7 +293,7 @@
     </object>
     <object class="AutomationPoint" id="{437e84e8-89c4-4174-bb22-4bf1f6dd381b}">
         <property name="position">
-            <value>30.000000447034836</value>
+            <value>42.857143495764049</value>
         </property>
         <property name="value">
             <value>-15.6382618</value>
@@ -301,7 +301,7 @@
     </object>
     <object class="AutomationPoint" id="{892f54ea-fc75-4ed6-8cb1-26655691ab7e}">
         <property name="position">
-            <value>5.000000074505806</value>
+            <value>7.1428572492940088</value>
         </property>
         <property name="value">
             <value>0</value>
@@ -315,7 +315,7 @@
     </object>
     <object class="AutomationPoint" id="{32523b84-c28b-46bf-acb1-5a4c08669349}">
         <property name="position">
-            <value>17.00000025331974</value>
+            <value>24.28571464759963</value>
         </property>
         <property name="value">
             <value>-4.85391235</value>
@@ -323,7 +323,7 @@
     </object>
     <object class="AutomationPoint" id="{6389c562-1cc2-4c3b-b78e-1f3ad2422538}">
         <property name="position">
-            <value>4.9358974358974361</value>
+            <value>7.0512820512820511</value>
         </property>
         <property name="value">
             <value>0</value>
@@ -337,7 +337,7 @@
     </object>
     <object class="AutomationPoint" id="{e734f13e-429c-4b5d-907a-6dcd1907fe0e}">
         <property name="position">
-            <value>10.000000149011612</value>
+            <value>14.285714498588018</value>
         </property>
         <property name="value">
             <value>-4.25478172</value>
@@ -346,8 +346,11 @@
     <object class="ThreeEQEffect" id="{8f8a87e8-f595-4a41-8b3b-5d3a38a4fb98}"/>
     <object class="MixerBusFader" id="{c73b306a-ebba-4b3d-80e5-616468ab7a39}"/>
     <object class="SpatialiserEffect" id="{6fcc2e9f-86f9-4c68-a9dd-58e37e7a9c86}">
+        <property name="minimumDistance">
+            <value>7</value>
+        </property>
         <property name="maximumDistance">
-            <value>30</value>
+            <value>90</value>
         </property>
     </object>
     <object class="MixerSend" id="{284c84ca-62ae-4ea3-95eb-4695323796b3}">

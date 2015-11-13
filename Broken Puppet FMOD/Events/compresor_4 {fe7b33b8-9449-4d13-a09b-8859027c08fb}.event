@@ -150,14 +150,14 @@
         <property name="position">
             <value>0</value>
         </property>
+        <relationship name="destination">
+            <destination>{902b0597-1110-49e5-80b1-5068075aff54}</destination>
+        </relationship>
         <relationship name="timeline">
             <destination>{0cb9c34c-6889-4ea4-9e6c-96fc2068d1e2}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{580f2bc0-d295-472c-8380-2519a97b1502}</destination>
-        </relationship>
-        <relationship name="destination">
-            <destination>{902b0597-1110-49e5-80b1-5068075aff54}</destination>
         </relationship>
     </object>
     <object class="AutomationScale" id="{6a641a00-35aa-4634-89b4-21aadd4db136}">
@@ -183,7 +183,6 @@
         <relationship name="effects">
             <destination>{5da05845-6e4d-43f9-8ad0-bee90f780be2}</destination>
             <destination>{d6fb1440-ff34-4ae2-97ae-67b24f660a5d}</destination>
-            <destination>{3762eb19-6afc-4ca6-b3f2-56584f4ec5d7}</destination>
             <destination>{4e003b98-f66d-4993-9809-1f3309c57396}</destination>
             <destination>{ba849ee0-8ebd-4e33-a279-eb5f157585d3}</destination>
         </relationship>
@@ -262,14 +261,6 @@
             <value>100</value>
         </property>
     </object>
-    <object class="PluginEffect" id="{3762eb19-6afc-4ca6-b3f2-56584f4ec5d7}">
-        <property name="bypass">
-            <value>false</value>
-        </property>
-        <relationship name="plugin">
-            <destination>{d0ef1ae9-070e-40be-97d4-d1fad08a3863}</destination>
-        </relationship>
-    </object>
     <object class="MixerBusFader" id="{4e003b98-f66d-4993-9809-1f3309c57396}"/>
     <object class="SpatialiserEffect" id="{ba849ee0-8ebd-4e33-a279-eb5f157585d3}">
         <property name="minimumDistance">
@@ -294,84 +285,4 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{6a691495-d752-483a-a8ae-dcdb9fc5312e}"/>
-    <object class="Plugin" id="{d0ef1ae9-070e-40be-97d4-d1fad08a3863}">
-        <property name="identifier">
-            <value>FMOD Distance Filter</value>
-        </property>
-        <property name="uiName">
-            <value>Distance Filter</value>
-        </property>
-        <relationship name="pluginParameters">
-            <destination>{4ab99509-a946-481c-b06c-3d85b46ee82b}</destination>
-            <destination>{a9f18922-9be9-4e62-ba6a-cb8426e7660b}</destination>
-            <destination>{2a1c9e84-8af6-4058-9b4d-7fa9c705e207}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{4ab99509-a946-481c-b06c-3d85b46ee82b}">
-        <property name="name">
-            <value>Max Dist</value>
-        </property>
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)(2.000000,5.000000)(3.000000,20.000000)(4.000000,100.000000)(4.500000,500.000000)(5.000000,10000.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>20</value>
-        </property>
-        <property name="value">
-            <value>30</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{87c54cba-412f-499f-88c3-eb2b7e190e8b}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{a9f18922-9be9-4e62-ba6a-cb8426e7660b}">
-        <property name="name">
-            <value>Frequency</value>
-        </property>
-        <property name="units">
-            <value>Hz</value>
-        </property>
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,10.000000)(1.000000,100.000000)(2.000000,400.000000)(3.000000,750.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(7.000000,5500.000000)(8.000000,10000.000000)(9.000000,18000.000000)(10.000000,22000.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>1500</value>
-        </property>
-        <property name="value">
-            <value>2400</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{7861a73e-bed1-4ecc-a6f7-33c506d7726d}</destination>
-        </relationship>
-    </object>
-    <object class="DataPluginParameter" id="{2a1c9e84-8af6-4058-9b4d-7fa9c705e207}">
-        <property name="name">
-            <value>3D Attributes</value>
-        </property>
-        <property name="dataType">
-            <value>-2</value>
-        </property>
-    </object>
-    <object class="AutomationScale" id="{87c54cba-412f-499f-88c3-eb2b7e190e8b}">
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)(2.000000,5.000000)(3.000000,20.000000)(4.000000,100.000000)(4.500000,500.000000)(5.000000,10000.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Max Dist</value>
-        </property>
-    </object>
-    <object class="AutomationScale" id="{7861a73e-bed1-4ecc-a6f7-33c506d7726d}">
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,10.000000)(1.000000,100.000000)(2.000000,400.000000)(3.000000,750.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(7.000000,5500.000000)(8.000000,10000.000000)(9.000000,18000.000000)(10.000000,22000.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Frequency</value>
-        </property>
-    </object>
 </objects>

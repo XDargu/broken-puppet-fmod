@@ -115,7 +115,6 @@
             <value>0.97917456799134039</value>
         </property>
         <relationship name="modulators">
-            <destination>{7367ca93-ec6a-404a-9135-e6aa910ec8d2}</destination>
             <destination>{f36f37d4-d811-411f-9a1d-eaf43c818546}</destination>
         </relationship>
         <relationship name="fadeOutCurve">
@@ -182,14 +181,14 @@
         <property name="position">
             <value>1.1283621094664158</value>
         </property>
+        <relationship name="destination">
+            <destination>{2fecf2a9-c4e4-4930-875d-62c9eb0ab443}</destination>
+        </relationship>
         <relationship name="timeline">
             <destination>{a5ed6e9a-9eba-438f-88d2-79bc5f2a9fd1}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{ca4b9ab6-959c-4fe1-b252-d2099a15acf7}</destination>
-        </relationship>
-        <relationship name="destination">
-            <destination>{2fecf2a9-c4e4-4930-875d-62c9eb0ab443}</destination>
         </relationship>
     </object>
     <object class="AutomationScale" id="{84590256-ea8e-4668-bfa6-f45379ff2493}">
@@ -221,14 +220,6 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{2b47588b-be24-4c33-98b0-e76093ec4b05}"/>
-    <object class="RandomizerModulator" id="{7367ca93-ec6a-404a-9135-e6aa910ec8d2}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>pitch</value>
-        </property>
-        <property name="amount">
-            <value>2.08333325</value>
-        </property>
-    </object>
     <object class="RandomizerModulator" id="{f36f37d4-d811-411f-9a1d-eaf43c818546}">
         <property name="nameOfPropertyBeingModulated">
             <value>volume</value>

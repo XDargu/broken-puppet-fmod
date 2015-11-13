@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.05.00">
-    <object class="Folder" id="{10628f14-c9e2-4c82-9660-521cc1d07dfb}">
+    <object class="Folder" id="{11fb8d37-42c7-4bc0-9975-c26870c93ca0}">
         <property name="name">
-            <value>Composicion</value>
+            <value>Escenarios</value>
         </property>
         <relationship name="folder">
-            <destination>{c08392e3-1323-472e-a956-4e67b72b4461}</destination>
+            <destination>{08ec6314-c25f-455e-93b9-0d1cc0ea5519}</destination>
         </relationship>
     </object>
 </objects>

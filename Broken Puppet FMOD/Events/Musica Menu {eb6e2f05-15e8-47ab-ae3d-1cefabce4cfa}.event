@@ -211,7 +211,6 @@
     <object class="MixerBusPanner" id="{c01b7f22-f4a1-4b19-b2f2-dd93c994543c}"/>
     <object class="MixerBusEffectChain" id="{7f7bd030-f945-40a2-8773-9404c2863001}">
         <relationship name="effects">
-            <destination>{ebb8f1de-f417-490e-84c2-d0cb47d1f51b}</destination>
             <destination>{a5690952-23df-45f8-973b-8d6521f23503}</destination>
             <destination>{8a03903f-da6e-45e6-ad5f-01dc09352347}</destination>
             <destination>{f05f8fe6-7cfd-40f0-8340-41d95a14ef98}</destination>
@@ -483,26 +482,6 @@
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
         </relationship>
     </object>
-    <object class="ThreeEQEffect" id="{ebb8f1de-f417-490e-84c2-d0cb47d1f51b}">
-        <property name="bypass">
-            <value>true</value>
-        </property>
-        <property name="lowGain">
-            <value>-20.5</value>
-        </property>
-        <property name="midGain">
-            <value>-4</value>
-        </property>
-        <property name="highGain">
-            <value>-13.5</value>
-        </property>
-        <property name="lowCrossover">
-            <value>580</value>
-        </property>
-        <property name="highCrossover">
-            <value>3400</value>
-        </property>
-    </object>
     <object class="MixerBusFader" id="{a5690952-23df-45f8-973b-8d6521f23503}"/>
     <object class="LowpassEffect" id="{8a03903f-da6e-45e6-ad5f-01dc09352347}">
         <property name="cutoff">
@@ -559,9 +538,6 @@
         <relationship name="automationScale">
             <destination>{b7374bc3-9fff-4bc7-a75d-29a212788f28}</destination>
         </relationship>
-        <relationship name="modulators">
-            <destination>{ac229153-8319-4d5f-8742-516860645107}</destination>
-        </relationship>
     </object>
     <object class="AutomationScale" id="{b7374bc3-9fff-4bc7-a75d-29a212788f28}">
         <property name="curve">
@@ -572,14 +548,6 @@
         </property>
         <property name="associatedPropertyName">
             <value>Level</value>
-        </property>
-    </object>
-    <object class="RandomizerModulator" id="{ac229153-8319-4d5f-8742-516860645107}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>value</value>
-        </property>
-        <property name="amount">
-            <value>51.5</value>
         </property>
     </object>
 </objects>

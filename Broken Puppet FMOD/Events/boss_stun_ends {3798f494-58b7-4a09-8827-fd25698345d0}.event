@@ -263,8 +263,6 @@
     </object>
     <object class="MixerBusEffectChain" id="{f6e9138e-bc72-4f42-b361-b0029a680bcf}">
         <relationship name="effects">
-            <destination>{37593977-2c83-4c71-8571-29d69cd77be3}</destination>
-            <destination>{ff209156-1572-4946-83c9-98519a398d21}</destination>
             <destination>{6cd4ad1b-8b3e-48c8-90d8-61ab972c2e7b}</destination>
             <destination>{ff11e4a8-d672-43f8-a919-d15879d6bc3a}</destination>
             <destination>{84e76b8d-7b3e-4b54-af86-ddfd7dcd825c}</destination>
@@ -347,26 +345,13 @@
             <value>-0.0608697943</value>
         </property>
     </object>
-    <object class="PluginEffect" id="{37593977-2c83-4c71-8571-29d69cd77be3}">
-        <property name="bypass">
-            <value>true</value>
-        </property>
-        <relationship name="plugin">
-            <destination>{7c934753-a9b2-491d-9172-75405c6668c5}</destination>
-        </relationship>
-    </object>
-    <object class="PluginEffect" id="{ff209156-1572-4946-83c9-98519a398d21}">
-        <property name="bypass">
-            <value>true</value>
-        </property>
-        <relationship name="plugin">
-            <destination>{f8ff98bd-f289-4ff7-8c05-9dfdb6bac250}</destination>
-        </relationship>
-    </object>
     <object class="MixerBusFader" id="{6cd4ad1b-8b3e-48c8-90d8-61ab972c2e7b}"/>
     <object class="SpatialiserEffect" id="{ff11e4a8-d672-43f8-a919-d15879d6bc3a}">
+        <property name="minimumDistance">
+            <value>20</value>
+        </property>
         <property name="maximumDistance">
-            <value>249.999939</value>
+            <value>2000</value>
         </property>
     </object>
     <object class="MixerSend" id="{84e76b8d-7b3e-4b54-af86-ddfd7dcd825c}">
@@ -492,28 +477,6 @@
     </object>
     <object class="MixerBusFader" id="{29c6141d-9d84-4fce-9522-8cb2205529a9}"/>
     <object class="MixerBusFader" id="{d5134413-fb8a-4752-bfdb-9cb0ec1d5a79}"/>
-    <object class="Plugin" id="{7c934753-a9b2-491d-9172-75405c6668c5}">
-        <property name="identifier">
-            <value>FMOD Distortion</value>
-        </property>
-        <property name="uiName">
-            <value>Distortion</value>
-        </property>
-        <relationship name="pluginParameters">
-            <destination>{56a18527-2dbf-4bcb-bd70-7b8b2e72250a}</destination>
-        </relationship>
-    </object>
-    <object class="Plugin" id="{f8ff98bd-f289-4ff7-8c05-9dfdb6bac250}">
-        <property name="identifier">
-            <value>FMOD Lowpass Simple</value>
-        </property>
-        <property name="uiName">
-            <value>Lowpass Simple</value>
-        </property>
-        <relationship name="pluginParameters">
-            <destination>{59561cca-1681-40f4-9798-6a450ddc2226}</destination>
-        </relationship>
-    </object>
     <object class="Plugin" id="{8d991356-c65b-40ad-bb6e-cccc853fa72a}">
         <property name="identifier">
             <value>FMOD Distortion</value>
@@ -562,44 +525,6 @@
             <destination>{bd8df66a-50a9-4b1a-a639-9992480beef7}</destination>
             <destination>{78b1e91b-4286-4791-866f-83fadda1c55f}</destination>
             <destination>{a2cc3ec1-9f9c-4b0a-b3a0-9751d5b37675}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{56a18527-2dbf-4bcb-bd70-7b8b2e72250a}">
-        <property name="name">
-            <value>Level</value>
-        </property>
-        <property name="units"/>
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>0.5</value>
-        </property>
-        <property name="value">
-            <value>0.770000041</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{f1a75df6-050c-4e23-a958-071995776061}</destination>
-        </relationship>
-    </object>
-    <object class="FloatPluginParameter" id="{59561cca-1681-40f4-9798-6a450ddc2226}">
-        <property name="name">
-            <value>Cutoff freq</value>
-        </property>
-        <property name="units">
-            <value>hz</value>
-        </property>
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,10.000000)(1.000000,100.000000)(2.000000,400.000000)(3.000000,750.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(7.000000,5500.000000)(8.000000,10000.000000)(9.000000,18000.000000)(10.000000,22000.000000)}</value>
-        </property>
-        <property name="defaultValue">
-            <value>5000</value>
-        </property>
-        <property name="value">
-            <value>18000</value>
-        </property>
-        <relationship name="automationScale">
-            <destination>{8f350530-b837-4311-98b7-a9a246da9ef3}</destination>
         </relationship>
     </object>
     <object class="FloatPluginParameter" id="{96e078ac-0f72-4e80-af20-e2650379a92e}">
@@ -783,28 +708,6 @@
         <relationship name="automationScale">
             <destination>{783c0ec2-3b6c-4d04-90f9-2b25166abadc}</destination>
         </relationship>
-    </object>
-    <object class="AutomationScale" id="{f1a75df6-050c-4e23-a958-071995776061}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Level</value>
-        </property>
-    </object>
-    <object class="AutomationScale" id="{8f350530-b837-4311-98b7-a9a246da9ef3}">
-        <property name="curve">
-            <value>LinearPiecewiseCurveStrategy{(0.000000,10.000000)(1.000000,100.000000)(2.000000,400.000000)(3.000000,750.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(7.000000,5500.000000)(8.000000,10000.000000)(9.000000,18000.000000)(10.000000,22000.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>FloatPluginParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Cutoff freq</value>
-        </property>
     </object>
     <object class="AutomationScale" id="{35396aba-8453-427c-85b8-743aef64c89a}">
         <property name="curve">
