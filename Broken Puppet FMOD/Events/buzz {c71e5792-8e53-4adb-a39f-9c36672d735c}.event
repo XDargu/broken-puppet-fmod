@@ -47,12 +47,19 @@
         <relationship name="automationTracks">
             <destination>{b8778ac8-80dd-4386-ba7d-a26942d4dce7}</destination>
             <destination>{f9989520-b7c2-4952-a3bc-908edcf302b8}</destination>
+            <destination>{47224f62-2bf4-44d9-93f8-ae1488fa5c2c}</destination>
+            <destination>{cdddfaec-b2d9-42c5-b05c-4f9b5374afec}</destination>
+            <destination>{26c127d4-713a-4abd-998f-de7d18c38c02}</destination>
         </relationship>
         <relationship name="mixerGroup">
             <destination>{c680f025-efc9-49bc-88a7-cef29838bcc1}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{6a8d2772-9421-45b4-9197-39c2cdcf4a42}"/>
+    <object class="EventAutomatableProperties" id="{6a8d2772-9421-45b4-9197-39c2cdcf4a42}">
+        <property name="maxVoices">
+            <value>2</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{46382093-2659-4634-b00e-d3baf3d1d839}"/>
     <object class="GroupTrack" id="{5687fa5a-d33e-4551-b9a2-7dbce7e67209}">
         <relationship name="modules">
@@ -77,9 +84,15 @@
         <relationship name="automationCurves">
             <destination>{268b1c30-531a-4d55-a47c-f765206feafd}</destination>
             <destination>{20d22d35-2360-4d54-ad89-f5116023d279}</destination>
+            <destination>{005958b6-fcf6-4025-ac07-b40dd260bfe7}</destination>
+            <destination>{76a55811-09c0-4942-b08e-8a17b5a9c653}</destination>
+            <destination>{5176faa3-58f7-4269-9a81-b99a3ef2d812}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{c680f025-efc9-49bc-88a7-cef29838bcc1}">
+        <property name="volume">
+            <value>-6</value>
+        </property>
         <relationship name="effectChain">
             <destination>{4fd3a736-3865-4be4-a746-c5672e3a5341}</destination>
         </relationship>
@@ -110,6 +123,39 @@
         </relationship>
         <relationship name="objectBeingAutomated">
             <destination>{2167c38f-e1c2-4456-b234-68418781576a}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationTrack" id="{47224f62-2bf4-44d9-93f8-ae1488fa5c2c}">
+        <property name="nameOfPropertyBeingAutomated">
+            <value>value</value>
+        </property>
+        <relationship name="automationCurves">
+            <destination>{005958b6-fcf6-4025-ac07-b40dd260bfe7}</destination>
+        </relationship>
+        <relationship name="objectBeingAutomated">
+            <destination>{7f2e6c40-af18-4add-b39e-730fe752df2e}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationTrack" id="{cdddfaec-b2d9-42c5-b05c-4f9b5374afec}">
+        <property name="nameOfPropertyBeingAutomated">
+            <value>volume</value>
+        </property>
+        <relationship name="automationCurves">
+            <destination>{76a55811-09c0-4942-b08e-8a17b5a9c653}</destination>
+        </relationship>
+        <relationship name="objectBeingAutomated">
+            <destination>{c680f025-efc9-49bc-88a7-cef29838bcc1}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationTrack" id="{26c127d4-713a-4abd-998f-de7d18c38c02}">
+        <property name="nameOfPropertyBeingAutomated">
+            <value>level</value>
+        </property>
+        <relationship name="automationCurves">
+            <destination>{5176faa3-58f7-4269-9a81-b99a3ef2d812}</destination>
+        </relationship>
+        <relationship name="objectBeingAutomated">
+            <destination>{41a1f7fc-3377-43bb-90f5-a1a2cec69abe}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{8374c793-448c-4855-8e40-2d27307ee7a0}">
@@ -145,10 +191,10 @@
     </object>
     <object class="LoopRegion" id="{52a563ee-e508-43d2-828c-6ecd92c7f134}">
         <property name="position">
-            <value>0</value>
+            <value>14.890666666666666</value>
         </property>
         <property name="length">
-            <value>31.006666666666668</value>
+            <value>8.7040000000000042</value>
         </property>
         <relationship name="timeline">
             <destination>{891d4189-3f03-46c2-9055-13e7553782bf}</destination>
@@ -181,6 +227,25 @@
             <destination>{ee5c0e70-d59d-40db-a839-1211119ddd35}</destination>
         </relationship>
     </object>
+    <object class="AutomationCurve" id="{005958b6-fcf6-4025-ac07-b40dd260bfe7}">
+        <relationship name="automationPoints">
+            <destination>{3483078d-e6e1-44ed-ad8d-e43cbd6afba7}</destination>
+            <destination>{a2b3eb65-f250-41ec-a3f7-8a34c07d4159}</destination>
+            <destination>{5499337f-02fd-4739-91f5-c5ce0ec972bb}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationCurve" id="{76a55811-09c0-4942-b08e-8a17b5a9c653}">
+        <relationship name="automationPoints">
+            <destination>{9d94383a-d57b-4d68-b0fc-7f8b0c7f29e7}</destination>
+            <destination>{7f625111-a598-45f8-bfcc-1a9289f4862d}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationCurve" id="{5176faa3-58f7-4269-9a81-b99a3ef2d812}">
+        <relationship name="automationPoints">
+            <destination>{14c5c33b-4f29-4a49-a771-37f8418ddde5}</destination>
+            <destination>{e928b6db-b2ed-44cc-9259-2130bd563c02}</destination>
+        </relationship>
+    </object>
     <object class="MixerBusEffectChain" id="{4fd3a736-3865-4be4-a746-c5672e3a5341}">
         <relationship name="effects">
             <destination>{2167c38f-e1c2-4456-b234-68418781576a}</destination>
@@ -195,6 +260,7 @@
         <relationship name="effects">
             <destination>{48075afb-6988-4ce4-a102-489914675423}</destination>
             <destination>{c0cb857e-6966-4d35-b942-c8790588f029}</destination>
+            <destination>{0ddd4936-94dd-431d-a8ff-e0b441d82d79}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{baec5c8b-b542-4a2f-b4f8-5dac398da8e7}"/>
@@ -247,6 +313,86 @@
             <value>-29.2821426</value>
         </property>
     </object>
+    <object class="AutomationPoint" id="{3483078d-e6e1-44ed-ad8d-e43cbd6afba7}">
+        <property name="position">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>0.913043499</value>
+        </property>
+        <property name="curveShape">
+            <value>0.204695463</value>
+        </property>
+        <property name="isSCurve">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{a2b3eb65-f250-41ec-a3f7-8a34c07d4159}">
+        <property name="position">
+            <value>0.99999997764825821</value>
+        </property>
+        <property name="value">
+            <value>0.75</value>
+        </property>
+        <property name="curveShape">
+            <value>0.150584787</value>
+        </property>
+        <property name="isSCurve">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{5499337f-02fd-4739-91f5-c5ce0ec972bb}">
+        <property name="position">
+            <value>6.1999998614192009</value>
+        </property>
+        <property name="value">
+            <value>0</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{9d94383a-d57b-4d68-b0fc-7f8b0c7f29e7}">
+        <property name="position">
+            <value>0</value>
+        </property>
+        <property name="value">
+            <value>-12.6426096</value>
+        </property>
+        <property name="curveShape">
+            <value>-0.444444507</value>
+        </property>
+        <property name="isSCurve">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{7f625111-a598-45f8-bfcc-1a9289f4862d}">
+        <property name="position">
+            <value>2.5999999418854713</value>
+        </property>
+        <property name="value">
+            <value>-5.45304251</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{14c5c33b-4f29-4a49-a771-37f8418ddde5}">
+        <property name="position">
+            <value>0.18119068162208801</value>
+        </property>
+        <property name="value">
+            <value>-20.5</value>
+        </property>
+        <property name="curveShape">
+            <value>0.5</value>
+        </property>
+        <property name="isSCurve">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{e928b6db-b2ed-44cc-9259-2130bd563c02}">
+        <property name="position">
+            <value>3.899999912828207</value>
+        </property>
+        <property name="value">
+            <value>-20.5</value>
+        </property>
+    </object>
     <object class="ThreeEQEffect" id="{2167c38f-e1c2-4456-b234-68418781576a}">
         <property name="lowGain">
             <value>-80</value>
@@ -286,6 +432,14 @@
         </property>
     </object>
     <object class="MixerBusFader" id="{c0cb857e-6966-4d35-b942-c8790588f029}"/>
+    <object class="PluginEffect" id="{0ddd4936-94dd-431d-a8ff-e0b441d82d79}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <relationship name="plugin">
+            <destination>{761e7ec3-636a-4549-9e4e-2b97e4d03387}</destination>
+        </relationship>
+    </object>
     <object class="Plugin" id="{eb12d9ab-b7aa-4f27-9b61-e2fcb57ecbc6}">
         <property name="identifier">
             <value>FMOD Distortion</value>
@@ -297,11 +451,23 @@
             <destination>{7f2e6c40-af18-4add-b39e-730fe752df2e}</destination>
         </relationship>
     </object>
+    <object class="Plugin" id="{761e7ec3-636a-4549-9e4e-2b97e4d03387}">
+        <property name="identifier">
+            <value>FMOD Distance Filter</value>
+        </property>
+        <property name="uiName">
+            <value>Distance Filter</value>
+        </property>
+        <relationship name="pluginParameters">
+            <destination>{f4f8ce63-d661-4772-876d-0c7e99f2a89a}</destination>
+            <destination>{5e271df6-7494-453c-85ff-e7936e1dce81}</destination>
+            <destination>{9438bbf6-b4ea-4723-92ce-019690aabbd0}</destination>
+        </relationship>
+    </object>
     <object class="FloatPluginParameter" id="{7f2e6c40-af18-4add-b39e-730fe752df2e}">
         <property name="name">
             <value>Level</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -309,11 +475,60 @@
             <value>0.5</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>0.680000067</value>
         </property>
         <relationship name="automationScale">
             <destination>{549d0d08-1a4c-4902-bafc-518ac4c6f294}</destination>
         </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{f4f8ce63-d661-4772-876d-0c7e99f2a89a}">
+        <property name="name">
+            <value>Max Dist</value>
+        </property>
+        <property name="units"/>
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)(2.000000,5.000000)(3.000000,20.000000)(4.000000,100.000000)(4.500000,500.000000)(5.000000,10000.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>20</value>
+        </property>
+        <property name="value">
+            <value>6.5</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{f9b296f3-0406-47c3-97a6-714dbd7547ba}</destination>
+        </relationship>
+    </object>
+    <object class="FloatPluginParameter" id="{5e271df6-7494-453c-85ff-e7936e1dce81}">
+        <property name="name">
+            <value>Frequency</value>
+        </property>
+        <property name="units">
+            <value>Hz</value>
+        </property>
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(0.000000,10.000000)(1.000000,100.000000)(2.000000,400.000000)(3.000000,750.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(7.000000,5500.000000)(8.000000,10000.000000)(9.000000,18000.000000)(10.000000,22000.000000)}</value>
+        </property>
+        <property name="defaultValue">
+            <value>1500</value>
+        </property>
+        <property name="value">
+            <value>2700</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{c557ff62-6d50-43b2-add6-6425f7c41b5a}</destination>
+        </relationship>
+    </object>
+    <object class="DataPluginParameter" id="{9438bbf6-b4ea-4723-92ce-019690aabbd0}">
+        <property name="name">
+            <value>3D Attributes</value>
+        </property>
+        <property name="units"/>
+        <property name="dataType">
+            <value>-2</value>
+        </property>
+        <property name="defaultValue"/>
+        <property name="value"/>
     </object>
     <object class="AutomationScale" id="{549d0d08-1a4c-4902-bafc-518ac4c6f294}">
         <property name="curve">
@@ -324,6 +539,28 @@
         </property>
         <property name="associatedPropertyName">
             <value>Level</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{f9b296f3-0406-47c3-97a6-714dbd7547ba}">
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)(2.000000,5.000000)(3.000000,20.000000)(4.000000,100.000000)(4.500000,500.000000)(5.000000,10000.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Max Dist</value>
+        </property>
+    </object>
+    <object class="AutomationScale" id="{c557ff62-6d50-43b2-add6-6425f7c41b5a}">
+        <property name="curve">
+            <value>LinearPiecewiseCurveStrategy{(0.000000,10.000000)(1.000000,100.000000)(2.000000,400.000000)(3.000000,750.000000)(4.000000,1250.000000)(5.000000,2000.000000)(6.000000,3200.000000)(7.000000,5500.000000)(8.000000,10000.000000)(9.000000,18000.000000)(10.000000,22000.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>FloatPluginParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Frequency</value>
         </property>
     </object>
 </objects>

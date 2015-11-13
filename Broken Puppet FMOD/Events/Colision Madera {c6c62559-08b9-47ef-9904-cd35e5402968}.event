@@ -101,7 +101,7 @@
             <value>700</value>
         </property>
         <property name="pitch">
-            <value>5</value>
+            <value>3.4000001</value>
         </property>
         <relationship name="modulators">
             <destination>{6a0dec98-43fd-41eb-9744-8989314aeab1}</destination>
@@ -216,7 +216,7 @@
             <value>pitch</value>
         </property>
         <property name="amount">
-            <value>6.25</value>
+            <value>2.5</value>
         </property>
     </object>
     <object class="RandomizerModulator" id="{29c4c416-6d6d-4e96-bdf9-36d7410d3f82}">
@@ -232,7 +232,7 @@
             <value>pitch</value>
         </property>
         <property name="amount">
-            <value>6.25</value>
+            <value>2.08333325</value>
         </property>
     </object>
     <object class="RandomizerModulator" id="{aae3a57f-fdd0-4e28-b205-0996b620f62e}">
@@ -248,7 +248,7 @@
             <value>pitch</value>
         </property>
         <property name="amount">
-            <value>6.25</value>
+            <value>2.08333325</value>
         </property>
     </object>
     <object class="RandomizerModulator" id="{2e546fa7-abc1-4af6-9250-6325f89d5da3}">
@@ -264,7 +264,7 @@
             <value>pitch</value>
         </property>
         <property name="amount">
-            <value>6.25</value>
+            <value>2.08333325</value>
         </property>
     </object>
     <object class="MixerBusEffectChain" id="{ea03517c-065e-4ed3-9ed7-58653e697778}">

@@ -226,7 +226,7 @@
     </object>
     <object class="AutomationScale" id="{adccdc98-fe9b-485d-bba3-09595845e3a2}">
         <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,40.000000)}</value>
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,30.000000)}</value>
         </property>
         <property name="associatedClassName">
             <value>GameParameter</value>

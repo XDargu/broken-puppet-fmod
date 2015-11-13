@@ -201,13 +201,13 @@
             <value>-30</value>
         </property>
         <property name="midGain">
-            <value>-4</value>
+            <value>-6.5</value>
         </property>
         <property name="highGain">
-            <value>-13.5</value>
+            <value>-16</value>
         </property>
         <property name="lowCrossover">
-            <value>580</value>
+            <value>740</value>
         </property>
         <property name="highCrossover">
             <value>3000</value>
@@ -243,8 +243,20 @@
     </object>
     <object class="MixerBusFader" id="{b51b4f29-bee3-4d5e-b7a7-3d2372fe1ae2}"/>
     <object class="SpatialiserEffect" id="{7f2880bf-256d-4b46-ab93-71231f5cff37}">
+        <property name="distanceRolloffType">
+            <value>4</value>
+        </property>
         <property name="maximumDistance">
-            <value>550</value>
+            <value>10000</value>
+        </property>
+        <property name="panBlend">
+            <value>0</value>
+        </property>
+        <property name="userStereoSeparation">
+            <value>0</value>
+        </property>
+        <property name="userStereoAxis">
+            <value>15.9800825</value>
         </property>
     </object>
     <object class="MixerSend" id="{9f4c0fa4-f456-4d45-8d96-c9d10ab5d1e4}">

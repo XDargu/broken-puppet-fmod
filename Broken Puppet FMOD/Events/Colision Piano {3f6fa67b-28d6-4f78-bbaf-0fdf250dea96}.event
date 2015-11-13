@@ -28,6 +28,7 @@
         <relationship name="parameters">
             <destination>{49ca69fc-974f-4c61-b824-7bbe874d4ea4}</destination>
             <destination>{ddce8c46-91f2-49cc-976c-49bc229000e8}</destination>
+            <destination>{382e8206-85cf-4f50-81c4-2eb9a692312e}</destination>
         </relationship>
         <relationship name="banks">
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
@@ -46,7 +47,11 @@
             <destination>{bc3e408b-a95e-4598-bf31-1af358fdae05}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{9b3a9d66-672b-48f5-bd52-0702093429dc}"/>
+    <object class="EventAutomatableProperties" id="{9b3a9d66-672b-48f5-bd52-0702093429dc}">
+        <property name="maxVoices">
+            <value>2</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{a1c24b0f-9cf9-4432-b428-e21b3430f8b4}"/>
     <object class="GroupTrack" id="{a0d2eebe-17ae-4ed6-b56e-73f31d53bb60}">
         <relationship name="modules">
@@ -76,6 +81,11 @@
             <destination>{cdcad53e-5d92-4928-9717-60ed48b4a2f8}</destination>
         </relationship>
     </object>
+    <object class="DistanceParameter" id="{382e8206-85cf-4f50-81c4-2eb9a692312e}">
+        <relationship name="automationScale">
+            <destination>{410aab66-188f-4fe3-9c20-26acd63f001d}</destination>
+        </relationship>
+    </object>
     <object class="EventMixerMaster" id="{bc3e408b-a95e-4598-bf31-1af358fdae05}">
         <relationship name="effectChain">
             <destination>{4a948221-560f-4880-9386-6e8b90f7fef7}</destination>
@@ -100,7 +110,7 @@
     </object>
     <object class="EventMixerGroup" id="{9f54ee48-2e4f-4f0d-880d-bc29bdec9e2a}">
         <property name="name">
-            <value>Colision Madera</value>
+            <value>Piano Colision</value>
         </property>
         <relationship name="effectChain">
             <destination>{f1d53780-7b0b-4bf7-b78b-12d278ccb366}</destination>
@@ -134,6 +144,17 @@
             <value>Parameter 1</value>
         </property>
     </object>
+    <object class="AutomationScale" id="{410aab66-188f-4fe3-9c20-26acd63f001d}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,30.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Distance</value>
+        </property>
+    </object>
     <object class="MixerBusEffectChain" id="{4a948221-560f-4880-9386-6e8b90f7fef7}">
         <relationship name="effects">
             <destination>{64368342-d474-4e06-bae4-1427027b41f0}</destination>
@@ -153,7 +174,7 @@
     <object class="MixerBusFader" id="{64368342-d474-4e06-bae4-1427027b41f0}"/>
     <object class="SpatialiserEffect" id="{99494671-3889-44f1-909c-8cbe7d48842e}">
         <property name="maximumDistance">
-            <value>10</value>
+            <value>25</value>
         </property>
     </object>
     <object class="MixerSend" id="{da802c36-eaf7-46f2-992d-64468859460b}">

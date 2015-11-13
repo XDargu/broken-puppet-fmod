@@ -4,6 +4,9 @@
         <property name="name">
             <value>boss_arm</value>
         </property>
+        <property name="note">
+            <value>Arrancar brazo1</value>
+        </property>
         <relationship name="mixer">
             <destination>{85800a21-625c-4e8e-9448-647a6f5f7ab3}</destination>
         </relationship>

@@ -28,6 +28,9 @@
         <relationship name="parameters">
             <destination>{9565fd90-a454-401e-8d77-9d6f097e9986}</destination>
         </relationship>
+        <relationship name="banks">
+            <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
+        </relationship>
         <relationship name="folder">
             <destination>{803cea65-69f3-4507-b979-94f2900e7ae5}</destination>
         </relationship>
