@@ -242,6 +242,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{4ce8782e-02a4-4c9c-b5dd-8b8350de51db}">
         <relationship name="effects">
+            <destination>{e72d0853-3332-4ec5-b1b9-e4f9a8fcb8e5}</destination>
             <destination>{3f7a2a37-ab5a-44a3-822d-f35266789897}</destination>
             <destination>{45b99e6b-c7e5-440b-af87-3ed07df89338}</destination>
             <destination>{ec280890-a430-47c9-a2c6-d9673ecd3b62}</destination>
@@ -311,9 +312,30 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{021b088a-1dd1-4001-bfa4-4b459f0d288e}"/>
+    <object class="ThreeEQEffect" id="{e72d0853-3332-4ec5-b1b9-e4f9a8fcb8e5}">
+        <property name="lowGain">
+            <value>-3</value>
+        </property>
+        <property name="midGain">
+            <value>-3</value>
+        </property>
+        <property name="highGain">
+            <value>-7</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{3f7a2a37-ab5a-44a3-822d-f35266789897}"/>
-    <object class="SpatialiserEffect" id="{45b99e6b-c7e5-440b-af87-3ed07df89338}"/>
+    <object class="SpatialiserEffect" id="{45b99e6b-c7e5-440b-af87-3ed07df89338}">
+        <property name="minimumDistance">
+            <value>3</value>
+        </property>
+        <property name="maximumDistance">
+            <value>25</value>
+        </property>
+    </object>
     <object class="MixerSend" id="{ec280890-a430-47c9-a2c6-d9673ecd3b62}">
+        <property name="level">
+            <value>-19.5</value>
+        </property>
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
         </relationship>
@@ -419,7 +441,6 @@
         <property name="name">
             <value>Max Dist</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)(2.000000,5.000000)(3.000000,20.000000)(4.000000,100.000000)(4.500000,500.000000)(5.000000,10000.000000)}</value>
         </property>
@@ -457,12 +478,9 @@
         <property name="name">
             <value>3D Attributes</value>
         </property>
-        <property name="units"/>
         <property name="dataType">
             <value>-2</value>
         </property>
-        <property name="defaultValue"/>
-        <property name="value"/>
     </object>
     <object class="AutomationScale" id="{f81465e9-3fa9-448e-8301-a92053351a5b}">
         <property name="curve">

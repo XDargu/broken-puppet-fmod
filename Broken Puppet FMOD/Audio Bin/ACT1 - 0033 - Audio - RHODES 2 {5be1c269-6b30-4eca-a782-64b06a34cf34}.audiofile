@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{5be1c269-6b30-4eca-a782-64b06a34cf34}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>123</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/ACT1 - 0033 - Audio - RHODES 2 {3d45a435-de7f-4690-b59e-ed65f0999a63}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{bd3cf9b0-46b9-42a1-b790-6c2c075b7b69}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -35,7 +35,7 @@
             <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
         </relationship>
         <relationship name="folder">
-            <destination>{a0f92206-fba0-4381-9a36-fee21b2ecd7f}</destination>
+            <destination>{311bbce4-1fb9-4aa5-a3d8-482a625ea4bc}</destination>
         </relationship>
     </object>
     <object class="EventMixer" id="{d4e5c159-c500-409f-8aad-2ddbef49ab77}">
@@ -150,14 +150,14 @@
         <property name="position">
             <value>0</value>
         </property>
-        <relationship name="destination">
-            <destination>{902b0597-1110-49e5-80b1-5068075aff54}</destination>
-        </relationship>
         <relationship name="timeline">
             <destination>{0cb9c34c-6889-4ea4-9e6c-96fc2068d1e2}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{580f2bc0-d295-472c-8380-2519a97b1502}</destination>
+        </relationship>
+        <relationship name="destination">
+            <destination>{902b0597-1110-49e5-80b1-5068075aff54}</destination>
         </relationship>
     </object>
     <object class="AutomationScale" id="{6a641a00-35aa-4634-89b4-21aadd4db136}">
@@ -311,7 +311,6 @@
         <property name="name">
             <value>Max Dist</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)(2.000000,5.000000)(3.000000,20.000000)(4.000000,100.000000)(4.500000,500.000000)(5.000000,10000.000000)}</value>
         </property>
@@ -349,12 +348,9 @@
         <property name="name">
             <value>3D Attributes</value>
         </property>
-        <property name="units"/>
         <property name="dataType">
             <value>-2</value>
         </property>
-        <property name="defaultValue"/>
-        <property name="value"/>
     </object>
     <object class="AutomationScale" id="{87c54cba-412f-499f-88c3-eb2b7e190e8b}">
         <property name="curve">
