@@ -70,16 +70,16 @@
         </relationship>
     </object>
     <object class="DistanceParameter" id="{e798f28c-2176-4063-9e5d-39bfeaccf21b}">
-        <relationship name="automationScale">
-            <destination>{a0d425bf-9115-48e9-b3f1-36e0b1a9aaf3}</destination>
-        </relationship>
         <relationship name="automationCurves">
             <destination>{d940c0b7-5f11-41ae-823a-5af3713b2b7b}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{a0d425bf-9115-48e9-b3f1-36e0b1a9aaf3}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{135b26a3-e53d-4152-9f1c-a67569050a1f}">
         <property name="volume">
-            <value>-3</value>
+            <value>10</value>
         </property>
         <relationship name="effectChain">
             <destination>{b7790e37-5de8-44e4-83c8-d232c1e4a5d5}</destination>
@@ -141,6 +141,12 @@
             <destination>{5cd2a25e-ea12-4a78-a51e-541fa5d304a8}</destination>
         </relationship>
     </object>
+    <object class="AutomationCurve" id="{d940c0b7-5f11-41ae-823a-5af3713b2b7b}">
+        <relationship name="automationPoints">
+            <destination>{26d240b8-7cfd-4d62-bfe4-3b163ced79b5}</destination>
+            <destination>{8b66b390-62ab-48a6-a084-0c4df2ec54d3}</destination>
+        </relationship>
+    </object>
     <object class="AutomationScale" id="{a0d425bf-9115-48e9-b3f1-36e0b1a9aaf3}">
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,10.000000)}</value>
@@ -151,12 +157,6 @@
         <property name="associatedPropertyName">
             <value>Distance</value>
         </property>
-    </object>
-    <object class="AutomationCurve" id="{d940c0b7-5f11-41ae-823a-5af3713b2b7b}">
-        <relationship name="automationPoints">
-            <destination>{26d240b8-7cfd-4d62-bfe4-3b163ced79b5}</destination>
-            <destination>{8b66b390-62ab-48a6-a084-0c4df2ec54d3}</destination>
-        </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{b7790e37-5de8-44e4-83c8-d232c1e4a5d5}">
         <relationship name="effects">

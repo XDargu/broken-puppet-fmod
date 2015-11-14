@@ -75,9 +75,6 @@
         </relationship>
     </object>
     <object class="DistanceParameter" id="{7913839e-e3f8-472e-95e1-0a0769956363}">
-        <relationship name="automationScale">
-            <destination>{a146c8b5-2353-409e-a2c1-6c541ca1aaf8}</destination>
-        </relationship>
         <relationship name="automationCurves">
             <destination>{268b1c30-531a-4d55-a47c-f765206feafd}</destination>
             <destination>{20d22d35-2360-4d54-ad89-f5116023d279}</destination>
@@ -85,6 +82,9 @@
             <destination>{76a55811-09c0-4942-b08e-8a17b5a9c653}</destination>
             <destination>{5176faa3-58f7-4269-9a81-b99a3ef2d812}</destination>
             <destination>{bfc95838-0b9a-4abb-8b2f-a1b863453eee}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{a146c8b5-2353-409e-a2c1-6c541ca1aaf8}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{c680f025-efc9-49bc-88a7-cef29838bcc1}">
@@ -209,17 +209,6 @@
             <destination>{46382093-2659-4634-b00e-d3baf3d1d839}</destination>
         </relationship>
     </object>
-    <object class="AutomationScale" id="{a146c8b5-2353-409e-a2c1-6c541ca1aaf8}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,20.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>GameParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Distance</value>
-        </property>
-    </object>
     <object class="AutomationCurve" id="{268b1c30-531a-4d55-a47c-f765206feafd}">
         <relationship name="automationPoints">
             <destination>{758ce55b-0e65-4b90-a9b2-bd051ebbece9}</destination>
@@ -258,6 +247,17 @@
             <destination>{5008ea08-9df5-4851-94c4-c4af54cfd033}</destination>
             <destination>{ee75afb3-3a63-4cca-a7b4-53cdb63438eb}</destination>
         </relationship>
+    </object>
+    <object class="AutomationScale" id="{a146c8b5-2353-409e-a2c1-6c541ca1aaf8}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,20.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Distance</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{4fd3a736-3865-4be4-a746-c5672e3a5341}">
         <relationship name="effects">
@@ -361,7 +361,7 @@
             <value>0</value>
         </property>
         <property name="value">
-            <value>-12.6426096</value>
+            <value>-3.5</value>
         </property>
         <property name="curveShape">
             <value>-0.444444507</value>
@@ -375,7 +375,7 @@
             <value>5.1999998837709427</value>
         </property>
         <property name="value">
-            <value>-5.45304251</value>
+            <value>0.569567204</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{2acf85ed-10eb-4c89-8ec9-311745d54872}">
@@ -383,7 +383,7 @@
             <value>1.3999999687075615</value>
         </property>
         <property name="value">
-            <value>-12.6426096</value>
+            <value>-3.5</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{14c5c33b-4f29-4a49-a771-37f8418ddde5}">

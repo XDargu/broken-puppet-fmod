@@ -25,6 +25,9 @@
         <relationship name="timeline">
             <destination>{f6a904c6-8139-417e-8a6b-e61036fed489}</destination>
         </relationship>
+        <relationship name="banks">
+            <destination>{4c1993ca-fd62-4d67-9805-df2867c45482}</destination>
+        </relationship>
         <relationship name="folder">
             <destination>{85d63673-45c0-4b9f-ab8a-5238210295f2}</destination>
         </relationship>
@@ -93,7 +96,6 @@
     <object class="MixerBusEffectChain" id="{a16678ce-18f8-43b8-b9ab-cdc4a5ad03c1}">
         <relationship name="effects">
             <destination>{c3d9509c-6837-4e08-afa5-4c91193e5f73}</destination>
-            <destination>{e234900f-dacd-414d-847c-7aa359e5c697}</destination>
             <destination>{003f7353-74ed-48fa-88d2-c27a02c8b905}</destination>
         </relationship>
     </object>
@@ -105,11 +107,6 @@
     </object>
     <object class="MixerBusPanner" id="{99166c3a-0931-4a89-a321-a753a6bda25f}"/>
     <object class="MixerBusFader" id="{c3d9509c-6837-4e08-afa5-4c91193e5f73}"/>
-    <object class="SpatialiserEffect" id="{e234900f-dacd-414d-847c-7aa359e5c697}">
-        <property name="panBlend">
-            <value>0</value>
-        </property>
-    </object>
     <object class="MixerSend" id="{003f7353-74ed-48fa-88d2-c27a02c8b905}">
         <property name="level">
             <value>-21.5</value>

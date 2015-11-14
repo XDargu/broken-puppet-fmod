@@ -71,14 +71,17 @@
         </relationship>
     </object>
     <object class="DistanceParameter" id="{f15c9e0a-3149-42d1-94f5-b35338a00376}">
-        <relationship name="automationScale">
-            <destination>{3135a661-75d9-4471-ba4a-adbadb110389}</destination>
-        </relationship>
         <relationship name="automationCurves">
             <destination>{6edb2d63-2bc0-4d4e-961b-bc705ef8e37e}</destination>
         </relationship>
+        <relationship name="automationScale">
+            <destination>{3135a661-75d9-4471-ba4a-adbadb110389}</destination>
+        </relationship>
     </object>
     <object class="EventMixerMaster" id="{05b56ef4-4b3f-4222-8b58-88c5a82e0a41}">
+        <property name="volume">
+            <value>10</value>
+        </property>
         <relationship name="effectChain">
             <destination>{1a0c1d9f-e745-4d03-89a9-9e2aba84604d}</destination>
         </relationship>
@@ -125,6 +128,16 @@
             <destination>{05b56ef4-4b3f-4222-8b58-88c5a82e0a41}</destination>
         </relationship>
     </object>
+    <object class="AutomationCurve" id="{6edb2d63-2bc0-4d4e-961b-bc705ef8e37e}">
+        <relationship name="automationPoints">
+            <destination>{0f4ef9b6-2889-4371-a83c-d36d6fa48098}</destination>
+            <destination>{8ac319a8-030d-4b6a-830c-8c7a1bee86df}</destination>
+            <destination>{bdbc0557-b67b-4320-8118-7df0afeace9f}</destination>
+            <destination>{05f4851e-f6d7-4406-aa37-e21c53e647f8}</destination>
+            <destination>{5e7cf860-2c82-4f65-89c4-7f72c146eb35}</destination>
+            <destination>{8b9df0e5-e968-49f5-8f41-00949b0f5c4c}</destination>
+        </relationship>
+    </object>
     <object class="AutomationScale" id="{3135a661-75d9-4471-ba4a-adbadb110389}">
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,40.000000)}</value>
@@ -135,16 +148,6 @@
         <property name="associatedPropertyName">
             <value>Distance</value>
         </property>
-    </object>
-    <object class="AutomationCurve" id="{6edb2d63-2bc0-4d4e-961b-bc705ef8e37e}">
-        <relationship name="automationPoints">
-            <destination>{0f4ef9b6-2889-4371-a83c-d36d6fa48098}</destination>
-            <destination>{8ac319a8-030d-4b6a-830c-8c7a1bee86df}</destination>
-            <destination>{bdbc0557-b67b-4320-8118-7df0afeace9f}</destination>
-            <destination>{05f4851e-f6d7-4406-aa37-e21c53e647f8}</destination>
-            <destination>{5e7cf860-2c82-4f65-89c4-7f72c146eb35}</destination>
-            <destination>{8b9df0e5-e968-49f5-8f41-00949b0f5c4c}</destination>
-        </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{1a0c1d9f-e745-4d03-89a9-9e2aba84604d}">
         <relationship name="effects">
@@ -249,8 +252,11 @@
     </object>
     <object class="MixerBusFader" id="{6df34e4a-d2e7-406f-839f-638031768f9d}"/>
     <object class="SpatialiserEffect" id="{e9b19d7c-a921-4933-9eb0-56377f12e0a7}">
+        <property name="minimumDistance">
+            <value>4</value>
+        </property>
         <property name="maximumDistance">
-            <value>40</value>
+            <value>60</value>
         </property>
     </object>
     <object class="CompressorEffect" id="{79c1fbc1-4eab-4001-8577-3b143297cf34}">
