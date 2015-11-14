@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioBinFolder" id="{29172ea1-ed6e-4caf-a950-4fe506556e44}">
+        <property name="name">
+            <value>Cello</value>
+        </property>
+        <relationship name="container">
+            <destination>{7fddde44-f4b0-404b-a9d9-09ab4c306ddf}</destination>
+        </relationship>
+    </object>
+</objects>
