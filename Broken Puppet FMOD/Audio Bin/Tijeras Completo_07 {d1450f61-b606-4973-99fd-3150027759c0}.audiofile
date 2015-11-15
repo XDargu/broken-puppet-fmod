@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{d1450f61-b606-4973-99fd-3150027759c0}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.37213151927437643</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Tijeras Completo_07 {4679a8f1-ab0f-43b5-9fb2-24cfda3cf1f7}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{1120f1b9-6768-4a5d-908d-44a8b5ea9d8f}</destination>
+        </relationship>
+    </object>
+</objects>

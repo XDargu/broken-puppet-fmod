@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{14794a3a-b714-4d4f-9e2c-dc83c2c650fc}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>1.8401814058956916</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Cajon Cerrar_02 {7d26a5a0-77ba-41df-9ec6-38bb2e0fc8eb}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{6f24f439-047e-4bc8-84b1-0bba04a8f142}</destination>
+        </relationship>
+    </object>
+</objects>
