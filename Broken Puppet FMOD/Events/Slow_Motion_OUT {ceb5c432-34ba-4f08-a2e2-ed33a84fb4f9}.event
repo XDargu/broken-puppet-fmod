@@ -99,11 +99,11 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <property name="initialValue">
             <value>1</value>
         </property>
-        <relationship name="automationScale">
-            <destination>{3dc9f463-d94f-417d-8280-5555b91501cc}</destination>
-        </relationship>
         <relationship name="modules">
             <destination>{42a09e98-eae6-4a6c-b46b-d3e02cf479c5}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{3dc9f463-d94f-417d-8280-5555b91501cc}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{41501d1f-ee54-4a83-ab7e-cda80b8b77c2}">

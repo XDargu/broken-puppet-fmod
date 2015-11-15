@@ -109,11 +109,11 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <property name="initialValue">
             <value>1</value>
         </property>
-        <relationship name="automationScale">
-            <destination>{967dda96-2014-4d3b-8559-4a75a85945e2}</destination>
-        </relationship>
         <relationship name="modules">
             <destination>{cc822bdb-77a1-4b29-ba8e-0d97590406b3}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{967dda96-2014-4d3b-8559-4a75a85945e2}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{f70b713b-debd-4a6d-a706-594367fb473b}">
@@ -270,17 +270,17 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <property name="length">
             <value>6.483143926787859</value>
         </property>
-        <relationship name="timeline">
-            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
-        </relationship>
-        <relationship name="markerTrack">
-            <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
-        </relationship>
         <relationship name="destination">
             <destination>{525517d8-bed6-4e00-adfe-1c28640d3ca0}</destination>
         </relationship>
         <relationship name="triggerCondition">
             <destination>{aabb07f2-c506-4638-8d32-856195ae2c69}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
         </relationship>
     </object>
     <object class="LoopRegion" id="{79c3ea69-b5e9-4ea6-bdf6-77a5bcf1ae45}">
@@ -332,31 +332,31 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <property name="length">
             <value>1.1478352862272185</value>
         </property>
-        <relationship name="timeline">
-            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
-        </relationship>
-        <relationship name="markerTrack">
-            <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
-        </relationship>
         <relationship name="destination">
             <destination>{1c9b8db1-3212-49fa-b3ab-78ec8e7caba3}</destination>
         </relationship>
         <relationship name="triggerCondition">
             <destination>{a4daefbe-a335-423c-b9f5-701748fdae74}</destination>
         </relationship>
-    </object>
-    <object class="TransitionMarker" id="{8830326b-3c8a-4a2b-97ae-41152bec3d55}">
-        <property name="position">
-            <value>0</value>
-        </property>
         <relationship name="timeline">
             <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
         </relationship>
+    </object>
+    <object class="TransitionMarker" id="{8830326b-3c8a-4a2b-97ae-41152bec3d55}">
+        <property name="position">
+            <value>0</value>
+        </property>
         <relationship name="destination">
             <destination>{525517d8-bed6-4e00-adfe-1c28640d3ca0}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
         </relationship>
         <relationship name="triggerCondition">
             <destination>{1dc27a2f-69e4-4f39-bf81-ae4dbf9849be}</destination>
