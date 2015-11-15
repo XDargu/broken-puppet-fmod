@@ -24,12 +24,16 @@
             <destination>{d9622d14-82da-4e7a-ad93-112bdc71f135}</destination>
             <destination>{67a204de-e08e-46dd-a900-f45c4e744e15}</destination>
             <destination>{71a4321c-340d-4159-b826-989d02b338ae}</destination>
+            <destination>{4a239623-77c9-473d-90e2-819f852a9c96}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{6cc71d61-10f8-4b7a-9cc6-22ec3dfe8257}"/>
     <object class="ThreeEQEffect" id="{08191266-5b15-4720-83da-8491e604c118}"/>
     <object class="ParamEqEffect" id="{4e13e831-7b80-47ab-8452-9ff8aded08c7}"/>
     <object class="PluginEffect" id="{d9622d14-82da-4e7a-ad93-112bdc71f135}">
+        <property name="bypass">
+            <value>true</value>
+        </property>
         <relationship name="plugin">
             <destination>{57f92825-9411-469a-827e-9ff4f4da7b37}</destination>
         </relationship>
@@ -40,6 +44,7 @@
             <destination>{05ee6732-9d90-4449-bbe9-1e1937d5b08d}</destination>
         </relationship>
     </object>
+    <object class="LowpassEffect" id="{4a239623-77c9-473d-90e2-819f852a9c96}"/>
     <object class="Plugin" id="{57f92825-9411-469a-827e-9ff4f4da7b37}">
         <property name="identifier">
             <value>FMOD Pitch Shifter</value>
@@ -78,7 +83,6 @@
         <property name="name">
             <value>FFT size</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(7.186666,256.000000)(8.000000,500.000000)(9.000000,1000.000000)(10.000000,2000.000000)(10.698667,4096.000000)}</value>
         </property>
@@ -96,7 +100,6 @@
         <property name="name">
             <value>Overlap</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearPiecewiseCurveStrategy{(0.000000,1.000000)(1.000000,2.000000)(2.000000,5.000000)(3.000000,10.000000)(4.000000,20.000000)(4.400000,32.000000)}</value>
         </property>

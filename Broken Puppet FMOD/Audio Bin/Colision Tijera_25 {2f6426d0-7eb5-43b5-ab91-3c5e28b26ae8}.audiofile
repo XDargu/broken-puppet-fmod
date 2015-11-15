@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{2f6426d0-7eb5-43b5-ab91-3c5e28b26ae8}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.42206349206349209</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Colision Tijera_25 {ee6c254a-8cbb-4c17-89f5-d9f5d8ce5043}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d1732203-6fa6-40f0-af35-8a53431e6f02}</destination>
+        </relationship>
+    </object>
+</objects>

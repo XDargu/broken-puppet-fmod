@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{4c853244-9704-4285-8b95-1d64a19988da}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.39036281179138321</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Colisiones Caseras_11 {75bca64c-9a13-4ad8-91d5-eff303b46fd5}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{d1732203-6fa6-40f0-af35-8a53431e6f02}</destination>
+        </relationship>
+    </object>
+</objects>

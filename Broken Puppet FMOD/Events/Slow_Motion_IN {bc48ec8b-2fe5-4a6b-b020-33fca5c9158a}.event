@@ -201,6 +201,9 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <property name="maxVoices">
             <value>1</value>
         </property>
+        <property name="volume">
+            <value>3</value>
+        </property>
         <relationship name="audioFile">
             <destination>{29cf507f-9bd1-4566-875d-ed06c8829de9}</destination>
         </relationship>
@@ -392,6 +395,8 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
     <object class="MixerBusPanner" id="{aa490e2a-0cb0-44c6-bcbf-4afafee21b42}"/>
     <object class="MixerBusEffectChain" id="{74e1b664-1f30-409b-ace1-ece9cd6e7491}">
         <relationship name="effects">
+            <destination>{a0234ecb-143c-4eab-84bb-014971e66da4}</destination>
+            <destination>{452f4ab7-45d3-4e19-9dee-e0cadffdb3ec}</destination>
             <destination>{2851b37d-8665-4637-b2bd-54f09e194b66}</destination>
         </relationship>
     </object>
@@ -605,5 +610,30 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         </relationship>
     </object>
     <object class="MixerBusFader" id="{a3de6aa2-9689-4aa2-94ae-c9b1a1b2f86a}"/>
+    <object class="CompressorEffect" id="{a0234ecb-143c-4eab-84bb-014971e66da4}">
+        <property name="threshold">
+            <value>-12.5</value>
+        </property>
+        <property name="attackTime">
+            <value>40</value>
+        </property>
+        <property name="gain">
+            <value>1</value>
+        </property>
+    </object>
+    <object class="ThreeEQEffect" id="{452f4ab7-45d3-4e19-9dee-e0cadffdb3ec}">
+        <property name="midGain">
+            <value>-80</value>
+        </property>
+        <property name="highGain">
+            <value>-80</value>
+        </property>
+        <property name="lowCrossover">
+            <value>1650</value>
+        </property>
+        <property name="highCrossover">
+            <value>4400</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{2851b37d-8665-4637-b2bd-54f09e194b66}"/>
 </objects>

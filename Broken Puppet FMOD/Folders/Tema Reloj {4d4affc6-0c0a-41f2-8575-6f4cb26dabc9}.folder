@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Folder" id="{4d4affc6-0c0a-41f2-8575-6f4cb26dabc9}">
+        <property name="name">
+            <value>Tema Reloj</value>
+        </property>
+        <relationship name="folder">
+            <destination>{c08392e3-1323-472e-a956-4e67b72b4461}</destination>
+        </relationship>
+    </object>
+</objects>

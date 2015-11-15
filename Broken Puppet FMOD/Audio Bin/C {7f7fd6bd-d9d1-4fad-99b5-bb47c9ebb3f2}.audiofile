@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/C {fe6d3219-8d37-44d3-bcc7-d3c769506de8}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{90366715-3e58-44a8-948f-ec979aae2b1c}</destination>
+            <destination>{635a1b74-d620-4de2-8f88-3739efc4ca54}</destination>
         </relationship>
     </object>
 </objects>
