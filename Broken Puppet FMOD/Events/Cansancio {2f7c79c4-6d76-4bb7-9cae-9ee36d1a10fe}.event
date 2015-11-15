@@ -56,7 +56,10 @@
             <value>1</value>
         </property>
         <property name="voiceStealing">
-            <value>2</value>
+            <value>1</value>
+        </property>
+        <property name="priority">
+            <value>4</value>
         </property>
     </object>
     <object class="MarkerTrack" id="{db21a941-a936-4b66-959f-c2e3ead292d1}"/>
@@ -83,6 +86,9 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{14f8158c-5a3c-4e3e-81d1-287d41f92729}">
+        <property name="volume">
+            <value>10</value>
+        </property>
         <relationship name="effectChain">
             <destination>{0c679b6a-2df1-4552-8b80-ef33f1e7fa20}</destination>
         </relationship>

@@ -56,7 +56,14 @@
             <destination>{db90f6a2-400d-4474-9e68-588dd2b12f1a}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{42fdc0dd-fcc4-4ade-b3bd-7cec15ae191c}"/>
+    <object class="EventAutomatableProperties" id="{42fdc0dd-fcc4-4ade-b3bd-7cec15ae191c}">
+        <property name="voiceStealing">
+            <value>1</value>
+        </property>
+        <property name="priority">
+            <value>4</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{18d93196-a393-40fb-8907-1515cb9e46a1}"/>
     <object class="GroupTrack" id="{9e393454-53c0-4021-9a08-d846ae3ca7d6}">
         <relationship name="modules">
@@ -78,13 +85,13 @@
         <property name="name">
             <value>Enemigo</value>
         </property>
+        <relationship name="automationScale">
+            <destination>{cbe435b2-9765-40db-84f0-a248242be00e}</destination>
+        </relationship>
         <relationship name="modules">
             <destination>{515c9888-9c47-463c-813c-c89ae36f1bf7}</destination>
             <destination>{19cadd81-b9f2-4b4b-8cf6-bf8b1f0d26ac}</destination>
             <destination>{8a6e089f-6b99-44fe-af2c-30b4ea9aed34}</destination>
-        </relationship>
-        <relationship name="automationScale">
-            <destination>{cbe435b2-9765-40db-84f0-a248242be00e}</destination>
         </relationship>
     </object>
     <object class="UserProperty" id="{d409ce2a-09c4-4433-9331-86427f3c4973}">

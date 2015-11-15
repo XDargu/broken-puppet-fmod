@@ -42,7 +42,11 @@
             <destination>{61715495-7647-4482-8531-16d98a109573}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{6d3e079f-c63f-46fb-a4c3-669eb20e46a3}"/>
+    <object class="EventAutomatableProperties" id="{6d3e079f-c63f-46fb-a4c3-669eb20e46a3}">
+        <property name="priority">
+            <value>4</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{91d4fe9f-c2c8-4731-b40f-9d23d278173a}"/>
     <object class="GroupTrack" id="{5f0e326d-01e5-440b-a641-2a21187cae8a}">
         <relationship name="modules">
@@ -120,7 +124,7 @@
             <value>10</value>
         </property>
         <property name="maximumDistance">
-            <value>700</value>
+            <value>1200</value>
         </property>
     </object>
     <object class="MixerSend" id="{f661338f-c6c7-4c3f-b1af-a876b631eb0e}">

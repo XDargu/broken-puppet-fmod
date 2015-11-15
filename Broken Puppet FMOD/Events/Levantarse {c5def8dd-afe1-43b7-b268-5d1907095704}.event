@@ -50,7 +50,10 @@
             <value>1</value>
         </property>
         <property name="voiceStealing">
-            <value>2</value>
+            <value>1</value>
+        </property>
+        <property name="priority">
+            <value>4</value>
         </property>
     </object>
     <object class="MarkerTrack" id="{67163e27-154f-4a23-9e9b-ecc8d215353f}"/>

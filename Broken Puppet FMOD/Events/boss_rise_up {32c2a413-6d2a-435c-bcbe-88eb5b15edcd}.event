@@ -51,6 +51,9 @@
         <property name="maxVoices">
             <value>1</value>
         </property>
+        <property name="priority">
+            <value>4</value>
+        </property>
     </object>
     <object class="MarkerTrack" id="{7a19c42f-c725-47ea-83ac-ca2857c9f976}"/>
     <object class="GroupTrack" id="{37d2a1d8-a28c-45b4-9bfa-2b1861e58ae9}">
@@ -453,14 +456,14 @@
         <property name="position">
             <value>0</value>
         </property>
-        <relationship name="destination">
-            <destination>{ab82874a-712a-4460-84a9-34e0f5661126}</destination>
-        </relationship>
         <relationship name="timeline">
             <destination>{d6b66dcd-8f74-4eef-ab5e-50cbcd73e244}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{7a19c42f-c725-47ea-83ac-ca2857c9f976}</destination>
+        </relationship>
+        <relationship name="destination">
+            <destination>{ab82874a-712a-4460-84a9-34e0f5661126}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{70b84072-7b40-4b6d-b059-7c51209883c4}">
@@ -629,7 +632,7 @@
             <value>20</value>
         </property>
         <property name="maximumDistance">
-            <value>2800</value>
+            <value>1000</value>
         </property>
     </object>
     <object class="MixerSend" id="{f560b7ae-d62f-4803-8ce2-a2e80a3848dd}">

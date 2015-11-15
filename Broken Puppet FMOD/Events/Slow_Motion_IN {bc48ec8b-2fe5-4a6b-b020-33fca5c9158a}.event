@@ -24,6 +24,7 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <relationship name="markerTracks">
             <destination>{694b2360-c886-41f1-9ead-32fbd54647c2}</destination>
             <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
+            <destination>{1e5fa8e6-361d-4367-934f-0b8c1fa6884c}</destination>
         </relationship>
         <relationship name="groupTracks">
             <destination>{4d58d483-f7f1-481e-8dc0-edf4337526b8}</destination>
@@ -62,6 +63,7 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
     <object class="EventAutomatableProperties" id="{6dda8e7d-2e4c-46f7-a3b9-165fe8dd60dd}"/>
     <object class="MarkerTrack" id="{694b2360-c886-41f1-9ead-32fbd54647c2}"/>
     <object class="MarkerTrack" id="{22c30534-6f54-4274-bbed-b2057cd9fb01}"/>
+    <object class="MarkerTrack" id="{1e5fa8e6-361d-4367-934f-0b8c1fa6884c}"/>
     <object class="GroupTrack" id="{4d58d483-f7f1-481e-8dc0-edf4337526b8}">
         <relationship name="modules">
             <destination>{cc822bdb-77a1-4b29-ba8e-0d97590406b3}</destination>
@@ -94,6 +96,10 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
             <destination>{525517d8-bed6-4e00-adfe-1c28640d3ca0}</destination>
             <destination>{8dd4b806-53c5-4adf-8c0e-8457e0948907}</destination>
             <destination>{79c3ea69-b5e9-4ea6-bdf6-77a5bcf1ae45}</destination>
+            <destination>{82a570c9-e24d-47ad-90d6-f01fc21c98df}</destination>
+            <destination>{1c9b8db1-3212-49fa-b3ab-78ec8e7caba3}</destination>
+            <destination>{883d9ecb-325c-431b-8597-59858c3bcd42}</destination>
+            <destination>{8830326b-3c8a-4a2b-97ae-41152bec3d55}</destination>
         </relationship>
     </object>
     <object class="GameParameter" id="{702b3ddb-2e4f-4899-8ecb-e69cba8dd821}">
@@ -242,10 +248,10 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
     </object>
     <object class="NamedMarker" id="{525517d8-bed6-4e00-adfe-1c28640d3ca0}">
         <property name="position">
-            <value>12.767588147527398</value>
+            <value>10.802405415938381</value>
         </property>
         <property name="name">
-            <value>Marker A</value>
+            <value>No slow motion</value>
         </property>
         <relationship name="timeline">
             <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
@@ -256,27 +262,27 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
     </object>
     <object class="TransitionRegion" id="{8dd4b806-53c5-4adf-8c0e-8457e0948907}">
         <property name="position">
-            <value>1.2799932747488878</value>
+            <value>1.0713129338120708</value>
         </property>
         <property name="length">
             <value>6.483143926787859</value>
         </property>
-        <relationship name="destination">
-            <destination>{525517d8-bed6-4e00-adfe-1c28640d3ca0}</destination>
-        </relationship>
-        <relationship name="triggerCondition">
-            <destination>{aabb07f2-c506-4638-8d32-856195ae2c69}</destination>
-        </relationship>
         <relationship name="timeline">
             <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
         </relationship>
+        <relationship name="destination">
+            <destination>{525517d8-bed6-4e00-adfe-1c28640d3ca0}</destination>
+        </relationship>
+        <relationship name="triggerCondition">
+            <destination>{aabb07f2-c506-4638-8d32-856195ae2c69}</destination>
+        </relationship>
     </object>
     <object class="LoopRegion" id="{79c3ea69-b5e9-4ea6-bdf6-77a5bcf1ae45}">
         <property name="position">
-            <value>1.3030980302579538</value>
+            <value>1.3136337164600393</value>
         </property>
         <property name="length">
             <value>5.9887058411854897</value>
@@ -285,7 +291,72 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
             <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
         </relationship>
         <relationship name="markerTrack">
+            <destination>{1e5fa8e6-361d-4367-934f-0b8c1fa6884c}</destination>
+        </relationship>
+    </object>
+    <object class="LoopRegion" id="{82a570c9-e24d-47ad-90d6-f01fc21c98df}">
+        <property name="position">
+            <value>10.802405415938381</value>
+        </property>
+        <property name="length">
+            <value>1.0000000149011612</value>
+        </property>
+        <relationship name="timeline">
+            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{1e5fa8e6-361d-4367-934f-0b8c1fa6884c}</destination>
+        </relationship>
+    </object>
+    <object class="NamedMarker" id="{1c9b8db1-3212-49fa-b3ab-78ec8e7caba3}">
+        <property name="position">
+            <value>0.051014901610098612</value>
+        </property>
+        <property name="name">
+            <value>Slow motion init</value>
+        </property>
+        <relationship name="timeline">
+            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
+        </relationship>
+        <relationship name="markerTrack">
             <destination>{694b2360-c886-41f1-9ead-32fbd54647c2}</destination>
+        </relationship>
+    </object>
+    <object class="TransitionRegion" id="{883d9ecb-325c-431b-8597-59858c3bcd42}">
+        <property name="position">
+            <value>10.751390514328282</value>
+        </property>
+        <property name="length">
+            <value>1.1478352862272185</value>
+        </property>
+        <relationship name="timeline">
+            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
+        </relationship>
+        <relationship name="destination">
+            <destination>{1c9b8db1-3212-49fa-b3ab-78ec8e7caba3}</destination>
+        </relationship>
+        <relationship name="triggerCondition">
+            <destination>{a4daefbe-a335-423c-b9f5-701748fdae74}</destination>
+        </relationship>
+    </object>
+    <object class="TransitionMarker" id="{8830326b-3c8a-4a2b-97ae-41152bec3d55}">
+        <property name="position">
+            <value>0</value>
+        </property>
+        <relationship name="timeline">
+            <destination>{7afcb099-fca2-4a17-bd33-f05f7f4b2dcc}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{22c30534-6f54-4274-bbed-b2057cd9fb01}</destination>
+        </relationship>
+        <relationship name="destination">
+            <destination>{525517d8-bed6-4e00-adfe-1c28640d3ca0}</destination>
+        </relationship>
+        <relationship name="triggerCondition">
+            <destination>{1dc27a2f-69e4-4f39-bf81-ae4dbf9849be}</destination>
         </relationship>
     </object>
     <object class="AutomationScale" id="{967dda96-2014-4d3b-8559-4a75a85945e2}">
@@ -484,6 +555,28 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         </property>
         <property name="maximum">
             <value>0.89999997615814209</value>
+        </property>
+        <relationship name="parameter">
+            <destination>{702b3ddb-2e4f-4899-8ecb-e69cba8dd821}</destination>
+        </relationship>
+    </object>
+    <object class="ParameterCondition" id="{a4daefbe-a335-423c-b9f5-701748fdae74}">
+        <property name="minimum">
+            <value>0.90000003576278687</value>
+        </property>
+        <property name="maximum">
+            <value>1</value>
+        </property>
+        <relationship name="parameter">
+            <destination>{702b3ddb-2e4f-4899-8ecb-e69cba8dd821}</destination>
+        </relationship>
+    </object>
+    <object class="ParameterCondition" id="{1dc27a2f-69e4-4f39-bf81-ae4dbf9849be}">
+        <property name="minimum">
+            <value>0</value>
+        </property>
+        <property name="maximum">
+            <value>1</value>
         </property>
         <relationship name="parameter">
             <destination>{702b3ddb-2e4f-4899-8ecb-e69cba8dd821}</destination>

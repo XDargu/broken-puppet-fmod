@@ -55,7 +55,11 @@
             <destination>{6ee2a195-244f-4a3a-9f8f-1243a4186dde}</destination>
         </relationship>
     </object>
-    <object class="EventAutomatableProperties" id="{a27788a8-a2f7-414e-ae85-336c1bc805f3}"/>
+    <object class="EventAutomatableProperties" id="{a27788a8-a2f7-414e-ae85-336c1bc805f3}">
+        <property name="priority">
+            <value>4</value>
+        </property>
+    </object>
     <object class="MarkerTrack" id="{05e73b0d-5bd2-48bb-867d-73e0df0a4205}"/>
     <object class="GroupTrack" id="{8fd0796c-548b-4471-b8ac-d9d2149edb3d}">
         <relationship name="automationTracks">
@@ -267,7 +271,7 @@
     <object class="MixerBusFader" id="{a567da43-d7ec-49d5-98f6-dcbb7629a6d3}"/>
     <object class="SpatialiserEffect" id="{b1faef57-98f5-4829-8516-afde361d71b4}">
         <property name="maximumDistance">
-            <value>85</value>
+            <value>450</value>
         </property>
     </object>
     <object class="ThreeEQEffect" id="{8f44dbe5-8c2e-4677-8299-9a083d7668e6}"/>
