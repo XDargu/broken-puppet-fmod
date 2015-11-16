@@ -86,7 +86,7 @@
             <value>decayTime</value>
         </property>
         <property name="value">
-            <value>900</value>
+            <value>1100</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -108,7 +108,7 @@
             <value>diffusion</value>
         </property>
         <property name="value">
-            <value>14</value>
+            <value>29.5</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -141,7 +141,7 @@
             <value>wetLevel</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>-3</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -163,7 +163,7 @@
             <value>earlyLateMix</value>
         </property>
         <property name="value">
-            <value>39</value>
+            <value>21</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -174,7 +174,7 @@
             <value>lowShelfFrequency</value>
         </property>
         <property name="value">
-            <value>250</value>
+            <value>400</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -185,7 +185,7 @@
             <value>density</value>
         </property>
         <property name="value">
-            <value>10</value>
+            <value>26</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -196,7 +196,7 @@
             <value>HFReference</value>
         </property>
         <property name="value">
-            <value>4600</value>
+            <value>2900</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -207,7 +207,7 @@
             <value>lateDelay</value>
         </property>
         <property name="value">
-            <value>45</value>
+            <value>44</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>

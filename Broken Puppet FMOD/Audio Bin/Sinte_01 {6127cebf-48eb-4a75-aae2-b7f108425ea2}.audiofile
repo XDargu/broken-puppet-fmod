@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{6127cebf-48eb-4a75-aae2-b7f108425ea2}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>57</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Sinte_01 {9d9550a0-5cff-4468-b6d3-7ccbdfa0bc9d}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{fce1f379-382f-4149-823d-57de678bec9c}</destination>
+        </relationship>
+    </object>
+</objects>

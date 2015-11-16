@@ -86,7 +86,7 @@
             <value>volume</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>-2</value>
         </property>
         <relationship name="automatableObject">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
@@ -130,7 +130,7 @@
             <value>HFDecayRatio</value>
         </property>
         <property name="value">
-            <value>66</value>
+            <value>64</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -141,7 +141,7 @@
             <value>diffusion</value>
         </property>
         <property name="value">
-            <value>60</value>
+            <value>70.5</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -218,7 +218,7 @@
             <value>density</value>
         </property>
         <property name="value">
-            <value>69.5</value>
+            <value>65</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>

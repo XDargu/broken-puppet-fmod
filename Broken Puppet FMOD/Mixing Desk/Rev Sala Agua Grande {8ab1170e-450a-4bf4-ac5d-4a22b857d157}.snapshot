@@ -141,7 +141,7 @@
             <value>diffusion</value>
         </property>
         <property name="value">
-            <value>47.5</value>
+            <value>80</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -163,7 +163,7 @@
             <value>highCut</value>
         </property>
         <property name="value">
-            <value>2500</value>
+            <value>2700</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -174,7 +174,7 @@
             <value>wetLevel</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>-2.5</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -196,7 +196,7 @@
             <value>earlyLateMix</value>
         </property>
         <property name="value">
-            <value>50</value>
+            <value>42</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -218,7 +218,7 @@
             <value>density</value>
         </property>
         <property name="value">
-            <value>63.5</value>
+            <value>64.5</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -229,7 +229,7 @@
             <value>HFReference</value>
         </property>
         <property name="value">
-            <value>1700</value>
+            <value>2400</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>

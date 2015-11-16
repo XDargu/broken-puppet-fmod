@@ -562,7 +562,7 @@
             <value>decayTime</value>
         </property>
         <property name="value">
-            <value>850</value>
+            <value>900</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -595,7 +595,7 @@
             <value>HFReference</value>
         </property>
         <property name="value">
-            <value>4600</value>
+            <value>4000</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -617,7 +617,7 @@
             <value>diffusion</value>
         </property>
         <property name="value">
-            <value>100</value>
+            <value>73</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -661,7 +661,7 @@
             <value>highCut</value>
         </property>
         <property name="value">
-            <value>5400</value>
+            <value>5200</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>
@@ -672,7 +672,7 @@
             <value>earlyLateMix</value>
         </property>
         <property name="value">
-            <value>80</value>
+            <value>50</value>
         </property>
         <relationship name="automatableObject">
             <destination>{6114073a-7d7e-4e4f-be44-7308519e5ac6}</destination>

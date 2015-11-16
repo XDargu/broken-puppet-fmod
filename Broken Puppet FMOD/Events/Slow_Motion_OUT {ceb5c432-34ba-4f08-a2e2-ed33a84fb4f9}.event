@@ -25,7 +25,6 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
             <destination>{65ee97e7-d60e-4a47-bc46-418ab0e769d3}</destination>
         </relationship>
         <relationship name="groupTracks">
-            <destination>{4212bba1-8ca4-49b4-b80a-46e5a0855685}</destination>
             <destination>{b5298865-37ee-4393-80c9-89514c71dc83}</destination>
         </relationship>
         <relationship name="timeline">
@@ -60,14 +59,6 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
     </object>
     <object class="EventAutomatableProperties" id="{178ec173-7488-4ea9-a862-53104620ef78}"/>
     <object class="MarkerTrack" id="{65ee97e7-d60e-4a47-bc46-418ab0e769d3}"/>
-    <object class="GroupTrack" id="{4212bba1-8ca4-49b4-b80a-46e5a0855685}">
-        <relationship name="modules">
-            <destination>{42a09e98-eae6-4a6c-b46b-d3e02cf479c5}</destination>
-        </relationship>
-        <relationship name="mixerGroup">
-            <destination>{caf58668-7d2c-4a43-8d69-a841d41cb04b}</destination>
-        </relationship>
-    </object>
     <object class="GroupTrack" id="{b5298865-37ee-4393-80c9-89514c71dc83}">
         <relationship name="automationTracks">
             <destination>{8d8bc7f7-6991-4a21-aaf0-5bdf9de4cacd}</destination>
@@ -99,9 +90,6 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <property name="initialValue">
             <value>1</value>
         </property>
-        <relationship name="modules">
-            <destination>{42a09e98-eae6-4a6c-b46b-d3e02cf479c5}</destination>
-        </relationship>
         <relationship name="automationScale">
             <destination>{3dc9f463-d94f-417d-8280-5555b91501cc}</destination>
         </relationship>
@@ -140,34 +128,6 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         </relationship>
         <relationship name="objectBeingAutomated">
             <destination>{51f7e00d-fbb7-4ab5-8b84-cf9dac54bd66}</destination>
-        </relationship>
-    </object>
-    <object class="SnapshotModule" id="{42a09e98-eae6-4a6c-b46b-d3e02cf479c5}">
-        <property name="start">
-            <value>0</value>
-        </property>
-        <property name="length">
-            <value>0.99999997764825821</value>
-        </property>
-        <relationship name="parameters">
-            <destination>{8ebb7886-e771-4f48-add0-c2dceb5a624b}</destination>
-        </relationship>
-        <relationship name="event">
-            <destination>{9adc0818-1a31-4fee-aed3-c1dcc74fc988}</destination>
-        </relationship>
-    </object>
-    <object class="EventMixerGroup" id="{caf58668-7d2c-4a43-8d69-a841d41cb04b}">
-        <property name="name">
-            <value>Snapshot</value>
-        </property>
-        <relationship name="effectChain">
-            <destination>{da6a8d74-0dfd-4eb7-9010-2af97398dd48}</destination>
-        </relationship>
-        <relationship name="panner">
-            <destination>{89b412dc-584b-4a1c-a124-425d3fcce2ad}</destination>
-        </relationship>
-        <relationship name="output">
-            <destination>{41501d1f-ee54-4a83-ab7e-cda80b8b77c2}</destination>
         </relationship>
     </object>
     <object class="AutomationTrack" id="{8d8bc7f7-6991-4a21-aaf0-5bdf9de4cacd}">
@@ -247,14 +207,14 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         <property name="position">
             <value>0</value>
         </property>
-        <relationship name="destination">
-            <destination>{95ebe6c9-52bc-4cfb-9906-484acf8cb13b}</destination>
-        </relationship>
         <relationship name="timeline">
             <destination>{d2610977-6f2e-4556-a723-bda2308d3c0a}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{65ee97e7-d60e-4a47-bc46-418ab0e769d3}</destination>
+        </relationship>
+        <relationship name="destination">
+            <destination>{95ebe6c9-52bc-4cfb-9906-484acf8cb13b}</destination>
         </relationship>
     </object>
     <object class="AutomationScale" id="{3dc9f463-d94f-417d-8280-5555b91501cc}">
@@ -277,17 +237,6 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{53b6060b-b7e2-489e-b90a-63fb7cbd0bce}"/>
-    <object class="ReferencedParameterProperty" id="{8ebb7886-e771-4f48-add0-c2dceb5a624b}">
-        <relationship name="parameter">
-            <destination>{2f338ba0-f878-46d4-8054-c052c1e6397d}</destination>
-        </relationship>
-    </object>
-    <object class="MixerBusEffectChain" id="{da6a8d74-0dfd-4eb7-9010-2af97398dd48}">
-        <relationship name="effects">
-            <destination>{5c76217e-5bba-4b37-bc3a-46315a5dcfc7}</destination>
-        </relationship>
-    </object>
-    <object class="MixerBusPanner" id="{89b412dc-584b-4a1c-a124-425d3fcce2ad}"/>
     <object class="FadeCurve" id="{a768f05a-e427-483e-bc69-c067564662a0}">
         <relationship name="startPoint">
             <destination>{13655fb8-4942-4b2a-8f08-dbb0c9dad342}</destination>
@@ -443,7 +392,6 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
             <value>0</value>
         </property>
     </object>
-    <object class="MixerBusFader" id="{5c76217e-5bba-4b37-bc3a-46315a5dcfc7}"/>
     <object class="AutomationPoint" id="{13655fb8-4942-4b2a-8f08-dbb0c9dad342}">
         <property name="position">
             <value>12.980239505245631</value>

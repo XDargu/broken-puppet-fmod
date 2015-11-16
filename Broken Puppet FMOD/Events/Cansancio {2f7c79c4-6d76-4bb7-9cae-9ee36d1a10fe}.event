@@ -64,6 +64,9 @@
     </object>
     <object class="MarkerTrack" id="{db21a941-a936-4b66-959f-c2e3ead292d1}"/>
     <object class="GroupTrack" id="{feeee621-a4fb-49bc-bf6e-4b5b9a290df3}">
+        <relationship name="automationTracks">
+            <destination>{736d4a81-5773-407c-86ef-4331a3d84c0c}</destination>
+        </relationship>
         <relationship name="modules">
             <destination>{6e7ad102-354d-4b76-922e-f3ceb9d6daec}</destination>
             <destination>{fb7c91d1-0cfb-4561-85af-af30404b8bed}</destination>
@@ -77,12 +80,15 @@
         <property name="name">
             <value>Esfuerzo</value>
         </property>
-        <relationship name="automationScale">
-            <destination>{c6056f2a-3dc4-4c80-9872-437253f30d23}</destination>
-        </relationship>
         <relationship name="modules">
             <destination>{6e7ad102-354d-4b76-922e-f3ceb9d6daec}</destination>
             <destination>{fb7c91d1-0cfb-4561-85af-af30404b8bed}</destination>
+        </relationship>
+        <relationship name="automationCurves">
+            <destination>{c7f9d929-9741-4dfc-9a79-1f5d8454b6d9}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{c6056f2a-3dc4-4c80-9872-437253f30d23}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{14f8158c-5a3c-4e3e-81d1-287d41f92729}">
@@ -97,6 +103,17 @@
         </relationship>
         <relationship name="mixer">
             <destination>{ebc93b93-8d1d-440b-b8c0-60895ea89dcb}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationTrack" id="{736d4a81-5773-407c-86ef-4331a3d84c0c}">
+        <property name="nameOfPropertyBeingAutomated">
+            <value>volume</value>
+        </property>
+        <relationship name="automationCurves">
+            <destination>{c7f9d929-9741-4dfc-9a79-1f5d8454b6d9}</destination>
+        </relationship>
+        <relationship name="objectBeingAutomated">
+            <destination>{be2f0882-67eb-4ba1-8d01-e05d61b3a2d6}</destination>
         </relationship>
     </object>
     <object class="SingleSound" id="{6e7ad102-354d-4b76-922e-f3ceb9d6daec}">
@@ -148,6 +165,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{be2f0882-67eb-4ba1-8d01-e05d61b3a2d6}">
+        <property name="volume">
+            <value>-3.5</value>
+        </property>
         <property name="name">
             <value>Respiracion</value>
         </property>
@@ -159,6 +179,12 @@
         </relationship>
         <relationship name="output">
             <destination>{14f8158c-5a3c-4e3e-81d1-287d41f92729}</destination>
+        </relationship>
+    </object>
+    <object class="AutomationCurve" id="{c7f9d929-9741-4dfc-9a79-1f5d8454b6d9}">
+        <relationship name="automationPoints">
+            <destination>{c9387fe9-01c8-4fc0-81f6-6dd2051f7353}</destination>
+            <destination>{e71cd2c2-33fc-4656-a711-a92df89324c3}</destination>
         </relationship>
     </object>
     <object class="AutomationScale" id="{c6056f2a-3dc4-4c80-9872-437253f30d23}">
@@ -269,12 +295,28 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{176c831f-70ef-4e86-8cda-b72f3f8c2450}"/>
+    <object class="AutomationPoint" id="{c9387fe9-01c8-4fc0-81f6-6dd2051f7353}">
+        <property name="position">
+            <value>1.8999999575316906</value>
+        </property>
+        <property name="value">
+            <value>-3.05652118</value>
+        </property>
+    </object>
+    <object class="AutomationPoint" id="{e71cd2c2-33fc-4656-a711-a92df89324c3}">
+        <property name="position">
+            <value>1.9499999564141035</value>
+        </property>
+        <property name="value">
+            <value>-5.45304251</value>
+        </property>
+    </object>
     <object class="ThreeEQEffect" id="{07669ecb-6a18-44ab-9586-89b787cb29df}">
         <property name="lowGain">
-            <value>-4</value>
+            <value>-27</value>
         </property>
         <property name="midGain">
-            <value>-6</value>
+            <value>-15.5</value>
         </property>
         <property name="highGain">
             <value>-2.5</value>

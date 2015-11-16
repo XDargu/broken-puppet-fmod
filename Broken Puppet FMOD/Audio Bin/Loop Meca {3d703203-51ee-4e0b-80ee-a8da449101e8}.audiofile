@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Loop Meca {ec226521-e112-4dcd-a998-12db02433a43}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+            <destination>{e595645b-469b-42b7-b105-87ddcfb7b830}</destination>
         </relationship>
     </object>
 </objects>

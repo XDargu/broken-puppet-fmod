@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{8c94a790-e775-43ea-86e1-a8bb3722ea98}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>63.999909297052156</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/BossTheme2 (reajuste) {1827605e-ee59-440b-85d3-80075820a3b5}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{09bac2ed-fd06-44c5-9f10-56fd66e8d1f0}</destination>
+        </relationship>
+    </object>
+</objects>
