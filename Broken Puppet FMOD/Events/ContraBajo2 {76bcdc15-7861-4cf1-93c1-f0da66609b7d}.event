@@ -18,6 +18,7 @@
         </relationship>
         <relationship name="markerTracks">
             <destination>{13fd04fb-1480-4f54-a6b3-0e8336b39699}</destination>
+            <destination>{447b067d-3323-47c3-a082-3621b9f885b4}</destination>
         </relationship>
         <relationship name="groupTracks">
             <destination>{96e6c1a1-d486-4e6f-a522-5ab62e41d604}</destination>
@@ -45,6 +46,7 @@
     </object>
     <object class="EventAutomatableProperties" id="{18df5027-aeab-43aa-a345-58ad8823d758}"/>
     <object class="MarkerTrack" id="{13fd04fb-1480-4f54-a6b3-0e8336b39699}"/>
+    <object class="MarkerTrack" id="{447b067d-3323-47c3-a082-3621b9f885b4}"/>
     <object class="GroupTrack" id="{96e6c1a1-d486-4e6f-a522-5ab62e41d604}">
         <relationship name="modules">
             <destination>{dfb9bbbc-e91c-467c-82fc-2b2b2c59d781}</destination>
@@ -68,6 +70,7 @@
         </relationship>
         <relationship name="markers">
             <destination>{e127dada-6e1c-49c6-92b1-e15fd34e6915}</destination>
+            <destination>{129ae00c-c93c-4900-958c-945287c8522e}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{b42286bc-451b-4308-a424-c9077c719e97}">
@@ -174,6 +177,20 @@
             <destination>{13fd04fb-1480-4f54-a6b3-0e8336b39699}</destination>
         </relationship>
     </object>
+    <object class="LoopRegion" id="{129ae00c-c93c-4900-958c-945287c8522e}">
+        <property name="position">
+            <value>0</value>
+        </property>
+        <property name="length">
+            <value>109.79999999999998</value>
+        </property>
+        <relationship name="timeline">
+            <destination>{ce06119f-ff19-4c96-8e48-1da46749d2b7}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{447b067d-3323-47c3-a082-3621b9f885b4}</destination>
+        </relationship>
+    </object>
     <object class="MixerBusEffectChain" id="{de404e84-a847-4fa8-a710-5b6e557dd4f4}">
         <relationship name="effects">
             <destination>{078c5232-6f2b-49af-a5a2-f85c3c01ec42}</destination>
@@ -239,7 +256,14 @@
     </object>
     <object class="MixerBusPanner" id="{21c4945c-ec76-4c40-8644-d56786027da7}"/>
     <object class="MixerBusFader" id="{078c5232-6f2b-49af-a5a2-f85c3c01ec42}"/>
-    <object class="SpatialiserEffect" id="{8ff163d3-3a4c-41e8-bddd-36965b8d19df}"/>
+    <object class="SpatialiserEffect" id="{8ff163d3-3a4c-41e8-bddd-36965b8d19df}">
+        <property name="minimumDistance">
+            <value>7.4000001</value>
+        </property>
+        <property name="maximumDistance">
+            <value>30</value>
+        </property>
+    </object>
     <object class="MixerSend" id="{f35bddb8-7066-4906-802b-8abf8f6d3dad}">
         <relationship name="return">
             <destination>{c5b2d678-3c2a-46a3-8deb-02b8388e273a}</destination>
