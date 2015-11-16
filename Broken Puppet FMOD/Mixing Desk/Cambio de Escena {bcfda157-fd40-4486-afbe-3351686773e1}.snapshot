@@ -46,7 +46,7 @@
     <object class="SnapshotMasterTrack" id="{64e15fa5-abbe-43ea-97d9-20e0220208cd}"/>
     <object class="AutomationScale" id="{a3ebe144-34fe-4979-8625-e9bf50bfcc6a}">
         <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,5.000000)}</value>
+            <value>LinearCurveStrategy{(0.000000,1.000000)(1.000000,5.000000)}</value>
         </property>
         <property name="associatedClassName">
             <value>GameParameter</value>
