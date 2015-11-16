@@ -331,7 +331,7 @@
             <value>10</value>
         </property>
         <property name="maximumDistance">
-            <value>300</value>
+            <value>100</value>
         </property>
     </object>
     <object class="MixerSend" id="{ec280890-a430-47c9-a2c6-d9673ecd3b62}">

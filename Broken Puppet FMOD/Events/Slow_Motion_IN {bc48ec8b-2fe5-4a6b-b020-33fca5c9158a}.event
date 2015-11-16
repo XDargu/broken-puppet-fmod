@@ -265,10 +265,10 @@ La reduccion de velocidad es de 1 a 0.05 (95%)</value>
     </object>
     <object class="TransitionRegion" id="{8dd4b806-53c5-4adf-8c0e-8457e0948907}">
         <property name="position">
-            <value>1.0713129338120708</value>
+            <value>0</value>
         </property>
         <property name="length">
-            <value>6.483143926787859</value>
+            <value>7.5544568605999292</value>
         </property>
         <relationship name="destination">
             <destination>{525517d8-bed6-4e00-adfe-1c28640d3ca0}</destination>

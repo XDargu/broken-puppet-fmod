@@ -181,7 +181,7 @@
             <value>9.80000019</value>
         </property>
         <property name="maximumDistance">
-            <value>400</value>
+            <value>100</value>
         </property>
     </object>
     <object class="MixerSend" id="{f8b6e4e7-5a47-43a1-bc26-d1376a34b744}">

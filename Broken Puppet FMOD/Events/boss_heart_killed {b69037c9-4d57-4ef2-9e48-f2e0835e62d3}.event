@@ -107,6 +107,9 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{81ac547c-8ee8-4b5f-9c8a-428b91eef331}">
+        <property name="volume">
+            <value>4.5</value>
+        </property>
         <property name="pitch">
             <value>-3</value>
         </property>
@@ -411,7 +414,7 @@
             <value>10</value>
         </property>
         <property name="maximumDistance">
-            <value>1000</value>
+            <value>2000</value>
         </property>
         <property name="panBlend">
             <value>0</value>
@@ -531,13 +534,13 @@
     </object>
     <object class="AutomationPoint" id="{bdf04774-75e6-4c64-bfc3-4db059d47de9}">
         <property name="position">
-            <value>4.7724830200755317</value>
+            <value>5.0352652198740575</value>
         </property>
         <property name="value">
             <value>1</value>
         </property>
         <property name="curveShape">
-            <value>-0.462043703</value>
+            <value>-0.402885288</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{92a2fd5c-14a8-41ed-ab81-37a5ccefe40f}">
@@ -550,19 +553,22 @@
     </object>
     <object class="MixerBusFader" id="{bd7a3225-8616-4174-83a3-d56a7e59b724}"/>
     <object class="PluginEffect" id="{76c9b000-b789-4409-90d0-294cd14f3dfe}">
+        <property name="bypass">
+            <value>true</value>
+        </property>
         <relationship name="plugin">
             <destination>{92044a9e-d8c3-4d9c-b287-b039f109639b}</destination>
         </relationship>
     </object>
     <object class="AutomationPoint" id="{36049482-030c-4443-bc58-99c6795401c7}">
         <property name="position">
-            <value>4.7724830200755317</value>
+            <value>4.9869818547519777</value>
         </property>
         <property name="value">
             <value>1</value>
         </property>
         <property name="curveShape">
-            <value>-0.681770742</value>
+            <value>-0.367216527</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{0d033df8-70b2-4db2-91ae-6eb750f7661d}">
@@ -582,6 +588,9 @@
         </relationship>
     </object>
     <object class="CompressorEffect" id="{4663b93d-b767-44e4-b577-f606687ed421}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <property name="threshold">
             <value>-20</value>
         </property>
@@ -601,7 +610,7 @@
     <object class="MixerBusFader" id="{120d254d-6051-420e-a5cf-c9e89b456fbd}"/>
     <object class="PluginEffect" id="{7970e02b-e796-46d4-80a6-3a8fba63636b}">
         <property name="bypass">
-            <value>false</value>
+            <value>true</value>
         </property>
         <relationship name="plugin">
             <destination>{79849de3-1ade-44fe-9ba3-f31e0c350bfa}</destination>

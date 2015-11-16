@@ -70,6 +70,9 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{f82077e8-9876-4315-8318-210d68088c56}">
+        <property name="volume">
+            <value>3</value>
+        </property>
         <relationship name="effectChain">
             <destination>{c2478326-109a-4680-8f0e-270f6f131259}</destination>
         </relationship>
@@ -211,7 +214,7 @@
             <value>10</value>
         </property>
         <property name="maximumDistance">
-            <value>100</value>
+            <value>150</value>
         </property>
         <property name="panBlend">
             <value>0.370000035</value>

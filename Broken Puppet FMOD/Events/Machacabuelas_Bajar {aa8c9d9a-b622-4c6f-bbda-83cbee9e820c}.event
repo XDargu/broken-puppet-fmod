@@ -151,7 +151,7 @@
     </object>
     <object class="TransitionMarker" id="{3e03732d-aeab-4d91-87ff-05f8cc15550e}">
         <property name="position">
-            <value>0</value>
+            <value>0.79738170795208485</value>
         </property>
         <relationship name="destination">
             <destination>{6cbff9c1-92c3-461e-b29f-a229edadca2a}</destination>

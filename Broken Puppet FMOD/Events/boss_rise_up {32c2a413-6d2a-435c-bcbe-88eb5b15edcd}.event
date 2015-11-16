@@ -127,6 +127,9 @@
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{95228bd4-f11b-49f2-a354-de6117ff269a}">
+        <property name="volume">
+            <value>5</value>
+        </property>
         <relationship name="effectChain">
             <destination>{70b84072-7b40-4b6d-b059-7c51209883c4}</destination>
         </relationship>
@@ -139,7 +142,7 @@
     </object>
     <object class="SingleSound" id="{3985d6eb-7e80-4aa5-9fe4-0dbd1ea0c627}">
         <property name="start">
-            <value>20.745428703382153</value>
+            <value>21.209281219456177</value>
         </property>
         <property name="length">
             <value>11.69063492063492</value>
@@ -456,14 +459,14 @@
         <property name="position">
             <value>0</value>
         </property>
+        <relationship name="destination">
+            <destination>{ab82874a-712a-4460-84a9-34e0f5661126}</destination>
+        </relationship>
         <relationship name="timeline">
             <destination>{d6b66dcd-8f74-4eef-ab5e-50cbcd73e244}</destination>
         </relationship>
         <relationship name="markerTrack">
             <destination>{7a19c42f-c725-47ea-83ac-ca2857c9f976}</destination>
-        </relationship>
-        <relationship name="destination">
-            <destination>{ab82874a-712a-4460-84a9-34e0f5661126}</destination>
         </relationship>
     </object>
     <object class="MixerBusEffectChain" id="{70b84072-7b40-4b6d-b059-7c51209883c4}">
@@ -934,17 +937,26 @@
         </property>
     </object>
     <object class="ThreeEQEffect" id="{d525188b-8b36-43ff-b847-4bc28da23d61}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <property name="lowCrossover">
             <value>280</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{1b4a65f1-cadf-4593-a06f-cbca9aa51f56}"/>
     <object class="CompressorEffect" id="{f61f6fdb-4d3b-4ea3-9021-4e653133c8a6}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <property name="threshold">
             <value>-5.5</value>
         </property>
     </object>
     <object class="ThreeEQEffect" id="{a0e745d1-981b-4297-b275-9ea6ed8de88e}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
         <property name="lowCrossover">
             <value>280</value>
         </property>
