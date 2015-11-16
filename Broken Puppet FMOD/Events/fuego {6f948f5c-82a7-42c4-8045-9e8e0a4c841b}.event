@@ -242,7 +242,9 @@
     </object>
     <object class="MixerBusEffectChain" id="{4ce8782e-02a4-4c9c-b5dd-8b8350de51db}">
         <relationship name="effects">
+            <destination>{8faa4e85-f63b-4364-9ce9-ab24358ccbe8}</destination>
             <destination>{e72d0853-3332-4ec5-b1b9-e4f9a8fcb8e5}</destination>
+            <destination>{d2013477-2ec5-4e44-8501-0be154a4eecb}</destination>
             <destination>{3f7a2a37-ab5a-44a3-822d-f35266789897}</destination>
             <destination>{45b99e6b-c7e5-440b-af87-3ed07df89338}</destination>
             <destination>{ec280890-a430-47c9-a2c6-d9673ecd3b62}</destination>
@@ -311,18 +313,46 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{021b088a-1dd1-4001-bfa4-4b459f0d288e}"/>
+    <object class="HighpassEffect" id="{8faa4e85-f63b-4364-9ce9-ab24358ccbe8}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="cutoff">
+            <value>100</value>
+        </property>
+    </object>
     <object class="ThreeEQEffect" id="{e72d0853-3332-4ec5-b1b9-e4f9a8fcb8e5}">
         <property name="bypass">
             <value>false</value>
         </property>
         <property name="lowGain">
-            <value>-3</value>
+            <value>-5.5</value>
         </property>
         <property name="midGain">
             <value>-3</value>
         </property>
         <property name="highGain">
-            <value>-7</value>
+            <value>10</value>
+        </property>
+        <property name="lowCrossover">
+            <value>540</value>
+        </property>
+        <property name="crossoverSlope">
+            <value>0</value>
+        </property>
+    </object>
+    <object class="ParamEqEffect" id="{d2013477-2ec5-4e44-8501-0be154a4eecb}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="centreFrequency">
+            <value>460</value>
+        </property>
+        <property name="gain">
+            <value>-2.5</value>
+        </property>
+        <property name="bandwidth">
+            <value>2.94999981</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{3f7a2a37-ab5a-44a3-822d-f35266789897}"/>

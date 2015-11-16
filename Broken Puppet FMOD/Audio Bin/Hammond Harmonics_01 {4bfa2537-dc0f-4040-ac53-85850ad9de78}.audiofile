@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{4bfa2537-dc0f-4040-ac53-85850ad9de78}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>17.25</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Hammond Harmonics_01 {732e8590-8150-4154-afb2-2399d63932d7}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e6735439-7338-4a87-902b-0d76b99ca112}</destination>
+        </relationship>
+    </object>
+</objects>

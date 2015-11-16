@@ -117,7 +117,7 @@
             <value>-4</value>
         </property>
         <property name="name">
-            <value>Audio 1</value>
+            <value>Motor</value>
         </property>
         <relationship name="effectChain">
             <destination>{0a8a4df2-bc79-4cd5-a620-5a5df797b9c0}</destination>
@@ -150,11 +150,8 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{db06cf75-8715-4d42-850e-f7b1ceed00e1}">
-        <property name="volume">
-            <value>-7.5</value>
-        </property>
         <property name="name">
-            <value>Audio 2</value>
+            <value>Campanilla</value>
         </property>
         <relationship name="effectChain">
             <destination>{cba19da2-2590-4e9c-b715-a2744cca6ea2}</destination>
@@ -192,6 +189,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{0a8a4df2-bc79-4cd5-a620-5a5df797b9c0}">
         <relationship name="effects">
+            <destination>{04cec52e-e48d-4fd6-b59a-6523bb6537f3}</destination>
             <destination>{b7814ff9-2bf9-4a77-898b-43e86f7bd44b}</destination>
             <destination>{3949433b-1c5c-4e47-b0b6-ba6b7e01d3cf}</destination>
             <destination>{5ff8f5b6-d3ec-4007-a796-7252802a3aa8}</destination>
@@ -218,10 +216,10 @@
         <relationship name="effects">
             <destination>{ddec3226-e8c6-4ab7-88d0-e05aa80c767b}</destination>
             <destination>{d408eadf-3b16-4428-844b-22c915734280}</destination>
-            <destination>{6aa0fdb0-7f37-4d4c-9016-1d6b5adb773f}</destination>
             <destination>{9a116eff-ceae-44e9-b1df-d770666b90a6}</destination>
             <destination>{4d3a7023-81a4-431a-8071-c5b6a1198655}</destination>
             <destination>{6e64d75e-d193-4439-8722-7bf66b037985}</destination>
+            <destination>{edb0fa02-6fd3-412e-a32f-5651ffeee599}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{e56f19b3-899b-4265-90fc-89bc5a2f197d}"/>
@@ -280,6 +278,12 @@
         <property name="panBlend">
             <value>0</value>
         </property>
+        <property name="userStereoSeparation">
+            <value>-124.470154</value>
+        </property>
+        <property name="userStereoAxis">
+            <value>180</value>
+        </property>
     </object>
     <object class="MixerSend" id="{631f23b9-7845-4fd4-a316-ca14d985e4ad}">
         <property name="level">
@@ -311,9 +315,26 @@
             <value>0</value>
         </property>
     </object>
+    <object class="ThreeEQEffect" id="{04cec52e-e48d-4fd6-b59a-6523bb6537f3}">
+        <property name="lowGain">
+            <value>-3.5</value>
+        </property>
+        <property name="midGain">
+            <value>1</value>
+        </property>
+        <property name="highGain">
+            <value>1.5</value>
+        </property>
+        <property name="lowCrossover">
+            <value>600</value>
+        </property>
+        <property name="crossoverSlope">
+            <value>0</value>
+        </property>
+    </object>
     <object class="CompressorEffect" id="{b7814ff9-2bf9-4a77-898b-43e86f7bd44b}">
         <property name="threshold">
-            <value>-21</value>
+            <value>-20.5</value>
         </property>
         <property name="releaseTime">
             <value>84</value>
@@ -388,7 +409,7 @@
             <value>-80</value>
         </property>
         <property name="midGain">
-            <value>-9</value>
+            <value>-3.5</value>
         </property>
         <property name="highGain">
             <value>2.5</value>
@@ -398,20 +419,6 @@
         </property>
         <property name="highCrossover">
             <value>3600</value>
-        </property>
-    </object>
-    <object class="ParamEqEffect" id="{6aa0fdb0-7f37-4d4c-9016-1d6b5adb773f}">
-        <property name="bypass">
-            <value>false</value>
-        </property>
-        <property name="centreFrequency">
-            <value>4800</value>
-        </property>
-        <property name="gain">
-            <value>-5</value>
-        </property>
-        <property name="bandwidth">
-            <value>0.25000003</value>
         </property>
     </object>
     <object class="LowpassEffect" id="{9a116eff-ceae-44e9-b1df-d770666b90a6}">
@@ -431,4 +438,21 @@
         </relationship>
     </object>
     <object class="MixerBusFader" id="{6e64d75e-d193-4439-8722-7bf66b037985}"/>
+    <object class="CompressorEffect" id="{edb0fa02-6fd3-412e-a32f-5651ffeee599}">
+        <property name="threshold">
+            <value>-20.5</value>
+        </property>
+        <property name="ratio">
+            <value>1.74999988</value>
+        </property>
+        <property name="attackTime">
+            <value>6</value>
+        </property>
+        <property name="releaseTime">
+            <value>20</value>
+        </property>
+        <property name="gain">
+            <value>4</value>
+        </property>
+    </object>
 </objects>

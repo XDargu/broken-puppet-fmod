@@ -1211,7 +1211,7 @@
             <value>0</value>
         </property>
         <property name="userStereoAxis">
-            <value>38.9153061</value>
+            <value>15.1952486</value>
         </property>
     </object>
     <object class="MixerSend" id="{9f4c0fa4-f456-4d45-8d96-c9d10ab5d1e4}">
