@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.01.05.00">
-    <object class="AudioFile" id="{86b6788d-b60e-430a-8b37-111e8c079081}">
+    <object class="AudioFile" id="{4d85822b-fcc2-4c17-ab81-c677bd06f955}">
         <property name="frequencyInKHz">
             <value>44.0999985</value>
         </property>
@@ -8,13 +8,13 @@
             <value>1</value>
         </property>
         <property name="length">
-            <value>0.0055555555555555558</value>
+            <value>1.3110430839002267</value>
         </property>
         <property name="audioFilePath">
-            <value>$(AUDIO_BIN_DIR)/;adera Colision Contundente_02 {6233b4b2-7127-4fb0-860f-bd393946a1d4}.wav</value>
+            <value>$(AUDIO_BIN_DIR)/Colision Metal (Cortas)_14 {8b6a54f1-422b-4a70-b52b-8c0d8b141aad}.wav</value>
         </property>
         <relationship name="container">
-            <destination>{06ca1836-5f82-4ed5-b987-99ea5d044d65}</destination>
+            <destination>{6d0049cc-ae8f-45a0-9cfe-2069d0cffbc6}</destination>
         </relationship>
     </object>
 </objects>
