@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{3903cf2e-78b6-45cc-a7df-cc33453f9533}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>2.429138321995465</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Colision Metal (Resonante)_03 {5adfc61f-baa3-4255-9f22-56e8a1f92b20}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{6d0049cc-ae8f-45a0-9cfe-2069d0cffbc6}</destination>
+        </relationship>
+    </object>
+</objects>

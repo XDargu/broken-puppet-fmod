@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Snapshot" id="{bcfda157-fd40-4486-afbe-3351686773e1}">
+        <property name="name">
+            <value>Cambio de Escena</value>
+        </property>
+        <property name="runtimeSnapshotHandleID">
+            <value>{f2a1a02e-445b-4aa7-b7f2-512454bd544f}</value>
+        </property>
+        <property name="runtimeMasterBusHandleID">
+            <value>{c6225f2a-fb8e-4ab0-828a-b5f23d4578d0}</value>
+        </property>
+        <relationship name="automatableProperties">
+            <destination>{208dd4fd-d705-45b8-9d55-cf0f6f47e355}</destination>
+        </relationship>
+        <relationship name="markerTracks">
+            <destination>{767ec925-b12f-46d8-87fd-958639198a84}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{7dd4bee3-82d5-4155-93f0-7c15091f96a5}</destination>
+        </relationship>
+        <relationship name="parameters">
+            <destination>{b23cbe88-a22c-4685-afe5-e8f04b54ecb3}</destination>
+        </relationship>
+        <relationship name="folder">
+            <destination>{0a841d04-4dae-4c3a-9f28-80df382ff6c0}</destination>
+        </relationship>
+        <relationship name="snapshotMasterTrack">
+            <destination>{64e15fa5-abbe-43ea-97d9-20e0220208cd}</destination>
+        </relationship>
+        <relationship name="mixer">
+            <destination>{33082173-6094-481b-828a-ea8686e95cf7}</destination>
+        </relationship>
+    </object>
+    <object class="EventAutomatableProperties" id="{208dd4fd-d705-45b8-9d55-cf0f6f47e355}"/>
+    <object class="MarkerTrack" id="{767ec925-b12f-46d8-87fd-958639198a84}"/>
+    <object class="Timeline" id="{7dd4bee3-82d5-4155-93f0-7c15091f96a5}"/>
+    <object class="GameParameter" id="{b23cbe88-a22c-4685-afe5-e8f04b54ecb3}">
+        <property name="name">
+            <value>Scene</value>
+        </property>
+        <relationship name="automationScale">
+            <destination>{a3ebe144-34fe-4979-8625-e9bf50bfcc6a}</destination>
+        </relationship>
+    </object>
+    <object class="SnapshotMasterTrack" id="{64e15fa5-abbe-43ea-97d9-20e0220208cd}"/>
+    <object class="AutomationScale" id="{a3ebe144-34fe-4979-8625-e9bf50bfcc6a}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,5.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Parameter 1</value>
+        </property>
+    </object>
+</objects>

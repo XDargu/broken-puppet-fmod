@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a21bf72e-9bb5-48dc-8530-79b7ae3ca5fe}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.011678004535147392</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Colision Piano (comp)_09 {2351072b-1918-45f2-a621-d546f11ef41e}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{c82fc9da-9303-4d07-9489-feb3121678db}</destination>
+        </relationship>
+    </object>
+</objects>

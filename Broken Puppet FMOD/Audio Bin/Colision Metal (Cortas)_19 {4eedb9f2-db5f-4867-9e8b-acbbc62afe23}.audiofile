@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{4eedb9f2-db5f-4867-9e8b-acbbc62afe23}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.98843537414965987</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Colision Metal (Cortas)_19 {2af9f5f5-f885-4b76-a461-1042a897b521}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{6d0049cc-ae8f-45a0-9cfe-2069d0cffbc6}</destination>
+        </relationship>
+    </object>
+</objects>

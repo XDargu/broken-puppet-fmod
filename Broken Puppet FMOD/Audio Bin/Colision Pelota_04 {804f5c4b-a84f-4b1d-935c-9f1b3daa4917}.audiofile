@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{804f5c4b-a84f-4b1d-935c-9f1b3daa4917}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.76263038548752837</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Colision Pelota_04 {d8898b65-2871-4d7c-a695-1859d8a1c8f7}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{f99e862c-8331-4cac-944b-5f93edad2ab7}</destination>
+        </relationship>
+    </object>
+</objects>

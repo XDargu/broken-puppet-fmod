@@ -234,8 +234,11 @@
     <object class="CompressorEffect" id="{77c6a317-88e1-44f9-9177-22df11dae43b}"/>
     <object class="MixerBusFader" id="{2aebe99e-9ec6-41dd-bd65-555da9fd8091}"/>
     <object class="SpatialiserEffect" id="{35aeccdd-e415-45a5-af65-82ed429946e0}">
+        <property name="minimumDistance">
+            <value>5.20000029</value>
+        </property>
         <property name="maximumDistance">
-            <value>18</value>
+            <value>39</value>
         </property>
     </object>
     <object class="MixerSend" id="{9ed125fc-d90d-43e2-9976-43cff8e5c623}">
@@ -318,11 +321,11 @@
         <property name="value">
             <value>0.135000005</value>
         </property>
-        <relationship name="automationScale">
-            <destination>{16d7f8a5-4aa1-4536-acbb-9f3a39ffe80a}</destination>
-        </relationship>
         <relationship name="modulators">
             <destination>{53db5e15-1912-41f8-af9f-c911817e4127}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{16d7f8a5-4aa1-4536-acbb-9f3a39ffe80a}</destination>
         </relationship>
     </object>
     <object class="FloatPluginParameter" id="{660d7f07-5041-46d2-961a-327985f99a7f}">
@@ -345,6 +348,14 @@
             <destination>{e6454a9b-eb31-47e2-990b-64df0f432054}</destination>
         </relationship>
     </object>
+    <object class="RandomizerModulator" id="{53db5e15-1912-41f8-af9f-c911817e4127}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>value</value>
+        </property>
+        <property name="amount">
+            <value>50.5</value>
+        </property>
+    </object>
     <object class="AutomationScale" id="{16d7f8a5-4aa1-4536-acbb-9f3a39ffe80a}">
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
@@ -354,14 +365,6 @@
         </property>
         <property name="associatedPropertyName">
             <value>Level</value>
-        </property>
-    </object>
-    <object class="RandomizerModulator" id="{53db5e15-1912-41f8-af9f-c911817e4127}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>value</value>
-        </property>
-        <property name="amount">
-            <value>50.5</value>
         </property>
     </object>
     <object class="AutomationScale" id="{e6454a9b-eb31-47e2-990b-64df0f432054}">
