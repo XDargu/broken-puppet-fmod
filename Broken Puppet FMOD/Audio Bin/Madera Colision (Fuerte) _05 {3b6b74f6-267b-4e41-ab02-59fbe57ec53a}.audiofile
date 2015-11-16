@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{3b6b74f6-267b-4e41-ab02-59fbe57ec53a}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.29195011337868482</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Madera Colision (Fuerte) _05 {935306fc-5e91-4589-817e-9d44695b1117}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{06ca1836-5f82-4ed5-b987-99ea5d044d65}</destination>
+        </relationship>
+    </object>
+</objects>

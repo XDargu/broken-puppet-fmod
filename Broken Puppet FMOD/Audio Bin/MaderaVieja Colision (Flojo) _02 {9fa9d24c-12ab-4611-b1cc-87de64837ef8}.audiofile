@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{9fa9d24c-12ab-4611-b1cc-87de64837ef8}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.84712018140589573</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/MaderaVieja Colision (Flojo) _02 {d9ec6e3e-2284-4730-8fcd-57eaf8e1034c}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{06ca1836-5f82-4ed5-b987-99ea5d044d65}</destination>
+        </relationship>
+    </object>
+</objects>

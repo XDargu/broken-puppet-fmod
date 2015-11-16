@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c4cb21e2-c682-457f-a651-864cb16c72ec}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.5441269841269842</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Piston Musical (Sub)_06 {74fdccb3-bc85-4058-80f4-b97c76a6bd9e}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ab500e9d-2d53-43bd-bfe4-047ba921f84e}</destination>
+        </relationship>
+    </object>
+</objects>

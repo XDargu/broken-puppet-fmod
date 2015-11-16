@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Madera Cae_6 {d13a7909-eda4-4c69-a86f-31c92913e1d0}.ogg</value>
         </property>
         <relationship name="container">
-            <destination>{06ca1836-5f82-4ed5-b987-99ea5d044d65}</destination>
+            <destination>{132ed4f9-4f7f-4dda-a7b2-00d0da336540}</destination>
         </relationship>
     </object>
 </objects>

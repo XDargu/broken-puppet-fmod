@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c0c96710-ef30-4983-85f3-c25fc2312b49}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.4946031746031747</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Piston Medio_ 06 {68cf8deb-9c6b-48f5-8638-13b0ae2ae10f}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ab500e9d-2d53-43bd-bfe4-047ba921f84e}</destination>
+        </relationship>
+    </object>
+</objects>

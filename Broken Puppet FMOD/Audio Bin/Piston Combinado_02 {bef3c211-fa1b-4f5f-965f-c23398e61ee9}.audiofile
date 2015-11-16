@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{bef3c211-fa1b-4f5f-965f-c23398e61ee9}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.0240136054421765</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Piston Combinado_02 {7ac27f7d-e113-4bc8-9ce5-2a9bf7d6ba9c}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ab500e9d-2d53-43bd-bfe4-047ba921f84e}</destination>
+        </relationship>
+    </object>
+</objects>

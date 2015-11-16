@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{ee476d41-2bc0-414a-9529-307cc43e30b5}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>9</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Ruido_02 {0445172e-7798-4878-8ff8-a8365c185bc4}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{fce1f379-382f-4149-823d-57de678bec9c}</destination>
+        </relationship>
+    </object>
+</objects>

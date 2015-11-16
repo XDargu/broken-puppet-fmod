@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{b3cfc112-8ff3-4b20-935f-f26f1976c109}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.74258503401360543</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Piston Corto Lata (Sub)_03 {507ab66e-780a-474a-8afa-224fb6dbbf22}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{ab500e9d-2d53-43bd-bfe4-047ba921f84e}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{610a9b5c-4363-4de9-bad4-55cce06a0d55}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>19.442290249433107</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/10 Speed Slow Pedal-1eqa_02-03 {11641602-bde7-44b2-b469-5590c34665e1}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{e595645b-469b-42b7-b105-87ddcfb7b830}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{cfa08619-97a2-4446-a65f-cd90fd8e469d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>21.75</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Dani Guit-FR5T_03 {74fcdc7d-a01c-49d0-a043-217667583068}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{fce1f379-382f-4149-823d-57de678bec9c}</destination>
+        </relationship>
+    </object>
+</objects>

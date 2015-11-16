@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a9677ae4-f327-418a-922e-9f24cea0bcdd}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.5456009070294785</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/;adera Colision Contundente_03 {7804f8b3-190f-40dc-9d2d-c06dec8aac51}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{06ca1836-5f82-4ed5-b987-99ea5d044d65}</destination>
+        </relationship>
+    </object>
+</objects>

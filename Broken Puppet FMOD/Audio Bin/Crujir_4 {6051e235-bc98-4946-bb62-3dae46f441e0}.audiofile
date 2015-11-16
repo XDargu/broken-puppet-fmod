@@ -14,7 +14,7 @@
             <value>$(AUDIO_BIN_DIR)/Crujir_4 {dc781a0b-bc8f-42e9-9d8d-37dcd8c6b976}.ogg</value>
         </property>
         <relationship name="container">
-            <destination>{06ca1836-5f82-4ed5-b987-99ea5d044d65}</destination>
+            <destination>{132ed4f9-4f7f-4dda-a7b2-00d0da336540}</destination>
         </relationship>
     </object>
 </objects>

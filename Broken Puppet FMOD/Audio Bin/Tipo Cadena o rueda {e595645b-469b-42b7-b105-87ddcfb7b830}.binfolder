@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioBinFolder" id="{e595645b-469b-42b7-b105-87ddcfb7b830}">
+        <property name="name">
+            <value>Tipo Cadena o rueda</value>
+        </property>
+        <relationship name="container">
+            <destination>{c767b7e0-a9ec-4206-a80a-d1191f04f3fc}</destination>
+        </relationship>
+    </object>
+</objects>

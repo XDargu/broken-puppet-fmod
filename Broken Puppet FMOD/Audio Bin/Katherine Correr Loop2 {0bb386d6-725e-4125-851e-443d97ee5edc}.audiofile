@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{0bb386d6-725e-4125-851e-443d97ee5edc}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>12.695510204081632</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Katherine Correr Loop2 {7d2d2d27-da97-47d2-ba3a-a1a2540911aa}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+        </relationship>
+    </object>
+</objects>
