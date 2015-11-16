@@ -107,12 +107,12 @@
         </relationship>
     </object>
     <object class="DistanceParameter" id="{24fb57b9-7dc8-4155-8a04-38e6c1d8ae3f}">
-        <relationship name="automationScale">
-            <destination>{905e1e2f-aa61-4b69-ba4e-815ca7d4b035}</destination>
-        </relationship>
         <relationship name="automationCurves">
             <destination>{1c498ed5-3dd5-49a8-8e07-f23bbbd99cdb}</destination>
             <destination>{ac66af79-21d3-456d-8c8b-0723d1a8cf7b}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{905e1e2f-aa61-4b69-ba4e-815ca7d4b035}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{79ffe2b7-b6c8-4493-8ff7-3748003220df}">
@@ -324,17 +324,6 @@
             <destination>{9f5f5649-7161-4ff4-a909-a8cd4b8b9a1b}</destination>
         </relationship>
     </object>
-    <object class="AutomationScale" id="{905e1e2f-aa61-4b69-ba4e-815ca7d4b035}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,35.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>GameParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Distance</value>
-        </property>
-    </object>
     <object class="AutomationCurve" id="{1c498ed5-3dd5-49a8-8e07-f23bbbd99cdb}">
         <relationship name="automationPoints">
             <destination>{388876ae-1382-4bea-9c30-982c65a0623b}</destination>
@@ -350,6 +339,17 @@
             <destination>{1e2d6b9d-c122-4b5a-9c60-a994fc165ff9}</destination>
             <destination>{f072977e-ade7-4b8c-afcd-da9b8c213f25}</destination>
         </relationship>
+    </object>
+    <object class="AutomationScale" id="{905e1e2f-aa61-4b69-ba4e-815ca7d4b035}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,35.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Distance</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{294304ef-f45c-4477-a72b-7f3f36589eaf}">
         <relationship name="effects">
@@ -554,6 +554,9 @@
     </object>
     <object class="MixerBusFader" id="{1053a6d9-6d71-40ad-b309-09c16415fe26}"/>
     <object class="SpatialiserEffect" id="{730d391a-cd17-47ed-9af6-574455acd0ba}">
+        <property name="minimumDistance">
+            <value>8</value>
+        </property>
         <property name="maximumDistance">
             <value>35</value>
         </property>
@@ -680,11 +683,11 @@
         <property name="value">
             <value>0.160000011</value>
         </property>
-        <relationship name="automationScale">
-            <destination>{c114cc45-988e-41cf-8d25-a2e97fd6c77e}</destination>
-        </relationship>
         <relationship name="modulators">
             <destination>{04542a3e-da01-4620-9ec2-d2b250cb5c16}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{c114cc45-988e-41cf-8d25-a2e97fd6c77e}</destination>
         </relationship>
     </object>
     <object class="FloatPluginParameter" id="{a3e8311e-06ac-4ce7-8323-99e870fdbd83}">
@@ -707,6 +710,14 @@
             <destination>{694bc00f-3309-4aba-b7e9-3570a7366db1}</destination>
         </relationship>
     </object>
+    <object class="RandomizerModulator" id="{04542a3e-da01-4620-9ec2-d2b250cb5c16}">
+        <property name="nameOfPropertyBeingModulated">
+            <value>value</value>
+        </property>
+        <property name="amount">
+            <value>54</value>
+        </property>
+    </object>
     <object class="AutomationScale" id="{c114cc45-988e-41cf-8d25-a2e97fd6c77e}">
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
@@ -716,14 +727,6 @@
         </property>
         <property name="associatedPropertyName">
             <value>Level</value>
-        </property>
-    </object>
-    <object class="RandomizerModulator" id="{04542a3e-da01-4620-9ec2-d2b250cb5c16}">
-        <property name="nameOfPropertyBeingModulated">
-            <value>value</value>
-        </property>
-        <property name="amount">
-            <value>54</value>
         </property>
     </object>
     <object class="AutomationScale" id="{694bc00f-3309-4aba-b7e9-3570a7366db1}">
