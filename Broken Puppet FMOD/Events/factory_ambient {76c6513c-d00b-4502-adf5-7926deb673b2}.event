@@ -90,7 +90,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>27.333786848072563</value>
+            <value>27.689383134654069</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{5dc6a3b3-7fbb-44ea-b770-63092b870d8d}</destination>
@@ -118,7 +121,10 @@
             <value>0</value>
         </property>
         <property name="length">
-            <value>27.284260573369409</value>
+            <value>27.646221542167471</value>
+        </property>
+        <property name="looping">
+            <value>true</value>
         </property>
         <relationship name="audioFile">
             <destination>{1c031056-5ff3-45f1-ae36-e15a8af7a211}</destination>
@@ -157,6 +163,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{093b1643-e4d5-423d-b69a-fa099ed638e7}">
         <relationship name="effects">
+            <destination>{e7ecb52e-9732-4d39-a79d-94da6ebe07f1}</destination>
+            <destination>{4ebad459-4c07-4be5-9875-15db0453645c}</destination>
             <destination>{d8ad7064-4284-407c-b10d-1a0c8d896754}</destination>
             <destination>{9b4cfb7d-2094-44d7-bb4b-9aa52171138d}</destination>
             <destination>{f8b6e4e7-5a47-43a1-bc26-d1376a34b744}</destination>
@@ -175,6 +183,28 @@
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{859f2651-6349-4ed3-b3f6-5625eac09966}"/>
+    <object class="ThreeEQEffect" id="{e7ecb52e-9732-4d39-a79d-94da6ebe07f1}">
+        <property name="lowGain">
+            <value>-5</value>
+        </property>
+        <property name="highGain">
+            <value>4.5</value>
+        </property>
+        <property name="highCrossover">
+            <value>2100</value>
+        </property>
+    </object>
+    <object class="ParamEqEffect" id="{4ebad459-4c07-4be5-9875-15db0453645c}">
+        <property name="centreFrequency">
+            <value>1250</value>
+        </property>
+        <property name="gain">
+            <value>-2.5</value>
+        </property>
+        <property name="bandwidth">
+            <value>5</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{d8ad7064-4284-407c-b10d-1a0c8d896754}"/>
     <object class="SpatialiserEffect" id="{9b4cfb7d-2094-44d7-bb4b-9aa52171138d}">
         <property name="minimumDistance">

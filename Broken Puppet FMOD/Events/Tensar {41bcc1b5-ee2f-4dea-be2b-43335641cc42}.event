@@ -104,9 +104,6 @@
         <property name="name">
             <value>LongCuerda</value>
         </property>
-        <relationship name="automationScale">
-            <destination>{fb2d5ec4-3367-468d-945d-336be9b96bb6}</destination>
-        </relationship>
         <relationship name="modules">
             <destination>{e5eec068-0ca9-47f6-a7f6-46c41c4b8be9}</destination>
             <destination>{038e59fc-9666-43c9-a4db-38c4a378022b}</destination>
@@ -116,8 +113,14 @@
             <destination>{e2c3cf6e-5085-4254-9915-82ad92be6e89}</destination>
             <destination>{60aaf670-47c9-40cc-af1c-fc4f4c4e7af5}</destination>
         </relationship>
+        <relationship name="automationScale">
+            <destination>{fb2d5ec4-3367-468d-945d-336be9b96bb6}</destination>
+        </relationship>
     </object>
     <object class="EventMixerMaster" id="{2cf1b1b6-6be9-4f82-9c88-5bfd340e127b}">
+        <property name="volume">
+            <value>2</value>
+        </property>
         <relationship name="effectChain">
             <destination>{3ef5ab5b-d30b-4956-bf48-ac6a2c3cb8f8}</destination>
         </relationship>
@@ -149,6 +152,9 @@
         </relationship>
     </object>
     <object class="EventMixerGroup" id="{50f10634-720c-40d5-bd6b-487bd71db0c8}">
+        <property name="volume">
+            <value>-2</value>
+        </property>
         <property name="name">
             <value>Lanzar</value>
         </property>
@@ -312,6 +318,7 @@
     </object>
     <object class="MixerBusEffectChain" id="{3ef5ab5b-d30b-4956-bf48-ac6a2c3cb8f8}">
         <relationship name="effects">
+            <destination>{20adfe34-99e8-43b7-a6cd-ae20b4dd75c4}</destination>
             <destination>{df26f8aa-9235-4849-b9a9-e023185db829}</destination>
             <destination>{aa0a3f11-0251-4381-a9dd-b37ab4be4f54}</destination>
             <destination>{a76fbb6b-f9d3-492e-898c-0edf38f30cba}</destination>
@@ -416,7 +423,7 @@
             <value>0</value>
         </property>
         <property name="curveShape">
-            <value>0.241775095</value>
+            <value>0.452603549</value>
         </property>
         <property name="isSCurve">
             <value>true</value>
@@ -452,6 +459,7 @@
             <value>0.402173936</value>
         </property>
     </object>
+    <object class="CompressorEffect" id="{20adfe34-99e8-43b7-a6cd-ae20b4dd75c4}"/>
     <object class="MixerBusFader" id="{df26f8aa-9235-4849-b9a9-e023185db829}"/>
     <object class="SpatialiserEffect" id="{aa0a3f11-0251-4381-a9dd-b37ab4be4f54}">
         <property name="distanceRolloffType">

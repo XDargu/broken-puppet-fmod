@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{6422cd91-0358-4554-a474-783ad5cbf5f2}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.5169614512471652</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Javi Caco4_04 {7f908f90-b171-4436-9254-3e82efbe27d3}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{3141c946-bb90-4074-9538-f5cffc29f72b}</destination>
+        </relationship>
+    </object>
+</objects>

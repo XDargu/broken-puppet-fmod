@@ -161,7 +161,7 @@
     </object>
     <object class="EventMixerGroup" id="{e76d8c17-f3c7-46c5-bb70-8f66a388ec36}">
         <property name="volume">
-            <value>-8</value>
+            <value>-8.5</value>
         </property>
         <property name="name">
             <value>DB1</value>
@@ -282,7 +282,7 @@
     </object>
     <object class="EventMixerGroup" id="{96e160e5-7fed-49cc-99d5-74792fed567e}">
         <property name="volume">
-            <value>-5</value>
+            <value>1.5</value>
         </property>
         <property name="name">
             <value>Cello</value>
@@ -344,7 +344,7 @@
     </object>
     <object class="EventMixerGroup" id="{10c5f1bf-55b6-4f5c-b3d0-bc5df00ebd7b}">
         <property name="volume">
-            <value>8.5</value>
+            <value>10</value>
         </property>
         <property name="name">
             <value>Piano</value>
@@ -430,6 +430,9 @@
     </object>
     <object class="MixerBusEffectChain" id="{c8fe8ed5-a909-4411-a105-412f61d99d45}">
         <relationship name="effects">
+            <destination>{4498a377-bddd-43a0-96bf-838ba266162d}</destination>
+            <destination>{997be0bf-e566-48b3-884e-a8316fface32}</destination>
+            <destination>{c1e5de93-f060-4217-89b3-4f72eda909a8}</destination>
             <destination>{08e11e5d-1676-4712-a152-3987b73229d9}</destination>
         </relationship>
     </object>
@@ -480,7 +483,11 @@
     </object>
     <object class="MixerBusEffectChain" id="{0b29a0ed-abf9-4c95-a397-7f05bd59ae41}">
         <relationship name="effects">
+            <destination>{31ec2039-7a26-464a-ac08-223919aaa874}</destination>
             <destination>{350c1328-e72c-4923-9332-56d90ae36e61}</destination>
+            <destination>{e3ee0dc5-f165-4de1-810c-4815adb19a68}</destination>
+            <destination>{e3ac7e43-57e0-4216-bc88-8059e93f7555}</destination>
+            <destination>{1479263c-6e75-4416-ba99-cb07c8fab8ae}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{c2edc0b7-5d5f-4197-b0ff-a4a0abd1b23a}"/>
@@ -530,6 +537,8 @@
     </object>
     <object class="MixerBusEffectChain" id="{203f6344-bd3e-474b-a704-439a538be6bd}">
         <relationship name="effects">
+            <destination>{2fd859ca-b833-4836-9104-b757576b26f9}</destination>
+            <destination>{c860a2ab-e0f2-485d-8082-eeea620255f6}</destination>
             <destination>{c19173db-5d89-45c2-b965-464c5956addb}</destination>
         </relationship>
     </object>
@@ -580,7 +589,10 @@
     </object>
     <object class="MixerBusEffectChain" id="{03196086-e25a-4a7b-ae9c-ec9d3b9bf136}">
         <relationship name="effects">
+            <destination>{2e63bce0-a83e-44eb-a1e9-7b7cdf1119dd}</destination>
+            <destination>{a8e6020d-d631-42d5-84f2-cf7d173f655e}</destination>
             <destination>{4753abb6-7234-417f-a606-df3664c1171d}</destination>
+            <destination>{207b8570-2306-477e-b5d9-2a712e72324e}</destination>
         </relationship>
     </object>
     <object class="MixerBusPanner" id="{2d4b734b-bf93-486c-a242-0f1610eebbdb}"/>
@@ -667,6 +679,39 @@
             <value>1</value>
         </property>
     </object>
+    <object class="HighpassEffect" id="{4498a377-bddd-43a0-96bf-838ba266162d}">
+        <property name="cutoff">
+            <value>75</value>
+        </property>
+    </object>
+    <object class="ParamEqEffect" id="{997be0bf-e566-48b3-884e-a8316fface32}">
+        <property name="centreFrequency">
+            <value>140</value>
+        </property>
+        <property name="gain">
+            <value>-4.5</value>
+        </property>
+        <property name="bandwidth">
+            <value>0.75000006</value>
+        </property>
+    </object>
+    <object class="CompressorEffect" id="{c1e5de93-f060-4217-89b3-4f72eda909a8}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="threshold">
+            <value>-18</value>
+        </property>
+        <property name="ratio">
+            <value>1.8499999</value>
+        </property>
+        <property name="attackTime">
+            <value>0.100000001</value>
+        </property>
+        <property name="releaseTime">
+            <value>260</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{08e11e5d-1676-4712-a152-3987b73229d9}"/>
     <object class="AutomationPoint" id="{8a911dbd-c278-4140-8c25-a7dddc6f53b6}">
         <property name="position">
@@ -744,7 +789,39 @@
             <value>1</value>
         </property>
     </object>
+    <object class="HighpassEffect" id="{31ec2039-7a26-464a-ac08-223919aaa874}">
+        <property name="cutoff">
+            <value>100</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{350c1328-e72c-4923-9332-56d90ae36e61}"/>
+    <object class="ThreeEQEffect" id="{e3ee0dc5-f165-4de1-810c-4815adb19a68}">
+        <property name="lowGain">
+            <value>-4</value>
+        </property>
+        <property name="midGain">
+            <value>-12</value>
+        </property>
+        <property name="highGain">
+            <value>8.5</value>
+        </property>
+    </object>
+    <object class="ParamEqEffect" id="{e3ac7e43-57e0-4216-bc88-8059e93f7555}">
+        <property name="centreFrequency">
+            <value>180</value>
+        </property>
+        <property name="gain">
+            <value>-7.5</value>
+        </property>
+        <property name="bandwidth">
+            <value>0.700000048</value>
+        </property>
+    </object>
+    <object class="LowpassEffect" id="{1479263c-6e75-4416-ba99-cb07c8fab8ae}">
+        <property name="cutoff">
+            <value>9000</value>
+        </property>
+    </object>
     <object class="AutomationPoint" id="{bdb30a8e-3994-473e-9eb0-853032efc7f8}">
         <property name="position">
             <value>45</value>
@@ -819,6 +896,31 @@
         </property>
         <property name="value">
             <value>1</value>
+        </property>
+    </object>
+    <object class="HighpassEffect" id="{2fd859ca-b833-4836-9104-b757576b26f9}">
+        <property name="cutoff">
+            <value>580</value>
+        </property>
+    </object>
+    <object class="ThreeEQEffect" id="{c860a2ab-e0f2-485d-8082-eeea620255f6}">
+        <property name="lowGain">
+            <value>-80</value>
+        </property>
+        <property name="midGain">
+            <value>-5</value>
+        </property>
+        <property name="highGain">
+            <value>1.5</value>
+        </property>
+        <property name="lowCrossover">
+            <value>160</value>
+        </property>
+        <property name="highCrossover">
+            <value>2500</value>
+        </property>
+        <property name="crossoverSlope">
+            <value>2</value>
         </property>
     </object>
     <object class="MixerBusFader" id="{c19173db-5d89-45c2-b965-464c5956addb}"/>
@@ -898,5 +1000,41 @@
             <value>1</value>
         </property>
     </object>
+    <object class="ThreeEQEffect" id="{2e63bce0-a83e-44eb-a1e9-7b7cdf1119dd}">
+        <property name="bypass">
+            <value>false</value>
+        </property>
+        <property name="lowGain">
+            <value>-10.5</value>
+        </property>
+        <property name="midGain">
+            <value>-5</value>
+        </property>
+        <property name="highGain">
+            <value>3.5</value>
+        </property>
+        <property name="lowCrossover">
+            <value>850</value>
+        </property>
+        <property name="highCrossover">
+            <value>2100</value>
+        </property>
+    </object>
+    <object class="CompressorEffect" id="{a8e6020d-d631-42d5-84f2-cf7d173f655e}">
+        <property name="attackTime">
+            <value>0.649999976</value>
+        </property>
+        <property name="releaseTime">
+            <value>10</value>
+        </property>
+        <property name="gain">
+            <value>4</value>
+        </property>
+    </object>
     <object class="MixerBusFader" id="{4753abb6-7234-417f-a606-df3664c1171d}"/>
+    <object class="LowpassEffect" id="{207b8570-2306-477e-b5d9-2a712e72324e}">
+        <property name="cutoff">
+            <value>18200</value>
+        </property>
+    </object>
 </objects>

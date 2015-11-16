@@ -152,13 +152,13 @@
         </relationship>
     </object>
     <object class="DistanceParameter" id="{5913ee75-05a1-42e6-8aee-9acfdc4bedf5}">
-        <relationship name="automationScale">
-            <destination>{8b2c2c2a-9978-41e0-8e00-3aea143f5314}</destination>
-        </relationship>
         <relationship name="automationCurves">
             <destination>{677ff1e3-bfea-4fda-9352-8fa070ade210}</destination>
             <destination>{563a25ad-60c8-49aa-aa27-36138eead535}</destination>
             <destination>{4852237b-365a-4307-b455-63f58abed8ee}</destination>
+        </relationship>
+        <relationship name="automationScale">
+            <destination>{8b2c2c2a-9978-41e0-8e00-3aea143f5314}</destination>
         </relationship>
     </object>
     <object class="EventMixerMaster" id="{b5273b0f-1255-4d84-9ba6-26e97950e424}">
@@ -224,7 +224,7 @@
     </object>
     <object class="EventMixerGroup" id="{c163a281-01ac-4fcf-9c55-b730f1547505}">
         <property name="volume">
-            <value>-6.5</value>
+            <value>-7.5</value>
         </property>
         <property name="name">
             <value>boiler</value>
@@ -690,7 +690,7 @@
     </object>
     <object class="EventMixerGroup" id="{61a7ad91-80f4-4c06-a28a-2187a18f92f6}">
         <property name="volume">
-            <value>-8.5</value>
+            <value>-5.5</value>
         </property>
         <property name="name">
             <value>vibration</value>
@@ -785,17 +785,6 @@
             <destination>{ad2f3ce1-87b6-479f-9329-25dd34b88c0a}</destination>
         </relationship>
     </object>
-    <object class="AutomationScale" id="{8b2c2c2a-9978-41e0-8e00-3aea143f5314}">
-        <property name="curve">
-            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,80.000000)}</value>
-        </property>
-        <property name="associatedClassName">
-            <value>GameParameter</value>
-        </property>
-        <property name="associatedPropertyName">
-            <value>Distance</value>
-        </property>
-    </object>
     <object class="AutomationCurve" id="{677ff1e3-bfea-4fda-9352-8fa070ade210}">
         <relationship name="automationPoints">
             <destination>{1d492221-bbcd-4fd3-897c-f79028feb9f4}</destination>
@@ -814,6 +803,17 @@
             <destination>{8e4998f9-69d1-44f7-9445-dc1d2da5407f}</destination>
             <destination>{af0c5ebb-094c-41b2-a7d0-9d817a2ae0f2}</destination>
         </relationship>
+    </object>
+    <object class="AutomationScale" id="{8b2c2c2a-9978-41e0-8e00-3aea143f5314}">
+        <property name="curve">
+            <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,80.000000)}</value>
+        </property>
+        <property name="associatedClassName">
+            <value>GameParameter</value>
+        </property>
+        <property name="associatedPropertyName">
+            <value>Distance</value>
+        </property>
     </object>
     <object class="MixerBusEffectChain" id="{805f5eaa-c6a8-4d8b-8b10-6b0ad0c84a2e}">
         <relationship name="effects">
@@ -1783,7 +1783,7 @@
             <value>11.428571598870414</value>
         </property>
         <property name="value">
-            <value>-1.5</value>
+            <value>5</value>
         </property>
         <property name="curveShape">
             <value>0.5</value>
@@ -1797,7 +1797,7 @@
             <value>60.000000894069672</value>
         </property>
         <property name="value">
-            <value>-9.11217308</value>
+            <value>0</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{8e4998f9-69d1-44f7-9445-dc1d2da5407f}">
@@ -1805,7 +1805,7 @@
             <value>11.428571598870414</value>
         </property>
         <property name="value">
-            <value>-2</value>
+            <value>-12</value>
         </property>
         <property name="curveShape">
             <value>0.5</value>
@@ -1819,7 +1819,7 @@
             <value>58.000000864267349</value>
         </property>
         <property name="value">
-            <value>-6.65130281</value>
+            <value>-16.6513023</value>
         </property>
     </object>
     <object class="ThreeEQEffect" id="{89d4fee8-f588-4e87-9846-b30eb83a0226}">
@@ -1875,7 +1875,7 @@
     <object class="MixerBusFader" id="{85e2ef6f-6f21-4880-aea4-73c36adb5e42}"/>
     <object class="LowpassEffect" id="{4d9a5ee1-561b-44fd-8733-c850ad9c8002}">
         <property name="cutoff">
-            <value>2300</value>
+            <value>2600</value>
         </property>
     </object>
     <object class="ThreeEQEffect" id="{8c0f60e6-bded-4eae-b32e-23ab680f0c0d}">
@@ -1883,10 +1883,7 @@
             <value>-5.5</value>
         </property>
         <property name="midGain">
-            <value>-1</value>
-        </property>
-        <property name="highGain">
-            <value>-14.5</value>
+            <value>2.5</value>
         </property>
         <property name="lowCrossover">
             <value>460</value>
@@ -2614,7 +2611,6 @@
         <property name="name">
             <value>Depth</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2632,7 +2628,6 @@
         <property name="name">
             <value>Shape</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2650,7 +2645,6 @@
         <property name="name">
             <value>Skew</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2668,7 +2662,6 @@
         <property name="name">
             <value>Duty</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2686,7 +2679,6 @@
         <property name="name">
             <value>Square</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2704,7 +2696,6 @@
         <property name="name">
             <value>Phase</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2722,7 +2713,6 @@
         <property name="name">
             <value>Spread</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2760,7 +2750,6 @@
         <property name="name">
             <value>Depth</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2778,7 +2767,6 @@
         <property name="name">
             <value>Shape</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2796,7 +2784,6 @@
         <property name="name">
             <value>Skew</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2814,7 +2801,6 @@
         <property name="name">
             <value>Duty</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2832,7 +2818,6 @@
         <property name="name">
             <value>Square</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2850,7 +2835,6 @@
         <property name="name">
             <value>Phase</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,0.000000)(1.000000,1.000000)}</value>
         </property>
@@ -2868,7 +2852,6 @@
         <property name="name">
             <value>Spread</value>
         </property>
-        <property name="units"/>
         <property name="curve">
             <value>LinearCurveStrategy{(0.000000,-1.000000)(1.000000,1.000000)}</value>
         </property>
