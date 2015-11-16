@@ -396,10 +396,10 @@
     <object class="MixerBusPanner" id="{0569dc47-b6a8-4e62-9b04-21cb3060569d}"/>
     <object class="AutomationPoint" id="{388876ae-1382-4bea-9c30-982c65a0623b}">
         <property name="position">
-            <value>0.5000000074505806</value>
+            <value>1.0000000149011612</value>
         </property>
         <property name="value">
-            <value>-22.3279495</value>
+            <value>-30.0434799</value>
         </property>
         <property name="curveShape">
             <value>-0.360393286</value>
@@ -407,10 +407,10 @@
     </object>
     <object class="AutomationPoint" id="{d7d02220-9e4c-42c5-b584-d24d7b77fb28}">
         <property name="position">
-            <value>15.500000230967999</value>
+            <value>16.000000238418579</value>
         </property>
         <property name="value">
-            <value>-0.0608697943</value>
+            <value>-8.21188259</value>
         </property>
         <property name="curveShape">
             <value>0.5</value>
@@ -424,7 +424,7 @@
             <value>25.00000037252903</value>
         </property>
         <property name="value">
-            <value>10</value>
+            <value>3.04724741</value>
         </property>
     </object>
     <object class="AutomationPoint" id="{23209c36-a2aa-4b8f-873a-930dbd4765c5}">
@@ -432,7 +432,7 @@
             <value>19.868995633187772</value>
         </property>
         <property name="value">
-            <value>0</value>
+            <value>-5.39275265</value>
         </property>
         <property name="curveShape">
             <value>0.5</value>
@@ -555,7 +555,7 @@
     <object class="MixerBusFader" id="{1053a6d9-6d71-40ad-b309-09c16415fe26}"/>
     <object class="SpatialiserEffect" id="{730d391a-cd17-47ed-9af6-574455acd0ba}">
         <property name="minimumDistance">
-            <value>8</value>
+            <value>4.80000019</value>
         </property>
         <property name="maximumDistance">
             <value>35</value>
