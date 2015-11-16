@@ -975,6 +975,7 @@ Menu es el -1</value>
             <destination>{6212657b-3c5b-49a8-bb9d-7bd2dc362f58}</destination>
             <destination>{3c1ba01c-4f35-4d19-aeeb-d09db57eb802}</destination>
             <destination>{b67db01c-0053-4685-a8fb-7695bab9b761}</destination>
+            <destination>{59eae13c-fec7-44f5-b2aa-397acc7b34f3}</destination>
         </relationship>
     </object>
     <object class="GameParameter" id="{abec004f-1c1b-44c3-9443-cc0e0510d836}">
@@ -1433,6 +1434,26 @@ Menu es el -1</value>
             <destination>{1a74fa93-a6a5-448c-a30f-7363b9f9ad82}</destination>
         </relationship>
     </object>
+    <object class="TransitionRegion" id="{59eae13c-fec7-44f5-b2aa-397acc7b34f3}">
+        <property name="position">
+            <value>0</value>
+        </property>
+        <property name="length">
+            <value>36</value>
+        </property>
+        <relationship name="destination">
+            <destination>{100fc730-b518-4621-8ccd-b2499836a9cf}</destination>
+        </relationship>
+        <relationship name="triggerCondition">
+            <destination>{ce78611e-bb28-4f9f-ba47-4799dea6b03b}</destination>
+        </relationship>
+        <relationship name="timeline">
+            <destination>{e2280d14-0d6d-4472-8603-33f0f8a6bea4}</destination>
+        </relationship>
+        <relationship name="markerTrack">
+            <destination>{07fe3f46-fad2-4feb-a749-7f025e1bf197}</destination>
+        </relationship>
+    </object>
     <object class="AutomationCurve" id="{a33cf9be-0e50-4ed0-b07a-e1871beb4896}">
         <relationship name="automationPoints">
             <destination>{eec580db-8732-4bb6-946a-8634807399b0}</destination>
@@ -1767,6 +1788,17 @@ Menu es el -1</value>
         </property>
         <property name="maximum">
             <value>2.9900000095367432</value>
+        </property>
+        <relationship name="parameter">
+            <destination>{abec004f-1c1b-44c3-9443-cc0e0510d836}</destination>
+        </relationship>
+    </object>
+    <object class="ParameterCondition" id="{ce78611e-bb28-4f9f-ba47-4799dea6b03b}">
+        <property name="minimum">
+            <value>4</value>
+        </property>
+        <property name="maximum">
+            <value>5.9899997711181641</value>
         </property>
         <relationship name="parameter">
             <destination>{abec004f-1c1b-44c3-9443-cc0e0510d836}</destination>
