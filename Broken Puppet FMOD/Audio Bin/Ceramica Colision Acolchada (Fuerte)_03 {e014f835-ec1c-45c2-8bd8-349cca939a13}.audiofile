@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{e014f835-ec1c-45c2-8bd8-349cca939a13}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.37727891156462584</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Ceramica Colision Acolchada (Fuerte)_03 {7c186240-81fa-4246-abad-bbd75273f3e1}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{a2f92da8-a4fd-41a1-9d09-a9319f3ffabb}</destination>
+        </relationship>
+    </object>
+</objects>

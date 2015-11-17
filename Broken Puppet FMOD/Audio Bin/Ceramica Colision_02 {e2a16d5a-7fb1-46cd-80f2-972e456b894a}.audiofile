@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{e2a16d5a-7fb1-46cd-80f2-972e456b894a}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.3423809523809524</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Ceramica Colision_02 {e3a6fb6f-a582-4277-ad6e-dc58203ab3c3}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{a2f92da8-a4fd-41a1-9d09-a9319f3ffabb}</destination>
+        </relationship>
+    </object>
+</objects>

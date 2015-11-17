@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{9c4d63d1-a3df-4c3f-8609-8e6f866bed6b}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>112.12501133786849</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Acto2 {1a73cebf-fd2b-410e-84d0-d28c429640d5}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{0ada6187-21f0-476e-90da-9aea83b4ac77}</destination>
+        </relationship>
+    </object>
+</objects>
